@@ -47,8 +47,8 @@ unsigned char new_image[img_size];
 int j =0;
 for(int i = 0; i <img_size/3; i++ ){
 	new_image[j] = (char) r[i];
-	new_image[j+1] = (char) r[i];
- 	new_image[j+2] = (char) r[i];
+	new_image[j+1] = (char) g[i];
+ 	new_image[j+2] = (char) b[i];
  	j+=3;
 }
 
