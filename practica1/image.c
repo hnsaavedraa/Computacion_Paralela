@@ -1,148 +1,203 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 
 #define STB_IMAGE_IMPLEMENTATION
 #include "stb_image/stb_image.h"
 #define STB_IMAGE_WRITE_IMPLEMENTATION
 #include "stb_image/stb_image_write.h"
 
+
+void boxesForGauss(int sigma, int n, double* sizes)  // standard deviation, number of boxes
+{
+	
+    double wIdeal = sqrt((12*sigma*sigma/n)+1);  // Ideal averaging filter width 
+    double wl = floor(wIdeal);  
+    if(fmod(wl,2.0) == 0.0){
+    	wl--;	
+    } 
+    double wu = wl+2;
+				
+    double mIdeal = (12*sigma*sigma - n*wl*wl - 4*n*wl - 3*n)/(-4*wl - 4);
+    double m = round(mIdeal);
+    // var sigmaActual = Math.sqrt( (m*wl*wl + (n-m)*wu*wu - n)/12 );
+				
+   
+    for(int i=0; i<n; i++){
+    	*(sizes+i) = (i<m?wl:wu);
+    	//printf("%f \n", *(sizes+i));
+    	
+    } 
+}
+
+void boxBlurT_4 (int* scl,int* tcl,int w,int h,int r) {
+    double iarr = 1 / (r+r+1);
+    for(int i = 0; i<w; i++) {
+        int ti = i;
+        int li = ti;
+        int ri = ti+r*w;
+        int fv = *(scl+ti); 
+        int lv = *(scl+(ti+w*(h-1)));
+        int val = (r+1)*fv;
+        for(int j=0; j<r; j++) val += *(scl+(ti+j*w));
+        for(int j=0  ; j<=r ; j++) {
+			val += *(scl+ri) - fv ;
+			*(tcl+ti) = round(val*iarr);
+			ri+=w; 
+			ti+=w; 
+			//printf("%f %i\n",*(tcl+ti),*(tcl+ti));
+         }
+        for(int j=r+1; j<h-r; j++) {
+         val += *(scl+ri) - *(scl+li);
+         *(tcl+ti) = round(val*iarr);
+	     li+=w; 
+	     ri+=w; 
+	     ti+=w; 
+	      //printf("%f %i\n",*(tcl+ti),*(tcl+ti));
+       }
+        for(int j=h-r; j<h  ; j++) { 
+        	val += lv- *(scl+li);  
+        	*(tcl+ti) = round(val*iarr);  
+        	li+=w;
+        	ti+=w; 
+        	 // qprintf("%f %i\n",*(tcl+ti),*(tcl+ti));
+        }
+
+    }
+    printf("dentro de la funcion %i \n",*(tcl+2));
+}
+
+void boxBlurH_4 (int* scl,int* tcl,int w,int h,int r) {
+    double iarr = 1 / (r+r+1);
+    for(int i=0; i<h; i++) {
+        int ti = i*w, li = ti, ri = ti+r;
+        int fv = *(scl+ti), lv = *(scl+(ti+w-1));
+        int val = (r+1)*fv;
+        for(int j=0; j<r; j++) val += *(scl+(ti+j));
+
+        for(int j=0  ; j<=r ; j++) {
+         val += *(scl+(ri++)) - fv;   
+         *(tcl+(ti++)) = round(val*iarr); 
+     	}
+
+        for(int j=r+1; j<w-r; j++) { 
+        	val += *(scl+(ri++)) - *(scl+(li++));   
+        	*(tcl+(ti++)) = round(val*iarr); 
+        }
+
+        for(int j=w-r; j<w  ; j++) {
+	         val += lv - *(scl+(li++));  
+	         *(tcl+(ti++)) = round(val*iarr); 
+     	}
+    }
+}
+
+void boxBlur_4 (int* scl,int* tcl,int w,int h,int r) {
+// revisar este for 
+    for(int i=0; i<(w*h); i++){
+    	int aux =*(scl+i);
+    	*(tcl+i) = aux;
+    	//printf("esta es %i \n", aux);
+
+
+    } 
+    boxBlurH_4(tcl, scl, w, h, r);
+    boxBlurT_4(scl, tcl, w, h, r);
+}
+
+void gaussBlur_4 (int* scl,int* tcl,int w,int h,int r) {
+	double  *bxs = (double*)malloc(sizeof(double)*3);
+	boxesForGauss(r,3,bxs);
+		for (int i = 0; i < 3; ++i)
+	{
+		//printf("lala %i \n",(int)(*(bxs+i)));
+	}
+    boxBlur_4 (scl, tcl, w, h, (int)((*(bxs)-1)/2));
+    //boxBlur_4 (tcl, scl, w, h, (int)((*(bxs+1)-1)/2));
+    //boxBlur_4 (scl, tcl, w, h, (int)((*(bxs+2)-1)/2));
+}
+
+
+
+
+
+
+
+
 int main(void) {
 
-	int kernel_3[3][3] = { 
-        {1, 2, 1},
-        {2, 4, 2},
-        {1, 2, 1} 
-    };
+	int width, height, channels;
+	unsigned char *img = stbi_load("captura.jpg", &width, &height, &channels, 0); //// cero para cargar todos los canales
+	if(img == NULL) {
+	 printf("Error in loading the image\n");
+	 exit(1);
+	}
+	printf("Loaded image with a width of %dpx, a height of %dpx and %d channels\n", width, height, channels);
 
-    int kernel_5[5][5] = {
-        {1, 4, 6, 4, 1},
-        {4, 16, 24, 16, 4},
-        {6, 24, 36, 24, 4},
-        {4, 16, 24, 16, 4},
-        {1, 4, 6, 4, 1},
-    };
+	size_t img_size  = width * height * channels;
+	
+	int r[img_size/3];
+	int g[img_size/3];
+	int b[img_size/3];
+	int i = 0;
+	for(unsigned char *p = img; p != img + img_size; p += channels,i++) {
+		r[i] = (uint8_t) *p ;
+		g[i] = (uint8_t) *(p + 1);
+		b[i] = (uint8_t) *(p + 2);
 
-    int kernel_7[7][7] = {
-        {1, 6, 15, 20, 15, 6, 1},
-        {6, 36, 90, 120, 90, 36, 6},
-        {15, 90, 225, 300, 225, 90, 15},
-        {20, 120, 300, 400, 300, 120, 20},
-        {15, 90, 225, 300, 225, 90, 15},
-        {6, 36, 90, 120, 90, 36, 6},
-        {1, 6, 15, 20, 15, 6, 1},
-    };
-
-    int kernel_9[9][9] = {
-        {1, 8, 28, 56, 70, 56, 28, 8, 1},
-        {8, 64, 224, 448, 560, 448, 224, 64, 8},
-        {28, 224, 784, 1568, 1960, 1568, 784, 224, 28},
-        {56, 448, 1568, 3136, 3920, 3136, 1568, 448, 56},
-        {70, 560, 1960, 3920, 4900, 3920, 1960, 560, 70},
-        {56, 448, 1568, 3136, 3920, 3136, 1568, 448, 56},
-        {28, 224, 784, 1568, 1960, 1568, 784, 224, 28},
-        {8, 64, 224, 448, 560, 448, 224, 64, 8},
-        {1, 8, 28, 56, 70, 56, 28, 8, 1},
-    };
-
-    int kernel_11[11][11] = {
-        {1, 10, 45, 120, 210, 252, 210, 120, 45, 10, 1},
-        {10, 100, 450, 1200, 2100, 2520, 2100, 1200, 450, 100, 10},
-        {45, 450, 2025, 5400, 9450, 11340, 9450, 5400, 2025, 450, 45},
-        {120, 1200, 5400, 14400, 25200, 30240, 25200, 14400, 5400, 1200, 120},
-        {210, 2100, 9450, 25200, 44100, 52920, 44100, 25200, 9450, 2100, 210},
-        {252, 2520, 11340, 30240, 52920, 63504, 52920, 30240, 11340, 2520, 252},
-        {210, 2100, 9450, 25200, 44100, 52920, 44100, 25200, 9450, 2100, 210},
-        {120, 1200, 5400, 14400, 25200, 30240, 25200, 14400, 5400, 1200, 120},
-        {45, 450, 2025, 5400, 9450, 11340, 9450, 5400, 2025, 450, 45},
-        {10, 100, 450, 1200, 2100, 2520, 2100, 1200, 450, 100, 10},
-        {1, 10, 45, 120, 210, 252, 210, 120, 45, 10, 1},
-    };
-
-    int kernel_13[13][13] = {
-        {1, 12, 66, 220, 495, 792, 924, 792, 495, 220, 66, 12, 1},
-        {12, 144, 792, 2640, 5940, 9504, 11088, 9504, 5940, 2640, 792, 144, 12},
-        {66, 792, 4356, 14520, 32670, 52272, 60984, 52272, 32670, 14520, 4356, 792, 66},
-        {220, 2640, 14520, 48400, 108900, 174240, 203280, 174240, 108900, 48400, 14520, 2640, 220},
-        {495, 5940, 32670, 108900, 245025, 392040, 457380, 392040, 245025, 108900, 32670, 5940, 495},
-        {792, 9504, 52272, 174240, 392040, 627264, 731808, 627264, 392040, 174240, 52272, 9504, 792},
-        {924, 11088, 60984, 203280, 457380, 731808, 853776, 731808, 457380, 203280, 60984, 11088, 924},
-        {792, 9504, 52272, 174240, 392040, 627264, 731808, 627264, 392040, 174240, 52272, 9504, 792},
-        {495, 5940, 32670, 108900, 245025, 392040, 457380, 392040, 245025, 108900, 32670, 5940, 495},
-        {220, 2640, 14520, 48400, 108900, 174240, 203280, 174240, 108900, 48400, 14520, 2640, 220},
-        {66, 792, 4356, 14520, 32670, 52272, 60984, 52272, 32670, 14520, 4356, 792, 66},
-        {12, 144, 792, 2640, 5940, 9504, 11088, 9504, 5940, 2640, 792, 144, 12},
-        {1, 12, 66, 220, 495, 792, 924, 792, 495, 220, 66, 12, 1},
-    };
-
-    int kernel_15[15][15] = {
-        {1, 14, 91, 364, 1001, 2002, 3003, 3432, 3003, 2002, 1001, 364, 91, 14, 1},
-        {14, 196, 1274, 5096, 14014, 28028, 42042, 48048, 42042, 28028, 14014, 5096, 1274, 196, 14},
-        {91, 1274, 8281, 33124, 91091, 182182, 273273, 312312, 273273, 182182, 91091, 33124, 8281, 1274, 91},
-        {364, 5096, 33124, 132496, 364364, 728728, 1093092, 1249248, 1093092, 728728, 364364, 132496, 33124, 5096, 364},
-        {1001, 14014, 91091, 364364, 1002001, 2004002, 3006003, 3435432, 3006003, 2004002, 1002001, 364364, 91091, 14014, 1001},
-        {2002, 28028, 182182, 728728, 2004002, 4008004, 6012006, 6870864, 6012006, 4008004, 2004002, 728728, 182182, 28028, 2002},
-        {3003, 42042, 273273, 1093092, 3006003, 6012006, 9018009, 10306296, 9018009, 6012006, 3006003, 1093092, 273273, 42042, 3003},
-        {3432, 48048, 312312, 1249248, 3435432, 6870864, 10306296, 11778624, 10306296, 6870864, 3435432, 1249248, 312312, 48048, 3432},
-        {3003, 42042, 273273, 1093092, 3006003, 6012006, 9018009, 10306296, 9018009, 6012006, 3006003, 1093092, 273273, 42042, 3003},
-        {2002, 28028, 182182, 728728, 2004002, 4008004, 6012006, 6870864, 6012006, 4008004, 2004002, 728728, 182182, 28028, 2002},
-        {1001, 14014, 91091, 364364, 1002001, 2004002, 3006003, 3435432, 3006003, 2004002, 1002001, 364364, 91091, 14014, 1001},
-        {364, 5096, 33124, 132496, 364364, 728728, 1093092, 1249248, 1093092, 728728, 364364, 132496, 33124, 5096, 364},
-        {91, 1274, 8281, 33124, 91091, 182182, 273273, 312312, 273273, 182182, 91091, 33124, 8281, 1274, 91},
-        {14, 196, 1274, 5096, 14014, 28028, 42042, 48048, 42042, 28028, 14014, 5096, 1274, 196, 14},
-        {1, 14, 91, 364, 1001, 2002, 3003, 3432, 3003, 2002, 1001, 364, 91, 14, 1},
-    };
-
-
-     int width, height, channels;
-      unsigned char *img = stbi_load("manzano.jpeg", &width, &height, &channels, 0); //// cero para cargar todos los canales
-     if(img == NULL) {
-         printf("Error in loading the image\n");
-         exit(1);
-     }
-     printf("Loaded image with a width of %dpx, a height of %dpx and %d channels\n", width, height, channels);
-   
-   
-     size_t img_size  = width * height * channels;
-     int s = 0;
-
-
-
-int r[img_size/3];
-int g[img_size/3];
-int b[img_size/3];
-int i = 0;
-for(unsigned char *p = img; p != img + img_size; p += channels,i++) {
-	r[i] = (uint8_t) *p ;
-	g[i] = (uint8_t) *(p + 1);
-	b[i] = (uint8_t) *(p + 2);
-
-}
-
-int count = 0;
-for(int x = 0; x< img_size/3; x++,count++){
-	if(count > width){
-		printf("\n");
-		count = 0;
 	}
 
+
+
+	printf("Original: \n");
+
+
+
+
+	 int  *r_target = (int*)malloc(sizeof(int)*(img_size/3));
+	 int  *g_target = (int*)malloc(sizeof(int)*(img_size/3));
+	 int  *b_target = (int*)malloc(sizeof(int)*(img_size/3));
+	 gaussBlur_4(r,r_target,width,height,3);
+	 printf("R  %i \n",*(r_target+2));
+	 gaussBlur_4(g,g_target,width,height,3);
+	 printf("G  %i \n",*(g_target+2));
+	 gaussBlur_4(b,b_target,width,height,3);
+	 printf("B %i \n",*(b_target+2));
+
+
+	 
+	unsigned char new_image2[img_size];
+	int y =0;
+	for(int i = 0; i <img_size/3; i++ ){
+		new_image2[y] = (char) (r[i]);
+		new_image2[y+1] = (char) (g[i]);
+	 	new_image2[y+2] = (char) (b[i]);
+	 	y+=3;
+	 	//printf("%i \n",(r[i]));
+	}
+	 	printf("\n \n \n \n \n \n \n \n \n");	
+
+
+
+
+	unsigned char new_image[img_size];
+	int j =0;
+	printf("Transformada : \n");
+	for(int i = 0; i <img_size/3; i++ ){
+		new_image[j] =  *(r_target+i);
+		new_image[j+1] =  *(g_target+i);
+	 	new_image[j+2] =  *(b_target+i);
+	 	j+=3;
+	 	//printf("%i \n",*(r_target+i));
+	}
 	
 
-}
-
-unsigned char new_image[img_size];
-int j =0;
-for(int i = 0; i <img_size/3; i++ ){
-	new_image[j] = (char) r[i];
-	new_image[j+1] = (char) g[i];
- 	new_image[j+2] = (char) b[i];
- 	j+=3;
-}
-
-stbi_write_jpg("manzano.jpg", width, height, channels, new_image, 100);
 
 
 
-     // stbi_write_jpg("sky2.jpg", width, height, channels, sepia_img, 100);
- 
-     
+	stbi_write_jpg("EsUnManzano.jpg", width, height, channels, new_image, 100);
+
+	stbi_write_jpg("COPIASEBASTYANESUNHPTA.jpg", width, height, channels, new_image2, 100);
+
+   
  }
