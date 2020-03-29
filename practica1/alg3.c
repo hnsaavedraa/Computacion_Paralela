@@ -21,7 +21,7 @@ int min(int num1, int num2)
 
 void boxesForGauss(int sigma, int n, double* sizes)  // standard deviation, number of boxes
 {
-	
+	printf("boxesForGauss");
     double wIdeal = sqrt((12*sigma*sigma/n)+1);  // Ideal averaging filter width 
     double wl = floor(wIdeal);  
     if(fmod(wl,2.0) == 0.0){
@@ -42,6 +42,7 @@ void boxesForGauss(int sigma, int n, double* sizes)  // standard deviation, numb
 }
 
 void boxBlurT_3 (int* scl,int* tcl,int w,int h,int r) {
+	printf("entro gaussBlurT_3");
     for(int i=0; i<h; i++)
         for(int j=0; j<w; j++) {
             int val = 0;
@@ -54,6 +55,7 @@ void boxBlurT_3 (int* scl,int* tcl,int w,int h,int r) {
 }
 
 void boxBlurH_3 (int* scl,int* tcl,int w,int h,int r) {
+	printf("entro gaussBlurH_3");
     for(int i=0; i<h; i++)
         for(int j=0; j<w; j++)  {
             int val = 0;
@@ -66,6 +68,7 @@ void boxBlurH_3 (int* scl,int* tcl,int w,int h,int r) {
 } 
 
 void boxBlur_3 (int* scl,int* tcl,int w,int h,int r) {
+	printf("entro boxBlur_3");
     for(int i=0; i<(w*h); i++) {
 		int aux =*(scl+i);
 		*(tcl+i) = aux;
@@ -76,6 +79,7 @@ void boxBlur_3 (int* scl,int* tcl,int w,int h,int r) {
 
 
 void  gaussBlur_3 (int* scl,int* tcl,int w,int h,int r) {
+	printf("entro gaussBlur_3");
 	double  *bxs = (double*)malloc(sizeof(double)*3);
 	boxesForGauss(r,3,bxs);
 
@@ -90,23 +94,25 @@ void  gaussBlur_3 (int* scl,int* tcl,int w,int h,int r) {
 int main(void) {
 
 	int width, height, channels;
-	unsigned char *img = stbi_load("cballs.jpg", &width, &height, &channels, 0); //// cero para cargar todos los canales
+	unsigned char *img = stbi_load("4k.jpg", &width, &height, &channels, 0); //// cero para cargar todos los canales
 	if(img == NULL) {
 	 printf("Error in loading the image\n");
 	 exit(1);
 	}
 	printf("Loaded image with a width of %dpx, a height of %dpx and %d channels\n", width, height, channels);
 
-	size_t img_size  = width * height * channels;
+	int img_size  = width * height * channels;
+	printf("%i \n",img_size);
 	
-	int r[img_size/3];
-	int g[img_size/3];
-	int b[img_size/3];
+
+	int  *r = (int*)malloc(sizeof(int)*(img_size/3));
+	int  *g = (int*)malloc(sizeof(int)*(img_size/3));
+	int  *b = (int*)malloc(sizeof(int)*(img_size/3));
 	int i = 0;
 	for(unsigned char *p = img; p != img + img_size; p += channels,i++) {
-		r[i] = (uint8_t) *p ;
-		g[i] = (uint8_t) *(p + 1);
-		b[i] = (uint8_t) *(p + 2);
+		*(r+i) = (uint8_t) *p ;
+		*(g+i) = (uint8_t) *(p + 1);
+		*(b+i) = (uint8_t) *(p + 2);
 
 	}
 
@@ -115,7 +121,7 @@ int main(void) {
 	 int  *r_target = (int*)malloc(sizeof(int)*(img_size/3));
 	 int  *g_target = (int*)malloc(sizeof(int)*(img_size/3));
 	 int  *b_target = (int*)malloc(sizeof(int)*(img_size/3));
-	 int kernel = 5;
+	 int kernel = 15;
 	 gaussBlur_3(r,r_target,width,height,kernel);
 	 gaussBlur_3(g,g_target,width,height,kernel);
 	 gaussBlur_3(b,b_target,width,height,kernel);
