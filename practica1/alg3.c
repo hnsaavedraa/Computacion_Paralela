@@ -206,15 +206,16 @@ int main(void)
 	gaussBlur_3(b, b_target, width, height, kernel, numThreads);
 
 	unsigned char new_image[img_size];
-	for (int i = 0; i < img_size / 3; i++)
+	for(int i = 0; i <img_size/3; i++ )
 	{
-		new_image[j] = *(r_target + i);
-		new_image[j + 1] = *(g_target + i);
-		new_image[j + 2] = *(b_target + i);
-		j += 3;
+		img[j] =  *(r_target+i);
+		img[j+1] =  *(g_target+i);
+	 	img[j+2] =  *(b_target+i);
+	 	j+=3;
+
 	}
 
-	stbi_write_jpg(new_img_name, width, height, channels, new_image, 100);
+	stbi_write_jpg(new_img_name, width, height, channels, img, 100);
 	free (r_target);
 	free (g_target);
 	free (b_target);
