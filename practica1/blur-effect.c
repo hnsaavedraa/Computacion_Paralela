@@ -166,25 +166,29 @@ void gaussBlur_3(int *scl, int *tcl, int w, int h, int r, int numThreads)
 	boxBlur_3(scl, tcl, w, h, (int)((*(bxs + 2) - 1) / 2), numThreads);
 }
 
-int main(void)
+int main(int argc, char** argv)
 {
 
+
 	int width, height, channels;
-	char img_name[]= "1080.jpg";
-	char new_img_name[] ="NoSeasAlemania.jpg"; 
+	char img_name[128];
+	strcpy(img_name,argv[1]);
+	char new_img_name[128];
+	int kernel = atoi(argv[3]);
+	int numThreads = atoi(argv[4]);
+	strcpy(new_img_name,argv[2]);
 	unsigned char *img = stbi_load(img_name, &width, &height, &channels, 0); //// cero para cargar todos los canales
 	if (img == NULL)
 	{
-		printf("Error in loading the image\n");
+		//printf("Error in loading the image\n");
 		exit(1);
 	}
-	printf("Loaded image with a width of %dpx, a height of %dpx and %d channels\n", width, height, channels);
+	//printf("Loaded image with a width of %dpx, a height of %dpx and %d channels\n", width, height, channels);
 
 	int img_size = width * height * channels;
 
 
 	int *r = (int *)malloc(sizeof(int) * (img_size / 3));
-
 	int *g = (int *)malloc(sizeof(int) * (img_size / 3));
 	int *b = (int *)malloc(sizeof(int) * (img_size / 3));
 	int i = 0;
@@ -198,14 +202,11 @@ int main(void)
 	int *r_target = (int *)malloc(sizeof(int) * (img_size / 3));
 	int *g_target = (int *)malloc(sizeof(int) * (img_size / 3));
 	int *b_target = (int *)malloc(sizeof(int) * (img_size / 3));
-	int kernel = 15;
-	int numThreads = 8;
 	int j = 0;
 	gaussBlur_3(r, r_target, width, height, kernel, numThreads);
 	gaussBlur_3(g, g_target, width, height, kernel, numThreads);
 	gaussBlur_3(b, b_target, width, height, kernel, numThreads);
 
-	unsigned char new_image[img_size];
 	for(int i = 0; i <img_size/3; i++ )
 	{
 		img[j] =  *(r_target+i);
