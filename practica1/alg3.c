@@ -9,20 +9,7 @@
 #define STB_IMAGE_WRITE_IMPLEMENTATION
 #include "stb_image/stb_image_write.h"
 
-void imprimir(int *scl, int id)
-{
-	printf("Inicio impresion Hilo %i \n", id);
-	for (int z = 0; z < 64; z++)
-	{
-		if (fmod(z, 8) == 0)
-		{
-			printf("\n");
-		}
 
-		printf("%i ", *(scl + z));
-	}
-	printf("Final impresion Hilo %i \n \n", id);
-}
 
 struct parameters
 {
@@ -88,8 +75,7 @@ void boxBlurT_3(int *scl, int *tcl, int w, int h, int r, int init_i, int fin_i)
 void boxBlurH_3(int *scl, int *tcl, int w, int h, int r, int init_i, int fin_i)
 {
 
-	//printf("Entro a boxBlurH_3 \n");
-	// Reemplazar i, j y h,w por los valores de inicio y fin del intervalo
+
 	for (int i = init_i; i < fin_i; i++)
 		for (int j = 0; j < w; j++)
 		{
@@ -112,7 +98,6 @@ void parallelProcess(void *data)
 
 	int init_aux = (dataAux->init_i);
 	int fin_aux = (((struct parameters *)data)->fin_i);
-	printf("init_ i en parallel %i en hilo %i \n", dataAux->init_i, dataAux->id);
 
 	boxBlurH_3(((struct parameters *)data)->tcl, ((struct parameters *)data)->scl, dataAux->w, dataAux->h, dataAux->r, init_aux, fin_aux);
 	boxBlurT_3(((struct parameters *)data)->scl, ((struct parameters *)data)->tcl, dataAux->w, dataAux->h, dataAux->r, init_aux, fin_aux);
@@ -161,23 +146,12 @@ void boxBlur_3(int *scl, int *tcl, int w, int h, int r, int numThreads)
 
 		data.id = i;
 		data_array[i] = data;
-		//printf("init i %i \n", init_i);
-		printf("init_ i en create  %i en Hilo %i \n", (data.init_i), i);
-		printf("Direccion de memoria %i en el hilo %i \n", &data_array[i], i);
-
 		pthread_create(&thread[i], NULL, (void *)parallelProcess, &data_array[i]);
 	}
 
 	for (i = 0; i < numThreads; i++)
 	{
-		//pthread_join(thread[i], (void **)&retval);
 		int retor = pthread_join(thread[i], NULL);
-		printf("scl del hilo %i \n", i);
-		imprimir(scl, i);
-		printf("tcl del hilo %i \n", i);
-		imprimir(tcl, i);
-		printf("RETORNO %i \n", retor);
-		printf("Termino hilo %i \n", i);
 	}
 }
 
@@ -196,7 +170,9 @@ int main(void)
 {
 
 	int width, height, channels;
-	unsigned char *img = stbi_load("1080.jpg", &width, &height, &channels, 0); //// cero para cargar todos los canales
+	char img_name[]= "1080.jpg";
+	char new_img_name[] ="NoSeasAlemania.jpg"; 
+	unsigned char *img = stbi_load(img_name, &width, &height, &channels, 0); //// cero para cargar todos los canales
 	if (img == NULL)
 	{
 		printf("Error in loading the image\n");
@@ -205,7 +181,7 @@ int main(void)
 	printf("Loaded image with a width of %dpx, a height of %dpx and %d channels\n", width, height, channels);
 
 	int img_size = width * height * channels;
-	printf("%i \n", img_size);
+
 
 	int *r = (int *)malloc(sizeof(int) * (img_size / 3));
 
@@ -218,7 +194,6 @@ int main(void)
 		*(g + i) = (uint8_t) * (p + 1);
 		*(b + i) = (uint8_t) * (p + 2);
 	}
-	imprimir(r, 1000);
 
 	int *r_target = (int *)malloc(sizeof(int) * (img_size / 3));
 	int *g_target = (int *)malloc(sizeof(int) * (img_size / 3));
@@ -226,8 +201,6 @@ int main(void)
 	int kernel = 15;
 	int numThreads = 8;
 	int j = 0;
-	printf("Direccion r %i \n", r);
-	//char[] = *r
 	gaussBlur_3(r, r_target, width, height, kernel, numThreads);
 	gaussBlur_3(g, g_target, width, height, kernel, numThreads);
 	gaussBlur_3(b, b_target, width, height, kernel, numThreads);
@@ -241,5 +214,11 @@ int main(void)
 		j += 3;
 	}
 
-	stbi_write_jpg("NoSeasAlemania.jpg", width, height, channels, new_image, 100);
+	stbi_write_jpg(new_img_name, width, height, channels, new_image, 100);
+	free (r_target);
+	free (g_target);
+	free (b_target);
+	free (r);
+	free (g);
+	free (b);
 }
