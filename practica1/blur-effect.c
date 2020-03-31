@@ -9,6 +9,9 @@
 #define STB_IMAGE_WRITE_IMPLEMENTATION
 #include "stb_image/stb_image_write.h"
 
+//Comando para Ejecutar
+// gcc -Wall -pedantic blur-effect.c -o image -pthread  -lm
+
 // Se utiliza para pasar los parametros a la funcion que ejecuta los hilos
 struct parameters
 {
@@ -194,7 +197,7 @@ int main(int argc, char **argv)
 		*(g + i) = (uint8_t) * (p + 1);
 		*(b + i) = (uint8_t) * (p + 2);
 	}
-	
+
 	// Instanciamos los canales de la imagen de salida
 	int *r_target = (int *)malloc(sizeof(int) * (img_size / 3));
 	int *g_target = (int *)malloc(sizeof(int) * (img_size / 3));
