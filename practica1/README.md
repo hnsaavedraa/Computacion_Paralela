@@ -29,7 +29,9 @@ Para correr el script es necesario ejecutar los comandos en una terminal UNIX
 chmod +x script_ejecutar_todo.sh
 ./script_ejecutar_todo.sh
 ```
+El script ejecutara los casos de prueba haciendo uso de las imagenes contenidas en este repositorio, en caso de querer usar otras imagenes se debe abrir el script con un editor de texto y cambiar los valores contenidos en el arreglo "img_init", asi mismo se deben indicar el nombre que tendran las imagenes procesadas en el arreglo "img_fin".
 
 ## Consideraciones
  
 Hay que tener en cuenta que en algoritmo solo recibe imagenes en formato .jpg o .jpeg
+Toda la informacion referente a la implementacion del algoritmo se encuentra en "reporte.pdf"
