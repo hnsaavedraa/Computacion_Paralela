@@ -9,8 +9,10 @@
 #define STB_IMAGE_WRITE_IMPLEMENTATION
 #include "stb_image/stb_image_write.h"
 
+//Comando para Ejecutar
+// gcc -Wall -pedantic blur-effect.c -o image -pthread  -lm
 
-
+// Se utiliza para pasar los parametros a la funcion que ejecuta los hilos
 struct parameters
 {
 	int *scl;
@@ -33,10 +35,11 @@ int min(int num1, int num2)
 	return (num1 > num2) ? num2 : num1;
 }
 
-void boxesForGauss(int sigma, int n, double *sizes) // standard deviation, number of boxes
+//Metodo que calcula el radio de las cajas (br) para el algoritmo boxblur
+void boxesForGauss(int sigma, int n, double *sizes) 
 {
 
-	double wIdeal = sqrt((12 * sigma * sigma / n) + 1); // Ideal averaging filter width
+	double wIdeal = sqrt((12 * sigma * sigma / n) + 1); 
 	double wl = floor(wIdeal);
 	if (fmod(wl, 2.0) == 0.0)
 	{
@@ -46,18 +49,16 @@ void boxesForGauss(int sigma, int n, double *sizes) // standard deviation, numbe
 
 	double mIdeal = (12 * sigma * sigma - n * wl * wl - 4 * n * wl - 3 * n) / (-4 * wl - 4);
 	double m = round(mIdeal);
-	// var sigmaActual = Math.sqrt( (m*wl*wl + (n-m)*wu*wu - n)/12 );
-
 	for (int i = 0; i < n; i++)
 	{
 		*(sizes + i) = (i < m ? wl : wu);
 	}
 }
 
-void boxBlurT_3(int *scl, int *tcl, int w, int h, int r, int init_i, int fin_i)
+//Metodo que implementa el algoritmo boxblur verticalmente
+void boxBlurT(int *scl, int *tcl, int w, int h, int r, int init_i, int fin_i)
 {
 
-	// Reemplazar i, j y h,w por los valores de inicio y fin del intervalo
 	for (int i = init_i; i < fin_i; i++)
 		for (int j = 0; j < w; j++)
 		{
@@ -72,9 +73,9 @@ void boxBlurT_3(int *scl, int *tcl, int w, int h, int r, int init_i, int fin_i)
 		}
 }
 
-void boxBlurH_3(int *scl, int *tcl, int w, int h, int r, int init_i, int fin_i)
+//Metodo que implementa el algoritmo boxblur horizontalmente
+void boxBlurH(int *scl, int *tcl, int w, int h, int r, int init_i, int fin_i)
 {
-
 
 	for (int i = init_i; i < fin_i; i++)
 		for (int j = 0; j < w; j++)
@@ -90,20 +91,18 @@ void boxBlurH_3(int *scl, int *tcl, int w, int h, int r, int init_i, int fin_i)
 		}
 }
 
+//Metodo ejecutado por los hilos
 void parallelProcess(void *data)
 {
 
 	struct parameters *dataAux;
 	dataAux = (struct parameters *)data;
-
-	int init_aux = (dataAux->init_i);
-	int fin_aux = (((struct parameters *)data)->fin_i);
-
-	boxBlurH_3(((struct parameters *)data)->tcl, ((struct parameters *)data)->scl, dataAux->w, dataAux->h, dataAux->r, init_aux, fin_aux);
-	boxBlurT_3(((struct parameters *)data)->scl, ((struct parameters *)data)->tcl, dataAux->w, dataAux->h, dataAux->r, init_aux, fin_aux);
+	boxBlurH(dataAux->tcl, dataAux->scl, dataAux->w, dataAux->h, dataAux->r, dataAux->init_i, dataAux->fin_i);
+	boxBlurT(dataAux->scl, dataAux->tcl, dataAux->w, dataAux->h, dataAux->r, dataAux->init_i, dataAux->fin_i);
 }
 
-void boxBlur_3(int *scl, int *tcl, int w, int h, int r, int numThreads)
+//Metodo donde se crean los hilos y se asigna el trabajo de cada uno
+void boxBlur(int *scl, int *tcl, int w, int h, int r, int numThreads)
 {
 
 	for (int i = 0; i < (w * h); i++)
@@ -111,12 +110,12 @@ void boxBlur_3(int *scl, int *tcl, int w, int h, int r, int numThreads)
 		int aux = *(scl + i);
 		*(tcl + i) = aux;
 	}
+
 	int interval_h = floor((h) / numThreads);
 	int threadId[numThreads], i, *retval;
 	pthread_t thread[numThreads];
 	int init_i;
 	int fin_i;
-
 	struct parameters data_array[numThreads];
 
 	for (i = 0; i < numThreads; i++)
@@ -151,43 +150,43 @@ void boxBlur_3(int *scl, int *tcl, int w, int h, int r, int numThreads)
 
 	for (i = 0; i < numThreads; i++)
 	{
-		int retor = pthread_join(thread[i], NULL);
+		pthread_join(thread[i], NULL);
 	}
 }
 
+//Metodo que aplica las iteracion del algoritmo boxblur para aproximar Gaussian blur
 void gaussBlur_3(int *scl, int *tcl, int w, int h, int r, int numThreads)
 {
 
 	double *bxs = (double *)malloc(sizeof(double) * 3);
 	boxesForGauss(r, 3, bxs);
 
-	boxBlur_3(scl, tcl, w, h, (int)((*(bxs)-1) / 2), numThreads);
-	boxBlur_3(tcl, scl, w, h, (int)((*(bxs + 1) - 1) / 2), numThreads);
-	boxBlur_3(scl, tcl, w, h, (int)((*(bxs + 2) - 1) / 2), numThreads);
+	boxBlur(scl, tcl, w, h, (int)((*(bxs)-1) / 2), numThreads);
+	boxBlur(tcl, scl, w, h, (int)((*(bxs + 1) - 1) / 2), numThreads);
+	boxBlur(scl, tcl, w, h, (int)((*(bxs + 2) - 1) / 2), numThreads);
 }
 
-int main(int argc, char** argv)
+
+int main(int argc, char **argv)
 {
-
-
+	// Cargamos la imagen y definimos variables 
 	int width, height, channels;
 	char img_name[128];
-	strcpy(img_name,argv[1]);
+	strcpy(img_name, argv[1]);
 	char new_img_name[128];
 	int kernel = atoi(argv[3]);
 	int numThreads = atoi(argv[4]);
-	strcpy(new_img_name,argv[2]);
-	unsigned char *img = stbi_load(img_name, &width, &height, &channels, 0); //// cero para cargar todos los canales
+	strcpy(new_img_name, argv[2]);
+	unsigned char *img = stbi_load(img_name, &width, &height, &channels, 0);
 	if (img == NULL)
 	{
-		//printf("Error in loading the image\n");
+		printf("Error in loading the image\n");
 		exit(1);
 	}
-	//printf("Loaded image with a width of %dpx, a height of %dpx and %d channels\n", width, height, channels);
+	printf("Loaded image with a width of %dpx, a height of %dpx and %d channels\n", width, height, channels);
 
+	// Almacenamos los valores de cada canal
 	int img_size = width * height * channels;
-
-
 	int *r = (int *)malloc(sizeof(int) * (img_size / 3));
 	int *g = (int *)malloc(sizeof(int) * (img_size / 3));
 	int *b = (int *)malloc(sizeof(int) * (img_size / 3));
@@ -199,28 +198,32 @@ int main(int argc, char** argv)
 		*(b + i) = (uint8_t) * (p + 2);
 	}
 
+	// Instanciamos los canales de la imagen de salida
 	int *r_target = (int *)malloc(sizeof(int) * (img_size / 3));
 	int *g_target = (int *)malloc(sizeof(int) * (img_size / 3));
 	int *b_target = (int *)malloc(sizeof(int) * (img_size / 3));
 	int j = 0;
+
+	//Aplicamos el algoritmo para cada canal
 	gaussBlur_3(r, r_target, width, height, kernel, numThreads);
 	gaussBlur_3(g, g_target, width, height, kernel, numThreads);
 	gaussBlur_3(b, b_target, width, height, kernel, numThreads);
 
-	for(int i = 0; i <img_size/3; i++ )
+	// Se reconstruye la imagen a partir de los canales procesados
+	for (int i = 0; i < img_size / 3; i++)
 	{
-		img[j] =  *(r_target+i);
-		img[j+1] =  *(g_target+i);
-	 	img[j+2] =  *(b_target+i);
-	 	j+=3;
-
+		img[j] = *(r_target + i);
+		img[j + 1] = *(g_target + i);
+		img[j + 2] = *(b_target + i);
+		j += 3;
 	}
 
+	//Se crea la nueva imagen y liberamos memoria 
 	stbi_write_jpg(new_img_name, width, height, channels, img, 100);
-	free (r_target);
-	free (g_target);
-	free (b_target);
-	free (r);
-	free (g);
-	free (b);
+	free(r_target);
+	free(g_target);
+	free(b_target);
+	free(r);
+	free(g);
+	free(b);
 }
