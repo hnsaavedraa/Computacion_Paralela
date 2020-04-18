@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <math.h>
 #include <string.h>
-#include <pthread.h>
 #include <omp.h>
 
 #define STB_IMAGE_IMPLEMENTATION
@@ -23,7 +22,6 @@ struct parameters
 	int r;
 	int init_i;
 	int fin_i;
-	int id;
 };
 
 int max(int num1, int num2)
@@ -93,11 +91,8 @@ void boxBlurH(int *scl, int *tcl, int w, int h, int r, int init_i, int fin_i)
 }
 
 //Metodo ejecutado por los hilos
-void parallelProcess(void *data)
+void parallelProcess(struct parameters *dataAux)
 {
-
-	struct parameters *dataAux;
-	dataAux = (struct parameters *)data;
 	boxBlurH(dataAux->tcl, dataAux->scl, dataAux->w, dataAux->h, dataAux->r, dataAux->init_i, dataAux->fin_i);
 	boxBlurT(dataAux->scl, dataAux->tcl, dataAux->w, dataAux->h, dataAux->r, dataAux->init_i, dataAux->fin_i);
 }
@@ -113,14 +108,11 @@ void boxBlur(int *scl, int *tcl, int w, int h, int r, int numThreads)
 	}
 
 	int interval_h = floor((h) / numThreads);
-	int threadId[numThreads], i, *retval;
-	pthread_t thread[numThreads];
 	int init_i;
 	int fin_i;
-	struct parameters data_array[numThreads];
 	
 	#pragma omp parallel for 
-	for (i = 0; i < numThreads; i++)
+	for (int i = 0; i < numThreads; i++)
 	{
 		struct parameters data;
 		data.scl = scl;
@@ -128,7 +120,7 @@ void boxBlur(int *scl, int *tcl, int w, int h, int r, int numThreads)
 		data.w = w;
 		data.h = h;
 		data.r = r;
-		threadId[i] = i;
+	
 
 		if (i == numThreads - 1)
 		{
@@ -145,10 +137,7 @@ void boxBlur(int *scl, int *tcl, int w, int h, int r, int numThreads)
 			data.fin_i = fin_i;
 		}
 
-		data.id = i;
-		data_array[i] = data;
-		parallelProcess(&data_array[i]);
-		//pthread_create(&thread[i], NULL, (void *)parallelProcess, &data_array[i]);
+		parallelProcess(&data);
 	}
 
 
