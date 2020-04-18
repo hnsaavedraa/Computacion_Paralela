@@ -1,0 +1,3151 @@
+
+Tiempo para imagen 720.jpg  con un kernel de  3  y con   1  hilos , intento numero 0
+real 0m0,692s user 0m0,680s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  3  y con   1  hilos , intento numero 1
+real 0m0,691s user 0m0,691s sys 0m0,000s
+
+Tiempo para imagen 720.jpg  con un kernel de  3  y con   1  hilos , intento numero 2
+real 0m0,699s user 0m0,687s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  3  y con   1  hilos , intento numero 3
+real 0m0,733s user 0m0,725s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  3  y con   1  hilos , intento numero 4
+real 0m0,708s user 0m0,704s sys 0m0,004s
+
+Tiempo para imagen 720.jpg  con un kernel de  3  y con   1  hilos , intento numero 5
+real 0m0,732s user 0m0,725s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  3  y con   1  hilos , intento numero 6
+real 0m0,723s user 0m0,716s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  3  y con   1  hilos , intento numero 7
+real 0m0,715s user 0m0,703s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  3  y con   1  hilos , intento numero 8
+real 0m0,692s user 0m0,689s sys 0m0,004s
+
+Tiempo para imagen 720.jpg  con un kernel de  3  y con   1  hilos , intento numero 9
+real 0m0,699s user 0m0,695s sys 0m0,004s
+
+Tiempo para imagen 720.jpg  con un kernel de  3  y con   2  hilos , intento numero 0
+real 0m0,488s user 0m0,794s sys 0m0,016s
+
+Tiempo para imagen 720.jpg  con un kernel de  3  y con   2  hilos , intento numero 1
+real 0m0,484s user 0m0,792s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  3  y con   2  hilos , intento numero 2
+real 0m0,484s user 0m0,798s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  3  y con   2  hilos , intento numero 3
+real 0m0,488s user 0m0,799s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  3  y con   2  hilos , intento numero 4
+real 0m0,487s user 0m0,802s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  3  y con   2  hilos , intento numero 5
+real 0m0,485s user 0m0,798s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  3  y con   2  hilos , intento numero 6
+real 0m0,482s user 0m0,793s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  3  y con   2  hilos , intento numero 7
+real 0m0,488s user 0m0,808s sys 0m0,000s
+
+Tiempo para imagen 720.jpg  con un kernel de  3  y con   2  hilos , intento numero 8
+real 0m0,478s user 0m0,774s sys 0m0,024s
+
+Tiempo para imagen 720.jpg  con un kernel de  3  y con   2  hilos , intento numero 9
+real 0m0,479s user 0m0,796s sys 0m0,004s
+
+Tiempo para imagen 720.jpg  con un kernel de  3  y con   4  hilos , intento numero 0
+real 0m0,392s user 0m1,026s sys 0m0,016s
+
+Tiempo para imagen 720.jpg  con un kernel de  3  y con   4  hilos , intento numero 1
+real 0m0,383s user 0m0,996s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  3  y con   4  hilos , intento numero 2
+real 0m0,467s user 0m1,111s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  3  y con   4  hilos , intento numero 3
+real 0m0,383s user 0m0,997s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  3  y con   4  hilos , intento numero 4
+real 0m0,385s user 0m0,991s sys 0m0,016s
+
+Tiempo para imagen 720.jpg  con un kernel de  3  y con   4  hilos , intento numero 5
+real 0m0,386s user 0m1,005s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  3  y con   4  hilos , intento numero 6
+real 0m0,381s user 0m1,004s sys 0m0,004s
+
+Tiempo para imagen 720.jpg  con un kernel de  3  y con   4  hilos , intento numero 7
+real 0m0,392s user 0m1,019s sys 0m0,000s
+
+Tiempo para imagen 720.jpg  con un kernel de  3  y con   4  hilos , intento numero 8
+real 0m0,383s user 0m1,001s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  3  y con   4  hilos , intento numero 9
+real 0m0,409s user 0m1,031s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  3  y con   8  hilos , intento numero 0
+real 0m0,360s user 0m1,579s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  3  y con   8  hilos , intento numero 1
+real 0m0,369s user 0m1,596s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  3  y con   8  hilos , intento numero 2
+real 0m0,374s user 0m1,548s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  3  y con   8  hilos , intento numero 3
+real 0m0,355s user 0m1,597s sys 0m0,004s
+
+Tiempo para imagen 720.jpg  con un kernel de  3  y con   8  hilos , intento numero 4
+real 0m0,364s user 0m1,586s sys 0m0,016s
+
+Tiempo para imagen 720.jpg  con un kernel de  3  y con   8  hilos , intento numero 5
+real 0m0,361s user 0m1,590s sys 0m0,009s
+
+Tiempo para imagen 720.jpg  con un kernel de  3  y con   8  hilos , intento numero 6
+real 0m0,371s user 0m1,557s sys 0m0,016s
+
+Tiempo para imagen 720.jpg  con un kernel de  3  y con   8  hilos , intento numero 7
+real 0m0,366s user 0m1,580s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  3  y con   8  hilos , intento numero 8
+real 0m0,350s user 0m1,585s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  3  y con   8  hilos , intento numero 9
+real 0m0,361s user 0m1,547s sys 0m0,020s
+
+Tiempo para imagen 720.jpg  con un kernel de  3  y con   16  hilos , intento numero 0
+real 0m0,361s user 0m1,597s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  3  y con   16  hilos , intento numero 1
+real 0m0,365s user 0m1,582s sys 0m0,024s
+
+Tiempo para imagen 720.jpg  con un kernel de  3  y con   16  hilos , intento numero 2
+real 0m0,377s user 0m1,589s sys 0m0,016s
+
+Tiempo para imagen 720.jpg  con un kernel de  3  y con   16  hilos , intento numero 3
+real 0m0,356s user 0m1,579s sys 0m0,028s
+
+Tiempo para imagen 720.jpg  con un kernel de  3  y con   16  hilos , intento numero 4
+real 0m0,360s user 0m1,609s sys 0m0,016s
+
+Tiempo para imagen 720.jpg  con un kernel de  3  y con   16  hilos , intento numero 5
+real 0m0,366s user 0m1,607s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  3  y con   16  hilos , intento numero 6
+real 0m0,367s user 0m1,585s sys 0m0,020s
+
+Tiempo para imagen 720.jpg  con un kernel de  3  y con   16  hilos , intento numero 7
+real 0m0,357s user 0m1,582s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  3  y con   16  hilos , intento numero 8
+real 0m0,363s user 0m1,594s sys 0m0,016s
+
+Tiempo para imagen 720.jpg  con un kernel de  3  y con   16  hilos , intento numero 9
+real 0m0,367s user 0m1,568s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  5  y con   1  hilos , intento numero 0
+real 0m1,013s user 0m1,005s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  5  y con   1  hilos , intento numero 1
+real 0m1,013s user 0m1,009s sys 0m0,004s
+
+Tiempo para imagen 720.jpg  con un kernel de  5  y con   1  hilos , intento numero 2
+real 0m1,010s user 0m1,010s sys 0m0,000s
+
+Tiempo para imagen 720.jpg  con un kernel de  5  y con   1  hilos , intento numero 3
+real 0m1,010s user 0m1,011s sys 0m0,000s
+
+Tiempo para imagen 720.jpg  con un kernel de  5  y con   1  hilos , intento numero 4
+real 0m1,020s user 0m1,007s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  5  y con   1  hilos , intento numero 5
+real 0m1,014s user 0m1,003s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  5  y con   1  hilos , intento numero 6
+real 0m1,020s user 0m1,004s sys 0m0,016s
+
+Tiempo para imagen 720.jpg  con un kernel de  5  y con   1  hilos , intento numero 7
+real 0m1,020s user 0m1,008s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  5  y con   1  hilos , intento numero 8
+real 0m1,138s user 0m1,122s sys 0m0,016s
+
+Tiempo para imagen 720.jpg  con un kernel de  5  y con   1  hilos , intento numero 9
+real 0m1,120s user 0m1,108s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  5  y con   2  hilos , intento numero 0
+real 0m0,677s user 0m1,188s sys 0m0,000s
+
+Tiempo para imagen 720.jpg  con un kernel de  5  y con   2  hilos , intento numero 1
+real 0m0,675s user 0m1,186s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  5  y con   2  hilos , intento numero 2
+real 0m0,693s user 0m1,213s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  5  y con   2  hilos , intento numero 3
+real 0m0,697s user 0m1,205s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  5  y con   2  hilos , intento numero 4
+real 0m0,687s user 0m1,199s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  5  y con   2  hilos , intento numero 5
+real 0m0,695s user 0m1,223s sys 0m0,004s
+
+Tiempo para imagen 720.jpg  con un kernel de  5  y con   2  hilos , intento numero 6
+real 0m0,678s user 0m1,196s sys 0m0,000s
+
+Tiempo para imagen 720.jpg  con un kernel de  5  y con   2  hilos , intento numero 7
+real 0m0,689s user 0m1,199s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  5  y con   2  hilos , intento numero 8
+real 0m0,671s user 0m1,170s sys 0m0,016s
+
+Tiempo para imagen 720.jpg  con un kernel de  5  y con   2  hilos , intento numero 9
+real 0m0,672s user 0m1,190s sys 0m0,000s
+
+Tiempo para imagen 720.jpg  con un kernel de  5  y con   4  hilos , intento numero 0
+real 0m0,496s user 0m1,473s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  5  y con   4  hilos , intento numero 1
+real 0m0,533s user 0m1,517s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  5  y con   4  hilos , intento numero 2
+real 0m0,514s user 0m1,496s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  5  y con   4  hilos , intento numero 3
+real 0m0,518s user 0m1,517s sys 0m0,016s
+
+Tiempo para imagen 720.jpg  con un kernel de  5  y con   4  hilos , intento numero 4
+real 0m0,507s user 0m1,492s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  5  y con   4  hilos , intento numero 5
+real 0m0,533s user 0m1,569s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  5  y con   4  hilos , intento numero 6
+real 0m0,711s user 0m2,184s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  5  y con   4  hilos , intento numero 7
+real 0m0,552s user 0m1,611s sys 0m0,020s
+
+Tiempo para imagen 720.jpg  con un kernel de  5  y con   4  hilos , intento numero 8
+real 0m0,522s user 0m1,530s sys 0m0,020s
+
+Tiempo para imagen 720.jpg  con un kernel de  5  y con   4  hilos , intento numero 9
+real 0m0,520s user 0m1,535s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  5  y con   8  hilos , intento numero 0
+real 0m0,468s user 0m2,493s sys 0m0,020s
+
+Tiempo para imagen 720.jpg  con un kernel de  5  y con   8  hilos , intento numero 1
+real 0m0,472s user 0m2,516s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  5  y con   8  hilos , intento numero 2
+real 0m0,483s user 0m2,507s sys 0m0,016s
+
+Tiempo para imagen 720.jpg  con un kernel de  5  y con   8  hilos , intento numero 3
+real 0m0,471s user 0m2,498s sys 0m0,004s
+
+Tiempo para imagen 720.jpg  con un kernel de  5  y con   8  hilos , intento numero 4
+real 0m0,477s user 0m2,470s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  5  y con   8  hilos , intento numero 5
+real 0m0,479s user 0m2,536s sys 0m0,000s
+
+Tiempo para imagen 720.jpg  con un kernel de  5  y con   8  hilos , intento numero 6
+real 0m0,475s user 0m2,513s sys 0m0,020s
+
+Tiempo para imagen 720.jpg  con un kernel de  5  y con   8  hilos , intento numero 7
+real 0m0,469s user 0m2,492s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  5  y con   8  hilos , intento numero 8
+real 0m0,479s user 0m2,486s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  5  y con   8  hilos , intento numero 9
+real 0m0,474s user 0m2,508s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  5  y con   16  hilos , intento numero 0
+real 0m0,487s user 0m2,494s sys 0m0,004s
+
+Tiempo para imagen 720.jpg  con un kernel de  5  y con   16  hilos , intento numero 1
+real 0m0,484s user 0m2,462s sys 0m0,016s
+
+Tiempo para imagen 720.jpg  con un kernel de  5  y con   16  hilos , intento numero 2
+real 0m0,497s user 0m2,488s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  5  y con   16  hilos , intento numero 3
+real 0m0,493s user 0m2,476s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  5  y con   16  hilos , intento numero 4
+real 0m0,481s user 0m2,430s sys 0m0,025s
+
+Tiempo para imagen 720.jpg  con un kernel de  5  y con   16  hilos , intento numero 5
+real 0m0,498s user 0m2,478s sys 0m0,020s
+
+Tiempo para imagen 720.jpg  con un kernel de  5  y con   16  hilos , intento numero 6
+real 0m0,502s user 0m2,485s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  5  y con   16  hilos , intento numero 7
+real 0m0,495s user 0m2,461s sys 0m0,024s
+
+Tiempo para imagen 720.jpg  con un kernel de  5  y con   16  hilos , intento numero 8
+real 0m0,483s user 0m2,461s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  5  y con   16  hilos , intento numero 9
+real 0m0,501s user 0m2,481s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  7  y con   1  hilos , intento numero 0
+real 0m1,319s user 0m1,307s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  7  y con   1  hilos , intento numero 1
+real 0m1,327s user 0m1,315s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  7  y con   1  hilos , intento numero 2
+real 0m1,328s user 0m1,324s sys 0m0,004s
+
+Tiempo para imagen 720.jpg  con un kernel de  7  y con   1  hilos , intento numero 3
+real 0m1,336s user 0m1,308s sys 0m0,028s
+
+Tiempo para imagen 720.jpg  con un kernel de  7  y con   1  hilos , intento numero 4
+real 0m1,331s user 0m1,324s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  7  y con   1  hilos , intento numero 5
+real 0m1,346s user 0m1,329s sys 0m0,016s
+
+Tiempo para imagen 720.jpg  con un kernel de  7  y con   1  hilos , intento numero 6
+real 0m1,351s user 0m1,339s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  7  y con   1  hilos , intento numero 7
+real 0m1,352s user 0m1,340s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  7  y con   1  hilos , intento numero 8
+real 0m1,348s user 0m1,340s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  7  y con   1  hilos , intento numero 9
+real 0m1,346s user 0m1,337s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  7  y con   2  hilos , intento numero 0
+real 0m0,904s user 0m1,583s sys 0m0,004s
+
+Tiempo para imagen 720.jpg  con un kernel de  7  y con   2  hilos , intento numero 1
+real 0m0,866s user 0m1,562s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  7  y con   2  hilos , intento numero 2
+real 0m0,873s user 0m1,580s sys 0m0,004s
+
+Tiempo para imagen 720.jpg  con un kernel de  7  y con   2  hilos , intento numero 3
+real 0m0,862s user 0m1,546s sys 0m0,021s
+
+Tiempo para imagen 720.jpg  con un kernel de  7  y con   2  hilos , intento numero 4
+real 0m0,862s user 0m1,552s sys 0m0,016s
+
+Tiempo para imagen 720.jpg  con un kernel de  7  y con   2  hilos , intento numero 5
+real 0m0,859s user 0m1,561s sys 0m0,004s
+
+Tiempo para imagen 720.jpg  con un kernel de  7  y con   2  hilos , intento numero 6
+real 0m0,866s user 0m1,571s sys 0m0,000s
+
+Tiempo para imagen 720.jpg  con un kernel de  7  y con   2  hilos , intento numero 7
+real 0m0,868s user 0m1,569s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  7  y con   2  hilos , intento numero 8
+real 0m0,869s user 0m1,565s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  7  y con   2  hilos , intento numero 9
+real 0m0,861s user 0m1,548s sys 0m0,016s
+
+Tiempo para imagen 720.jpg  con un kernel de  7  y con   4  hilos , intento numero 0
+real 0m0,658s user 0m2,041s sys 0m0,016s
+
+Tiempo para imagen 720.jpg  con un kernel de  7  y con   4  hilos , intento numero 1
+real 0m0,634s user 0m1,983s sys 0m0,016s
+
+Tiempo para imagen 720.jpg  con un kernel de  7  y con   4  hilos , intento numero 2
+real 0m0,641s user 0m2,031s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  7  y con   4  hilos , intento numero 3
+real 0m0,627s user 0m1,987s sys 0m0,004s
+
+Tiempo para imagen 720.jpg  con un kernel de  7  y con   4  hilos , intento numero 4
+real 0m0,637s user 0m1,996s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  7  y con   4  hilos , intento numero 5
+real 0m0,671s user 0m2,087s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  7  y con   4  hilos , intento numero 6
+real 0m0,630s user 0m1,983s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  7  y con   4  hilos , intento numero 7
+real 0m0,649s user 0m2,031s sys 0m0,020s
+
+Tiempo para imagen 720.jpg  con un kernel de  7  y con   4  hilos , intento numero 8
+real 0m0,627s user 0m1,968s sys 0m0,016s
+
+Tiempo para imagen 720.jpg  con un kernel de  7  y con   4  hilos , intento numero 9
+real 0m0,634s user 0m1,986s sys 0m0,016s
+
+Tiempo para imagen 720.jpg  con un kernel de  7  y con   8  hilos , intento numero 0
+real 0m0,597s user 0m3,434s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  7  y con   8  hilos , intento numero 1
+real 0m0,584s user 0m3,402s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  7  y con   8  hilos , intento numero 2
+real 0m0,593s user 0m3,510s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  7  y con   8  hilos , intento numero 3
+real 0m0,601s user 0m3,446s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  7  y con   8  hilos , intento numero 4
+real 0m0,593s user 0m3,430s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  7  y con   8  hilos , intento numero 5
+real 0m0,600s user 0m3,379s sys 0m0,016s
+
+Tiempo para imagen 720.jpg  con un kernel de  7  y con   8  hilos , intento numero 6
+real 0m0,585s user 0m3,463s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  7  y con   8  hilos , intento numero 7
+real 0m0,597s user 0m3,434s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  7  y con   8  hilos , intento numero 8
+real 0m0,589s user 0m3,489s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  7  y con   8  hilos , intento numero 9
+real 0m0,588s user 0m3,424s sys 0m0,017s
+
+Tiempo para imagen 720.jpg  con un kernel de  7  y con   16  hilos , intento numero 0
+real 0m0,611s user 0m3,376s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  7  y con   16  hilos , intento numero 1
+real 0m0,596s user 0m3,366s sys 0m0,016s
+
+Tiempo para imagen 720.jpg  con un kernel de  7  y con   16  hilos , intento numero 2
+real 0m0,603s user 0m3,370s sys 0m0,016s
+
+Tiempo para imagen 720.jpg  con un kernel de  7  y con   16  hilos , intento numero 3
+real 0m0,740s user 0m4,219s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  7  y con   16  hilos , intento numero 4
+real 0m0,696s user 0m3,944s sys 0m0,016s
+
+Tiempo para imagen 720.jpg  con un kernel de  7  y con   16  hilos , intento numero 5
+real 0m0,602s user 0m3,406s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  7  y con   16  hilos , intento numero 6
+real 0m0,612s user 0m3,368s sys 0m0,016s
+
+Tiempo para imagen 720.jpg  con un kernel de  7  y con   16  hilos , intento numero 7
+real 0m0,606s user 0m3,419s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  7  y con   16  hilos , intento numero 8
+real 0m0,602s user 0m3,422s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  7  y con   16  hilos , intento numero 9
+real 0m0,599s user 0m3,409s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  9  y con   1  hilos , intento numero 0
+real 0m1,642s user 0m1,642s sys 0m0,000s
+
+Tiempo para imagen 720.jpg  con un kernel de  9  y con   1  hilos , intento numero 1
+real 0m1,638s user 0m1,630s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  9  y con   1  hilos , intento numero 2
+real 0m1,649s user 0m1,649s sys 0m0,000s
+
+Tiempo para imagen 720.jpg  con un kernel de  9  y con   1  hilos , intento numero 3
+real 0m1,654s user 0m1,654s sys 0m0,000s
+
+Tiempo para imagen 720.jpg  con un kernel de  9  y con   1  hilos , intento numero 4
+real 0m1,646s user 0m1,638s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  9  y con   1  hilos , intento numero 5
+real 0m1,651s user 0m1,643s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  9  y con   1  hilos , intento numero 6
+real 0m1,649s user 0m1,642s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  9  y con   1  hilos , intento numero 7
+real 0m1,643s user 0m1,627s sys 0m0,016s
+
+Tiempo para imagen 720.jpg  con un kernel de  9  y con   1  hilos , intento numero 8
+real 0m1,645s user 0m1,641s sys 0m0,004s
+
+Tiempo para imagen 720.jpg  con un kernel de  9  y con   1  hilos , intento numero 9
+real 0m1,656s user 0m1,648s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  9  y con   2  hilos , intento numero 0
+real 0m1,056s user 0m1,955s sys 0m0,004s
+
+Tiempo para imagen 720.jpg  con un kernel de  9  y con   2  hilos , intento numero 1
+real 0m1,056s user 0m1,958s sys 0m0,000s
+
+Tiempo para imagen 720.jpg  con un kernel de  9  y con   2  hilos , intento numero 2
+real 0m1,065s user 0m1,973s sys 0m0,000s
+
+Tiempo para imagen 720.jpg  con un kernel de  9  y con   2  hilos , intento numero 3
+real 0m1,056s user 0m1,951s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  9  y con   2  hilos , intento numero 4
+real 0m1,058s user 0m1,950s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  9  y con   2  hilos , intento numero 5
+real 0m1,056s user 0m1,957s sys 0m0,000s
+
+Tiempo para imagen 720.jpg  con un kernel de  9  y con   2  hilos , intento numero 6
+real 0m1,058s user 0m1,958s sys 0m0,004s
+
+Tiempo para imagen 720.jpg  con un kernel de  9  y con   2  hilos , intento numero 7
+real 0m1,058s user 0m1,954s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  9  y con   2  hilos , intento numero 8
+real 0m1,061s user 0m1,944s sys 0m0,016s
+
+Tiempo para imagen 720.jpg  con un kernel de  9  y con   2  hilos , intento numero 9
+real 0m1,057s user 0m1,936s sys 0m0,020s
+
+Tiempo para imagen 720.jpg  con un kernel de  9  y con   4  hilos , intento numero 0
+real 0m0,771s user 0m2,565s sys 0m0,004s
+
+Tiempo para imagen 720.jpg  con un kernel de  9  y con   4  hilos , intento numero 1
+real 0m0,774s user 0m2,527s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  9  y con   4  hilos , intento numero 2
+real 0m0,795s user 0m2,563s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  9  y con   4  hilos , intento numero 3
+real 0m0,787s user 0m2,563s sys 0m0,004s
+
+Tiempo para imagen 720.jpg  con un kernel de  9  y con   4  hilos , intento numero 4
+real 0m0,745s user 0m2,460s sys 0m0,016s
+
+Tiempo para imagen 720.jpg  con un kernel de  9  y con   4  hilos , intento numero 5
+real 0m0,813s user 0m2,626s sys 0m0,016s
+
+Tiempo para imagen 720.jpg  con un kernel de  9  y con   4  hilos , intento numero 6
+real 0m0,745s user 0m2,476s sys 0m0,004s
+
+Tiempo para imagen 720.jpg  con un kernel de  9  y con   4  hilos , intento numero 7
+real 0m0,765s user 0m2,517s sys 0m0,032s
+
+Tiempo para imagen 720.jpg  con un kernel de  9  y con   4  hilos , intento numero 8
+real 0m0,784s user 0m2,525s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  9  y con   4  hilos , intento numero 9
+real 0m0,763s user 0m2,483s sys 0m0,020s
+
+Tiempo para imagen 720.jpg  con un kernel de  9  y con   8  hilos , intento numero 0
+real 0m0,717s user 0m4,371s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  9  y con   8  hilos , intento numero 1
+real 0m0,707s user 0m4,402s sys 0m0,004s
+
+Tiempo para imagen 720.jpg  con un kernel de  9  y con   8  hilos , intento numero 2
+real 0m0,707s user 0m4,388s sys 0m0,009s
+
+Tiempo para imagen 720.jpg  con un kernel de  9  y con   8  hilos , intento numero 3
+real 0m0,712s user 0m4,382s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  9  y con   8  hilos , intento numero 4
+real 0m0,725s user 0m4,387s sys 0m0,016s
+
+Tiempo para imagen 720.jpg  con un kernel de  9  y con   8  hilos , intento numero 5
+real 0m0,708s user 0m4,393s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  9  y con   8  hilos , intento numero 6
+real 0m0,705s user 0m4,357s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  9  y con   8  hilos , intento numero 7
+real 0m0,708s user 0m4,332s sys 0m0,024s
+
+Tiempo para imagen 720.jpg  con un kernel de  9  y con   8  hilos , intento numero 8
+real 0m0,706s user 0m4,343s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  9  y con   8  hilos , intento numero 9
+real 0m0,713s user 0m4,367s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  9  y con   16  hilos , intento numero 0
+real 0m0,733s user 0m4,293s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  9  y con   16  hilos , intento numero 1
+real 0m0,726s user 0m4,263s sys 0m0,020s
+
+Tiempo para imagen 720.jpg  con un kernel de  9  y con   16  hilos , intento numero 2
+real 0m0,724s user 0m4,320s sys 0m0,016s
+
+Tiempo para imagen 720.jpg  con un kernel de  9  y con   16  hilos , intento numero 3
+real 0m0,723s user 0m4,274s sys 0m0,004s
+
+Tiempo para imagen 720.jpg  con un kernel de  9  y con   16  hilos , intento numero 4
+real 0m0,731s user 0m4,333s sys 0m0,020s
+
+Tiempo para imagen 720.jpg  con un kernel de  9  y con   16  hilos , intento numero 5
+real 0m0,723s user 0m4,277s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  9  y con   16  hilos , intento numero 6
+real 0m0,727s user 0m4,335s sys 0m0,000s
+
+Tiempo para imagen 720.jpg  con un kernel de  9  y con   16  hilos , intento numero 7
+real 0m0,740s user 0m4,284s sys 0m0,016s
+
+Tiempo para imagen 720.jpg  con un kernel de  9  y con   16  hilos , intento numero 8
+real 0m0,733s user 0m4,315s sys 0m0,016s
+
+Tiempo para imagen 720.jpg  con un kernel de  9  y con   16  hilos , intento numero 9
+real 0m0,734s user 0m4,300s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  11  y con   1  hilos , intento numero 0
+real 0m2,141s user 0m2,133s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  11  y con   1  hilos , intento numero 1
+real 0m2,129s user 0m2,117s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  11  y con   1  hilos , intento numero 2
+real 0m2,133s user 0m2,129s sys 0m0,004s
+
+Tiempo para imagen 720.jpg  con un kernel de  11  y con   1  hilos , intento numero 3
+real 0m2,346s user 0m2,342s sys 0m0,004s
+
+Tiempo para imagen 720.jpg  con un kernel de  11  y con   1  hilos , intento numero 4
+real 0m2,685s user 0m2,669s sys 0m0,016s
+
+Tiempo para imagen 720.jpg  con un kernel de  11  y con   1  hilos , intento numero 5
+real 0m2,122s user 0m2,106s sys 0m0,016s
+
+Tiempo para imagen 720.jpg  con un kernel de  11  y con   1  hilos , intento numero 6
+real 0m2,118s user 0m2,106s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  11  y con   1  hilos , intento numero 7
+real 0m2,118s user 0m2,114s sys 0m0,004s
+
+Tiempo para imagen 720.jpg  con un kernel de  11  y con   1  hilos , intento numero 8
+real 0m2,120s user 0m2,108s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  11  y con   1  hilos , intento numero 9
+real 0m2,121s user 0m2,113s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  11  y con   2  hilos , intento numero 0
+real 0m1,365s user 0m2,565s sys 0m0,004s
+
+Tiempo para imagen 720.jpg  con un kernel de  11  y con   2  hilos , intento numero 1
+real 0m1,354s user 0m2,543s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  11  y con   2  hilos , intento numero 2
+real 0m1,352s user 0m2,541s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  11  y con   2  hilos , intento numero 3
+real 0m1,350s user 0m2,545s sys 0m0,000s
+
+Tiempo para imagen 720.jpg  con un kernel de  11  y con   2  hilos , intento numero 4
+real 0m1,357s user 0m2,531s sys 0m0,020s
+
+Tiempo para imagen 720.jpg  con un kernel de  11  y con   2  hilos , intento numero 5
+real 0m1,348s user 0m2,538s sys 0m0,000s
+
+Tiempo para imagen 720.jpg  con un kernel de  11  y con   2  hilos , intento numero 6
+real 0m1,357s user 0m2,551s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  11  y con   2  hilos , intento numero 7
+real 0m1,358s user 0m2,545s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  11  y con   2  hilos , intento numero 8
+real 0m1,382s user 0m2,580s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  11  y con   2  hilos , intento numero 9
+real 0m1,361s user 0m2,549s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  11  y con   4  hilos , intento numero 0
+real 0m0,992s user 0m3,353s sys 0m0,004s
+
+Tiempo para imagen 720.jpg  con un kernel de  11  y con   4  hilos , intento numero 1
+real 0m1,008s user 0m3,412s sys 0m0,004s
+
+Tiempo para imagen 720.jpg  con un kernel de  11  y con   4  hilos , intento numero 2
+real 0m0,941s user 0m3,239s sys 0m0,016s
+
+Tiempo para imagen 720.jpg  con un kernel de  11  y con   4  hilos , intento numero 3
+real 0m0,951s user 0m3,279s sys 0m0,016s
+
+Tiempo para imagen 720.jpg  con un kernel de  11  y con   4  hilos , intento numero 4
+real 0m0,932s user 0m3,201s sys 0m0,020s
+
+Tiempo para imagen 720.jpg  con un kernel de  11  y con   4  hilos , intento numero 5
+real 0m0,960s user 0m3,266s sys 0m0,000s
+
+Tiempo para imagen 720.jpg  con un kernel de  11  y con   4  hilos , intento numero 6
+real 0m0,940s user 0m3,213s sys 0m0,016s
+
+Tiempo para imagen 720.jpg  con un kernel de  11  y con   4  hilos , intento numero 7
+real 0m0,935s user 0m3,210s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  11  y con   4  hilos , intento numero 8
+real 0m0,989s user 0m3,327s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  11  y con   4  hilos , intento numero 9
+real 0m0,974s user 0m3,324s sys 0m0,004s
+
+Tiempo para imagen 720.jpg  con un kernel de  11  y con   8  hilos , intento numero 0
+real 0m0,855s user 0m5,581s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  11  y con   8  hilos , intento numero 1
+real 0m0,865s user 0m5,658s sys 0m0,024s
+
+Tiempo para imagen 720.jpg  con un kernel de  11  y con   8  hilos , intento numero 2
+real 0m0,870s user 0m5,562s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  11  y con   8  hilos , intento numero 3
+real 0m0,860s user 0m5,610s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  11  y con   8  hilos , intento numero 4
+real 0m0,868s user 0m5,591s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  11  y con   8  hilos , intento numero 5
+real 0m0,855s user 0m5,644s sys 0m0,016s
+
+Tiempo para imagen 720.jpg  con un kernel de  11  y con   8  hilos , intento numero 6
+real 0m0,861s user 0m5,564s sys 0m0,004s
+
+Tiempo para imagen 720.jpg  con un kernel de  11  y con   8  hilos , intento numero 7
+real 0m0,854s user 0m5,565s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  11  y con   8  hilos , intento numero 8
+real 0m0,851s user 0m5,527s sys 0m0,016s
+
+Tiempo para imagen 720.jpg  con un kernel de  11  y con   8  hilos , intento numero 9
+real 0m0,856s user 0m5,576s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  11  y con   16  hilos , intento numero 0
+real 0m0,885s user 0m5,568s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  11  y con   16  hilos , intento numero 1
+real 0m0,877s user 0m5,491s sys 0m0,020s
+
+Tiempo para imagen 720.jpg  con un kernel de  11  y con   16  hilos , intento numero 2
+real 0m0,879s user 0m5,531s sys 0m0,016s
+
+Tiempo para imagen 720.jpg  con un kernel de  11  y con   16  hilos , intento numero 3
+real 0m0,887s user 0m5,477s sys 0m0,020s
+
+Tiempo para imagen 720.jpg  con un kernel de  11  y con   16  hilos , intento numero 4
+real 0m0,875s user 0m5,543s sys 0m0,016s
+
+Tiempo para imagen 720.jpg  con un kernel de  11  y con   16  hilos , intento numero 5
+real 0m0,880s user 0m5,480s sys 0m0,024s
+
+Tiempo para imagen 720.jpg  con un kernel de  11  y con   16  hilos , intento numero 6
+real 0m0,883s user 0m5,474s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  11  y con   16  hilos , intento numero 7
+real 0m0,897s user 0m5,485s sys 0m0,020s
+
+Tiempo para imagen 720.jpg  con un kernel de  11  y con   16  hilos , intento numero 8
+real 0m0,876s user 0m5,504s sys 0m0,004s
+
+Tiempo para imagen 720.jpg  con un kernel de  11  y con   16  hilos , intento numero 9
+real 0m0,876s user 0m5,428s sys 0m0,025s
+
+Tiempo para imagen 720.jpg  con un kernel de  13  y con   1  hilos , intento numero 0
+real 0m2,483s user 0m2,471s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  13  y con   1  hilos , intento numero 1
+real 0m2,685s user 0m2,677s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  13  y con   1  hilos , intento numero 2
+real 0m2,457s user 0m2,449s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  13  y con   1  hilos , intento numero 3
+real 0m2,463s user 0m2,455s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  13  y con   1  hilos , intento numero 4
+real 0m2,459s user 0m2,455s sys 0m0,004s
+
+Tiempo para imagen 720.jpg  con un kernel de  13  y con   1  hilos , intento numero 5
+real 0m2,454s user 0m2,450s sys 0m0,004s
+
+Tiempo para imagen 720.jpg  con un kernel de  13  y con   1  hilos , intento numero 6
+real 0m2,457s user 0m2,449s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  13  y con   1  hilos , intento numero 7
+real 0m2,453s user 0m2,445s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  13  y con   1  hilos , intento numero 8
+real 0m2,459s user 0m2,455s sys 0m0,004s
+
+Tiempo para imagen 720.jpg  con un kernel de  13  y con   1  hilos , intento numero 9
+real 0m2,488s user 0m2,480s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  13  y con   2  hilos , intento numero 0
+real 0m1,557s user 0m2,942s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  13  y con   2  hilos , intento numero 1
+real 0m1,560s user 0m2,954s sys 0m0,004s
+
+Tiempo para imagen 720.jpg  con un kernel de  13  y con   2  hilos , intento numero 2
+real 0m1,555s user 0m2,941s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  13  y con   2  hilos , intento numero 3
+real 0m1,554s user 0m2,939s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  13  y con   2  hilos , intento numero 4
+real 0m1,566s user 0m2,968s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  13  y con   2  hilos , intento numero 5
+real 0m1,913s user 0m3,619s sys 0m0,020s
+
+Tiempo para imagen 720.jpg  con un kernel de  13  y con   2  hilos , intento numero 6
+real 0m1,589s user 0m3,006s sys 0m0,004s
+
+Tiempo para imagen 720.jpg  con un kernel de  13  y con   2  hilos , intento numero 7
+real 0m1,556s user 0m2,945s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  13  y con   2  hilos , intento numero 8
+real 0m1,549s user 0m2,934s sys 0m0,004s
+
+Tiempo para imagen 720.jpg  con un kernel de  13  y con   2  hilos , intento numero 9
+real 0m1,561s user 0m2,958s sys 0m0,000s
+
+Tiempo para imagen 720.jpg  con un kernel de  13  y con   4  hilos , intento numero 0
+real 0m1,074s user 0m3,761s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  13  y con   4  hilos , intento numero 1
+real 0m1,152s user 0m3,960s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  13  y con   4  hilos , intento numero 2
+real 0m1,075s user 0m3,788s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  13  y con   4  hilos , intento numero 3
+real 0m1,080s user 0m3,772s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  13  y con   4  hilos , intento numero 4
+real 0m1,126s user 0m3,808s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  13  y con   4  hilos , intento numero 5
+real 0m1,065s user 0m3,737s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  13  y con   4  hilos , intento numero 6
+real 0m1,079s user 0m3,747s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  13  y con   4  hilos , intento numero 7
+real 0m1,093s user 0m3,789s sys 0m0,004s
+
+Tiempo para imagen 720.jpg  con un kernel de  13  y con   4  hilos , intento numero 8
+real 0m1,095s user 0m3,831s sys 0m0,020s
+
+Tiempo para imagen 720.jpg  con un kernel de  13  y con   4  hilos , intento numero 9
+real 0m1,110s user 0m3,835s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  13  y con   8  hilos , intento numero 0
+real 0m0,979s user 0m6,514s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  13  y con   8  hilos , intento numero 1
+real 0m0,981s user 0m6,514s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  13  y con   8  hilos , intento numero 2
+real 0m0,979s user 0m6,513s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  13  y con   8  hilos , intento numero 3
+real 0m0,973s user 0m6,543s sys 0m0,016s
+
+Tiempo para imagen 720.jpg  con un kernel de  13  y con   8  hilos , intento numero 4
+real 0m0,973s user 0m6,522s sys 0m0,016s
+
+Tiempo para imagen 720.jpg  con un kernel de  13  y con   8  hilos , intento numero 5
+real 0m0,978s user 0m6,507s sys 0m0,004s
+
+Tiempo para imagen 720.jpg  con un kernel de  13  y con   8  hilos , intento numero 6
+real 0m0,975s user 0m6,543s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  13  y con   8  hilos , intento numero 7
+real 0m0,991s user 0m6,582s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  13  y con   8  hilos , intento numero 8
+real 0m0,977s user 0m6,487s sys 0m0,020s
+
+Tiempo para imagen 720.jpg  con un kernel de  13  y con   8  hilos , intento numero 9
+real 0m0,973s user 0m6,494s sys 0m0,032s
+
+Tiempo para imagen 720.jpg  con un kernel de  13  y con   16  hilos , intento numero 0
+real 0m1,003s user 0m6,435s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  13  y con   16  hilos , intento numero 1
+real 0m1,007s user 0m6,418s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  13  y con   16  hilos , intento numero 2
+real 0m1,243s user 0m8,299s sys 0m0,024s
+
+Tiempo para imagen 720.jpg  con un kernel de  13  y con   16  hilos , intento numero 3
+real 0m1,015s user 0m6,446s sys 0m0,016s
+
+Tiempo para imagen 720.jpg  con un kernel de  13  y con   16  hilos , intento numero 4
+real 0m0,998s user 0m6,428s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  13  y con   16  hilos , intento numero 5
+real 0m1,011s user 0m6,438s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  13  y con   16  hilos , intento numero 6
+real 0m1,024s user 0m6,503s sys 0m0,004s
+
+Tiempo para imagen 720.jpg  con un kernel de  13  y con   16  hilos , intento numero 7
+real 0m1,004s user 0m6,414s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  13  y con   16  hilos , intento numero 8
+real 0m1,010s user 0m6,456s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  13  y con   16  hilos , intento numero 9
+real 0m1,001s user 0m6,411s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  15  y con   1  hilos , intento numero 0
+real 0m2,796s user 0m2,788s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  15  y con   1  hilos , intento numero 1
+real 0m2,795s user 0m2,787s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  15  y con   1  hilos , intento numero 2
+real 0m2,781s user 0m2,777s sys 0m0,004s
+
+Tiempo para imagen 720.jpg  con un kernel de  15  y con   1  hilos , intento numero 3
+real 0m2,803s user 0m2,790s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  15  y con   1  hilos , intento numero 4
+real 0m2,803s user 0m2,787s sys 0m0,016s
+
+Tiempo para imagen 720.jpg  con un kernel de  15  y con   1  hilos , intento numero 5
+real 0m2,808s user 0m2,792s sys 0m0,016s
+
+Tiempo para imagen 720.jpg  con un kernel de  15  y con   1  hilos , intento numero 6
+real 0m2,791s user 0m2,775s sys 0m0,016s
+
+Tiempo para imagen 720.jpg  con un kernel de  15  y con   1  hilos , intento numero 7
+real 0m2,794s user 0m2,789s sys 0m0,004s
+
+Tiempo para imagen 720.jpg  con un kernel de  15  y con   1  hilos , intento numero 8
+real 0m2,788s user 0m2,784s sys 0m0,004s
+
+Tiempo para imagen 720.jpg  con un kernel de  15  y con   1  hilos , intento numero 9
+real 0m2,803s user 0m2,798s sys 0m0,004s
+
+Tiempo para imagen 720.jpg  con un kernel de  15  y con   2  hilos , intento numero 0
+real 0m1,760s user 0m3,348s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  15  y con   2  hilos , intento numero 1
+real 0m1,784s user 0m3,398s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  15  y con   2  hilos , intento numero 2
+real 0m1,783s user 0m3,396s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  15  y con   2  hilos , intento numero 3
+real 0m1,765s user 0m3,358s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  15  y con   2  hilos , intento numero 4
+real 0m1,762s user 0m3,363s sys 0m0,000s
+
+Tiempo para imagen 720.jpg  con un kernel de  15  y con   2  hilos , intento numero 5
+real 0m1,757s user 0m3,328s sys 0m0,024s
+
+Tiempo para imagen 720.jpg  con un kernel de  15  y con   2  hilos , intento numero 6
+real 0m1,776s user 0m3,390s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  15  y con   2  hilos , intento numero 7
+real 0m1,754s user 0m3,338s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  15  y con   2  hilos , intento numero 8
+real 0m1,757s user 0m3,340s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  15  y con   2  hilos , intento numero 9
+real 0m1,758s user 0m3,341s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  15  y con   4  hilos , intento numero 0
+real 0m1,205s user 0m4,257s sys 0m0,016s
+
+Tiempo para imagen 720.jpg  con un kernel de  15  y con   4  hilos , intento numero 1
+real 0m1,247s user 0m4,361s sys 0m0,016s
+
+Tiempo para imagen 720.jpg  con un kernel de  15  y con   4  hilos , intento numero 2
+real 0m1,244s user 0m4,339s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  15  y con   4  hilos , intento numero 3
+real 0m1,758s user 0m5,940s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  15  y con   4  hilos , intento numero 4
+real 0m1,471s user 0m5,124s sys 0m0,028s
+
+Tiempo para imagen 720.jpg  con un kernel de  15  y con   4  hilos , intento numero 5
+real 0m1,206s user 0m4,277s sys 0m0,016s
+
+Tiempo para imagen 720.jpg  con un kernel de  15  y con   4  hilos , intento numero 6
+real 0m1,207s user 0m4,279s sys 0m0,016s
+
+Tiempo para imagen 720.jpg  con un kernel de  15  y con   4  hilos , intento numero 7
+real 0m1,224s user 0m4,321s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  15  y con   4  hilos , intento numero 8
+real 0m1,230s user 0m4,340s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  15  y con   4  hilos , intento numero 9
+real 0m1,190s user 0m4,242s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  15  y con   8  hilos , intento numero 0
+real 0m1,100s user 0m7,610s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  15  y con   8  hilos , intento numero 1
+real 0m1,098s user 0m7,527s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  15  y con   8  hilos , intento numero 2
+real 0m1,100s user 0m7,524s sys 0m0,020s
+
+Tiempo para imagen 720.jpg  con un kernel de  15  y con   8  hilos , intento numero 3
+real 0m1,100s user 0m7,499s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  15  y con   8  hilos , intento numero 4
+real 0m1,099s user 0m7,543s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  15  y con   8  hilos , intento numero 5
+real 0m1,103s user 0m7,505s sys 0m0,000s
+
+Tiempo para imagen 720.jpg  con un kernel de  15  y con   8  hilos , intento numero 6
+real 0m1,119s user 0m7,497s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  15  y con   8  hilos , intento numero 7
+real 0m1,099s user 0m7,533s sys 0m0,016s
+
+Tiempo para imagen 720.jpg  con un kernel de  15  y con   8  hilos , intento numero 8
+real 0m1,121s user 0m7,540s sys 0m0,008s
+
+Tiempo para imagen 720.jpg  con un kernel de  15  y con   8  hilos , intento numero 9
+real 0m1,098s user 0m7,501s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  15  y con   16  hilos , intento numero 0
+real 0m1,136s user 0m7,407s sys 0m0,016s
+
+Tiempo para imagen 720.jpg  con un kernel de  15  y con   16  hilos , intento numero 1
+real 0m1,333s user 0m8,511s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  15  y con   16  hilos , intento numero 2
+real 0m1,197s user 0m7,931s sys 0m0,020s
+
+Tiempo para imagen 720.jpg  con un kernel de  15  y con   16  hilos , intento numero 3
+real 0m1,120s user 0m7,371s sys 0m0,024s
+
+Tiempo para imagen 720.jpg  con un kernel de  15  y con   16  hilos , intento numero 4
+real 0m1,111s user 0m7,365s sys 0m0,016s
+
+Tiempo para imagen 720.jpg  con un kernel de  15  y con   16  hilos , intento numero 5
+real 0m1,121s user 0m7,381s sys 0m0,020s
+
+Tiempo para imagen 720.jpg  con un kernel de  15  y con   16  hilos , intento numero 6
+real 0m1,134s user 0m7,438s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  15  y con   16  hilos , intento numero 7
+real 0m1,119s user 0m7,412s sys 0m0,020s
+
+Tiempo para imagen 720.jpg  con un kernel de  15  y con   16  hilos , intento numero 8
+real 0m1,129s user 0m7,442s sys 0m0,012s
+
+Tiempo para imagen 720.jpg  con un kernel de  15  y con   16  hilos , intento numero 9
+real 0m1,126s user 0m7,366s sys 0m0,016s
+
+Tiempo para imagen 1080.jpg  con un kernel de  3  y con   1  hilos , intento numero 0
+real 0m1,644s user 0m1,573s sys 0m0,008s
+
+Tiempo para imagen 1080.jpg  con un kernel de  3  y con   1  hilos , intento numero 1
+real 0m1,529s user 0m1,502s sys 0m0,028s
+
+Tiempo para imagen 1080.jpg  con un kernel de  3  y con   1  hilos , intento numero 2
+real 0m1,540s user 0m1,520s sys 0m0,020s
+
+Tiempo para imagen 1080.jpg  con un kernel de  3  y con   1  hilos , intento numero 3
+real 0m1,539s user 0m1,524s sys 0m0,016s
+
+Tiempo para imagen 1080.jpg  con un kernel de  3  y con   1  hilos , intento numero 4
+real 0m1,560s user 0m1,548s sys 0m0,012s
+
+Tiempo para imagen 1080.jpg  con un kernel de  3  y con   1  hilos , intento numero 5
+real 0m1,531s user 0m1,515s sys 0m0,016s
+
+Tiempo para imagen 1080.jpg  con un kernel de  3  y con   1  hilos , intento numero 6
+real 0m1,526s user 0m1,502s sys 0m0,024s
+
+Tiempo para imagen 1080.jpg  con un kernel de  3  y con   1  hilos , intento numero 7
+real 0m1,536s user 0m1,524s sys 0m0,012s
+
+Tiempo para imagen 1080.jpg  con un kernel de  3  y con   1  hilos , intento numero 8
+real 0m1,528s user 0m1,516s sys 0m0,012s
+
+Tiempo para imagen 1080.jpg  con un kernel de  3  y con   1  hilos , intento numero 9
+real 0m1,538s user 0m1,522s sys 0m0,016s
+
+Tiempo para imagen 1080.jpg  con un kernel de  3  y con   2  hilos , intento numero 0
+real 0m1,063s user 0m1,768s sys 0m0,028s
+
+Tiempo para imagen 1080.jpg  con un kernel de  3  y con   2  hilos , intento numero 1
+real 0m1,077s user 0m1,804s sys 0m0,012s
+
+Tiempo para imagen 1080.jpg  con un kernel de  3  y con   2  hilos , intento numero 2
+real 0m1,064s user 0m1,775s sys 0m0,020s
+
+Tiempo para imagen 1080.jpg  con un kernel de  3  y con   2  hilos , intento numero 3
+real 0m1,062s user 0m1,786s sys 0m0,012s
+
+Tiempo para imagen 1080.jpg  con un kernel de  3  y con   2  hilos , intento numero 4
+real 0m1,065s user 0m1,780s sys 0m0,016s
+
+Tiempo para imagen 1080.jpg  con un kernel de  3  y con   2  hilos , intento numero 5
+real 0m1,067s user 0m1,775s sys 0m0,020s
+
+Tiempo para imagen 1080.jpg  con un kernel de  3  y con   2  hilos , intento numero 6
+real 0m1,057s user 0m1,764s sys 0m0,024s
+
+Tiempo para imagen 1080.jpg  con un kernel de  3  y con   2  hilos , intento numero 7
+real 0m1,058s user 0m1,767s sys 0m0,020s
+
+Tiempo para imagen 1080.jpg  con un kernel de  3  y con   2  hilos , intento numero 8
+real 0m1,066s user 0m1,794s sys 0m0,004s
+
+Tiempo para imagen 1080.jpg  con un kernel de  3  y con   2  hilos , intento numero 9
+real 0m1,063s user 0m1,780s sys 0m0,016s
+
+Tiempo para imagen 1080.jpg  con un kernel de  3  y con   4  hilos , intento numero 0
+real 0m0,824s user 0m2,218s sys 0m0,016s
+
+Tiempo para imagen 1080.jpg  con un kernel de  3  y con   4  hilos , intento numero 1
+real 0m0,811s user 0m2,182s sys 0m0,028s
+
+Tiempo para imagen 1080.jpg  con un kernel de  3  y con   4  hilos , intento numero 2
+real 0m0,820s user 0m2,205s sys 0m0,012s
+
+Tiempo para imagen 1080.jpg  con un kernel de  3  y con   4  hilos , intento numero 3
+real 0m0,816s user 0m2,203s sys 0m0,012s
+
+Tiempo para imagen 1080.jpg  con un kernel de  3  y con   4  hilos , intento numero 4
+real 0m0,840s user 0m2,230s sys 0m0,012s
+
+Tiempo para imagen 1080.jpg  con un kernel de  3  y con   4  hilos , intento numero 5
+real 0m1,010s user 0m2,717s sys 0m0,016s
+
+Tiempo para imagen 1080.jpg  con un kernel de  3  y con   4  hilos , intento numero 6
+real 0m0,859s user 0m2,332s sys 0m0,012s
+
+Tiempo para imagen 1080.jpg  con un kernel de  3  y con   4  hilos , intento numero 7
+real 0m0,818s user 0m2,186s sys 0m0,032s
+
+Tiempo para imagen 1080.jpg  con un kernel de  3  y con   4  hilos , intento numero 8
+real 0m0,813s user 0m2,191s sys 0m0,020s
+
+Tiempo para imagen 1080.jpg  con un kernel de  3  y con   4  hilos , intento numero 9
+real 0m0,816s user 0m2,202s sys 0m0,012s
+
+Tiempo para imagen 1080.jpg  con un kernel de  3  y con   8  hilos , intento numero 0
+real 0m0,767s user 0m3,601s sys 0m0,020s
+
+Tiempo para imagen 1080.jpg  con un kernel de  3  y con   8  hilos , intento numero 1
+real 0m0,761s user 0m3,568s sys 0m0,033s
+
+Tiempo para imagen 1080.jpg  con un kernel de  3  y con   8  hilos , intento numero 2
+real 0m0,763s user 0m3,584s sys 0m0,008s
+
+Tiempo para imagen 1080.jpg  con un kernel de  3  y con   8  hilos , intento numero 3
+real 0m0,762s user 0m3,552s sys 0m0,012s
+
+Tiempo para imagen 1080.jpg  con un kernel de  3  y con   8  hilos , intento numero 4
+real 0m0,761s user 0m3,596s sys 0m0,024s
+
+Tiempo para imagen 1080.jpg  con un kernel de  3  y con   8  hilos , intento numero 5
+real 0m0,762s user 0m3,576s sys 0m0,012s
+
+Tiempo para imagen 1080.jpg  con un kernel de  3  y con   8  hilos , intento numero 6
+real 0m0,769s user 0m3,579s sys 0m0,016s
+
+Tiempo para imagen 1080.jpg  con un kernel de  3  y con   8  hilos , intento numero 7
+real 0m0,772s user 0m3,584s sys 0m0,016s
+
+Tiempo para imagen 1080.jpg  con un kernel de  3  y con   8  hilos , intento numero 8
+real 0m0,764s user 0m3,584s sys 0m0,024s
+
+Tiempo para imagen 1080.jpg  con un kernel de  3  y con   8  hilos , intento numero 9
+real 0m0,774s user 0m3,615s sys 0m0,016s
+
+Tiempo para imagen 1080.jpg  con un kernel de  3  y con   16  hilos , intento numero 0
+real 0m0,787s user 0m3,556s sys 0m0,040s
+
+Tiempo para imagen 1080.jpg  con un kernel de  3  y con   16  hilos , intento numero 1
+real 0m0,786s user 0m3,508s sys 0m0,028s
+
+Tiempo para imagen 1080.jpg  con un kernel de  3  y con   16  hilos , intento numero 2
+real 0m0,786s user 0m3,518s sys 0m0,037s
+
+Tiempo para imagen 1080.jpg  con un kernel de  3  y con   16  hilos , intento numero 3
+real 0m0,776s user 0m3,550s sys 0m0,012s
+
+Tiempo para imagen 1080.jpg  con un kernel de  3  y con   16  hilos , intento numero 4
+real 0m0,767s user 0m3,514s sys 0m0,024s
+
+Tiempo para imagen 1080.jpg  con un kernel de  3  y con   16  hilos , intento numero 5
+real 0m0,769s user 0m3,494s sys 0m0,028s
+
+Tiempo para imagen 1080.jpg  con un kernel de  3  y con   16  hilos , intento numero 6
+real 0m0,780s user 0m3,520s sys 0m0,024s
+
+Tiempo para imagen 1080.jpg  con un kernel de  3  y con   16  hilos , intento numero 7
+real 0m0,787s user 0m3,537s sys 0m0,028s
+
+Tiempo para imagen 1080.jpg  con un kernel de  3  y con   16  hilos , intento numero 8
+real 0m1,066s user 0m5,097s sys 0m0,032s
+
+Tiempo para imagen 1080.jpg  con un kernel de  3  y con   16  hilos , intento numero 9
+real 0m0,811s user 0m3,642s sys 0m0,024s
+
+Tiempo para imagen 1080.jpg  con un kernel de  5  y con   1  hilos , intento numero 0
+real 0m2,223s user 0m2,203s sys 0m0,020s
+
+Tiempo para imagen 1080.jpg  con un kernel de  5  y con   1  hilos , intento numero 1
+real 0m2,253s user 0m2,241s sys 0m0,012s
+
+Tiempo para imagen 1080.jpg  con un kernel de  5  y con   1  hilos , intento numero 2
+real 0m2,263s user 0m2,239s sys 0m0,024s
+
+Tiempo para imagen 1080.jpg  con un kernel de  5  y con   1  hilos , intento numero 3
+real 0m2,240s user 0m2,224s sys 0m0,016s
+
+Tiempo para imagen 1080.jpg  con un kernel de  5  y con   1  hilos , intento numero 4
+real 0m2,230s user 0m2,211s sys 0m0,020s
+
+Tiempo para imagen 1080.jpg  con un kernel de  5  y con   1  hilos , intento numero 5
+real 0m2,233s user 0m2,214s sys 0m0,020s
+
+Tiempo para imagen 1080.jpg  con un kernel de  5  y con   1  hilos , intento numero 6
+real 0m2,330s user 0m2,298s sys 0m0,032s
+
+Tiempo para imagen 1080.jpg  con un kernel de  5  y con   1  hilos , intento numero 7
+real 0m2,243s user 0m2,228s sys 0m0,016s
+
+Tiempo para imagen 1080.jpg  con un kernel de  5  y con   1  hilos , intento numero 8
+real 0m2,240s user 0m2,224s sys 0m0,016s
+
+Tiempo para imagen 1080.jpg  con un kernel de  5  y con   1  hilos , intento numero 9
+real 0m2,246s user 0m2,222s sys 0m0,024s
+
+Tiempo para imagen 1080.jpg  con un kernel de  5  y con   2  hilos , intento numero 0
+real 0m1,494s user 0m2,648s sys 0m0,016s
+
+Tiempo para imagen 1080.jpg  con un kernel de  5  y con   2  hilos , intento numero 1
+real 0m1,482s user 0m2,628s sys 0m0,008s
+
+Tiempo para imagen 1080.jpg  con un kernel de  5  y con   2  hilos , intento numero 2
+real 0m1,482s user 0m2,622s sys 0m0,020s
+
+Tiempo para imagen 1080.jpg  con un kernel de  5  y con   2  hilos , intento numero 3
+real 0m1,488s user 0m2,644s sys 0m0,012s
+
+Tiempo para imagen 1080.jpg  con un kernel de  5  y con   2  hilos , intento numero 4
+real 0m1,485s user 0m2,615s sys 0m0,028s
+
+Tiempo para imagen 1080.jpg  con un kernel de  5  y con   2  hilos , intento numero 5
+real 0m1,490s user 0m2,639s sys 0m0,016s
+
+Tiempo para imagen 1080.jpg  con un kernel de  5  y con   2  hilos , intento numero 6
+real 0m1,480s user 0m2,617s sys 0m0,012s
+
+Tiempo para imagen 1080.jpg  con un kernel de  5  y con   2  hilos , intento numero 7
+real 0m1,484s user 0m2,628s sys 0m0,016s
+
+Tiempo para imagen 1080.jpg  con un kernel de  5  y con   2  hilos , intento numero 8
+real 0m1,497s user 0m2,659s sys 0m0,008s
+
+Tiempo para imagen 1080.jpg  con un kernel de  5  y con   2  hilos , intento numero 9
+real 0m1,492s user 0m2,630s sys 0m0,020s
+
+Tiempo para imagen 1080.jpg  con un kernel de  5  y con   4  hilos , intento numero 0
+real 0m1,105s user 0m3,337s sys 0m0,012s
+
+Tiempo para imagen 1080.jpg  con un kernel de  5  y con   4  hilos , intento numero 1
+real 0m1,089s user 0m3,307s sys 0m0,012s
+
+Tiempo para imagen 1080.jpg  con un kernel de  5  y con   4  hilos , intento numero 2
+real 0m1,283s user 0m3,901s sys 0m0,012s
+
+Tiempo para imagen 1080.jpg  con un kernel de  5  y con   4  hilos , intento numero 3
+real 0m1,129s user 0m3,438s sys 0m0,012s
+
+Tiempo para imagen 1080.jpg  con un kernel de  5  y con   4  hilos , intento numero 4
+real 0m1,082s user 0m3,292s sys 0m0,020s
+
+Tiempo para imagen 1080.jpg  con un kernel de  5  y con   4  hilos , intento numero 5
+real 0m1,087s user 0m3,300s sys 0m0,012s
+
+Tiempo para imagen 1080.jpg  con un kernel de  5  y con   4  hilos , intento numero 6
+real 0m1,090s user 0m3,300s sys 0m0,016s
+
+Tiempo para imagen 1080.jpg  con un kernel de  5  y con   4  hilos , intento numero 7
+real 0m1,084s user 0m3,285s sys 0m0,020s
+
+Tiempo para imagen 1080.jpg  con un kernel de  5  y con   4  hilos , intento numero 8
+real 0m1,087s user 0m3,298s sys 0m0,012s
+
+Tiempo para imagen 1080.jpg  con un kernel de  5  y con   4  hilos , intento numero 9
+real 0m1,082s user 0m3,289s sys 0m0,020s
+
+Tiempo para imagen 1080.jpg  con un kernel de  5  y con   8  hilos , intento numero 0
+real 0m1,014s user 0m5,694s sys 0m0,008s
+
+Tiempo para imagen 1080.jpg  con un kernel de  5  y con   8  hilos , intento numero 1
+real 0m1,014s user 0m5,657s sys 0m0,016s
+
+Tiempo para imagen 1080.jpg  con un kernel de  5  y con   8  hilos , intento numero 2
+real 0m1,026s user 0m5,663s sys 0m0,020s
+
+Tiempo para imagen 1080.jpg  con un kernel de  5  y con   8  hilos , intento numero 3
+real 0m1,015s user 0m5,653s sys 0m0,024s
+
+Tiempo para imagen 1080.jpg  con un kernel de  5  y con   8  hilos , intento numero 4
+real 0m1,017s user 0m5,668s sys 0m0,032s
+
+Tiempo para imagen 1080.jpg  con un kernel de  5  y con   8  hilos , intento numero 5
+real 0m1,019s user 0m5,691s sys 0m0,024s
+
+Tiempo para imagen 1080.jpg  con un kernel de  5  y con   8  hilos , intento numero 6
+real 0m1,016s user 0m5,673s sys 0m0,016s
+
+Tiempo para imagen 1080.jpg  con un kernel de  5  y con   8  hilos , intento numero 7
+real 0m1,018s user 0m5,668s sys 0m0,036s
+
+Tiempo para imagen 1080.jpg  con un kernel de  5  y con   8  hilos , intento numero 8
+real 0m1,029s user 0m5,685s sys 0m0,008s
+
+Tiempo para imagen 1080.jpg  con un kernel de  5  y con   8  hilos , intento numero 9
+real 0m1,030s user 0m5,664s sys 0m0,020s
+
+Tiempo para imagen 1080.jpg  con un kernel de  5  y con   16  hilos , intento numero 0
+real 0m1,054s user 0m5,593s sys 0m0,024s
+
+Tiempo para imagen 1080.jpg  con un kernel de  5  y con   16  hilos , intento numero 1
+real 0m1,053s user 0m5,581s sys 0m0,028s
+
+Tiempo para imagen 1080.jpg  con un kernel de  5  y con   16  hilos , intento numero 2
+real 0m1,052s user 0m5,616s sys 0m0,020s
+
+Tiempo para imagen 1080.jpg  con un kernel de  5  y con   16  hilos , intento numero 3
+real 0m1,040s user 0m5,588s sys 0m0,017s
+
+Tiempo para imagen 1080.jpg  con un kernel de  5  y con   16  hilos , intento numero 4
+real 0m1,037s user 0m5,614s sys 0m0,012s
+
+Tiempo para imagen 1080.jpg  con un kernel de  5  y con   16  hilos , intento numero 5
+real 0m1,044s user 0m5,575s sys 0m0,013s
+
+Tiempo para imagen 1080.jpg  con un kernel de  5  y con   16  hilos , intento numero 6
+real 0m1,034s user 0m5,552s sys 0m0,028s
+
+Tiempo para imagen 1080.jpg  con un kernel de  5  y con   16  hilos , intento numero 7
+real 0m1,038s user 0m5,630s sys 0m0,004s
+
+Tiempo para imagen 1080.jpg  con un kernel de  5  y con   16  hilos , intento numero 8
+real 0m1,034s user 0m5,600s sys 0m0,024s
+
+Tiempo para imagen 1080.jpg  con un kernel de  5  y con   16  hilos , intento numero 9
+real 0m1,037s user 0m5,552s sys 0m0,024s
+
+Tiempo para imagen 1080.jpg  con un kernel de  7  y con   1  hilos , intento numero 0
+real 0m2,950s user 0m2,931s sys 0m0,020s
+
+Tiempo para imagen 1080.jpg  con un kernel de  7  y con   1  hilos , intento numero 1
+real 0m2,949s user 0m2,937s sys 0m0,012s
+
+Tiempo para imagen 1080.jpg  con un kernel de  7  y con   1  hilos , intento numero 2
+real 0m2,946s user 0m2,926s sys 0m0,020s
+
+Tiempo para imagen 1080.jpg  con un kernel de  7  y con   1  hilos , intento numero 3
+real 0m2,960s user 0m2,952s sys 0m0,008s
+
+Tiempo para imagen 1080.jpg  con un kernel de  7  y con   1  hilos , intento numero 4
+real 0m2,967s user 0m2,952s sys 0m0,016s
+
+Tiempo para imagen 1080.jpg  con un kernel de  7  y con   1  hilos , intento numero 5
+real 0m2,952s user 0m2,944s sys 0m0,008s
+
+Tiempo para imagen 1080.jpg  con un kernel de  7  y con   1  hilos , intento numero 6
+real 0m2,982s user 0m2,969s sys 0m0,012s
+
+Tiempo para imagen 1080.jpg  con un kernel de  7  y con   1  hilos , intento numero 7
+real 0m2,946s user 0m2,938s sys 0m0,008s
+
+Tiempo para imagen 1080.jpg  con un kernel de  7  y con   1  hilos , intento numero 8
+real 0m2,944s user 0m2,919s sys 0m0,024s
+
+Tiempo para imagen 1080.jpg  con un kernel de  7  y con   1  hilos , intento numero 9
+real 0m2,937s user 0m2,922s sys 0m0,016s
+
+Tiempo para imagen 1080.jpg  con un kernel de  7  y con   2  hilos , intento numero 0
+real 0m2,107s user 0m3,814s sys 0m0,012s
+
+Tiempo para imagen 1080.jpg  con un kernel de  7  y con   2  hilos , intento numero 1
+real 0m1,979s user 0m3,597s sys 0m0,020s
+
+Tiempo para imagen 1080.jpg  con un kernel de  7  y con   2  hilos , intento numero 2
+real 0m1,917s user 0m3,491s sys 0m0,020s
+
+Tiempo para imagen 1080.jpg  con un kernel de  7  y con   2  hilos , intento numero 3
+real 0m1,931s user 0m3,519s sys 0m0,016s
+
+Tiempo para imagen 1080.jpg  con un kernel de  7  y con   2  hilos , intento numero 4
+real 0m1,927s user 0m3,500s sys 0m0,028s
+
+Tiempo para imagen 1080.jpg  con un kernel de  7  y con   2  hilos , intento numero 5
+real 0m1,931s user 0m3,533s sys 0m0,008s
+
+Tiempo para imagen 1080.jpg  con un kernel de  7  y con   2  hilos , intento numero 6
+real 0m1,915s user 0m3,497s sys 0m0,012s
+
+Tiempo para imagen 1080.jpg  con un kernel de  7  y con   2  hilos , intento numero 7
+real 0m1,911s user 0m3,482s sys 0m0,016s
+
+Tiempo para imagen 1080.jpg  con un kernel de  7  y con   2  hilos , intento numero 8
+real 0m1,962s user 0m3,566s sys 0m0,024s
+
+Tiempo para imagen 1080.jpg  con un kernel de  7  y con   2  hilos , intento numero 9
+real 0m1,902s user 0m3,480s sys 0m0,004s
+
+Tiempo para imagen 1080.jpg  con un kernel de  7  y con   4  hilos , intento numero 0
+real 0m1,371s user 0m4,428s sys 0m0,024s
+
+Tiempo para imagen 1080.jpg  con un kernel de  7  y con   4  hilos , intento numero 1
+real 0m1,355s user 0m4,391s sys 0m0,020s
+
+Tiempo para imagen 1080.jpg  con un kernel de  7  y con   4  hilos , intento numero 2
+real 0m1,357s user 0m4,395s sys 0m0,020s
+
+Tiempo para imagen 1080.jpg  con un kernel de  7  y con   4  hilos , intento numero 3
+real 0m1,465s user 0m4,620s sys 0m0,028s
+
+Tiempo para imagen 1080.jpg  con un kernel de  7  y con   4  hilos , intento numero 4
+real 0m1,614s user 0m5,119s sys 0m0,028s
+
+Tiempo para imagen 1080.jpg  con un kernel de  7  y con   4  hilos , intento numero 5
+real 0m1,366s user 0m4,399s sys 0m0,024s
+
+Tiempo para imagen 1080.jpg  con un kernel de  7  y con   4  hilos , intento numero 6
+real 0m1,353s user 0m4,393s sys 0m0,016s
+
+Tiempo para imagen 1080.jpg  con un kernel de  7  y con   4  hilos , intento numero 7
+real 0m1,355s user 0m4,384s sys 0m0,028s
+
+Tiempo para imagen 1080.jpg  con un kernel de  7  y con   4  hilos , intento numero 8
+real 0m1,362s user 0m4,413s sys 0m0,004s
+
+Tiempo para imagen 1080.jpg  con un kernel de  7  y con   4  hilos , intento numero 9
+real 0m1,350s user 0m4,384s sys 0m0,020s
+
+Tiempo para imagen 1080.jpg  con un kernel de  7  y con   8  hilos , intento numero 0
+real 0m1,286s user 0m7,787s sys 0m0,016s
+
+Tiempo para imagen 1080.jpg  con un kernel de  7  y con   8  hilos , intento numero 1
+real 0m1,272s user 0m7,784s sys 0m0,020s
+
+Tiempo para imagen 1080.jpg  con un kernel de  7  y con   8  hilos , intento numero 2
+real 0m1,268s user 0m7,760s sys 0m0,024s
+
+Tiempo para imagen 1080.jpg  con un kernel de  7  y con   8  hilos , intento numero 3
+real 0m1,274s user 0m7,786s sys 0m0,004s
+
+Tiempo para imagen 1080.jpg  con un kernel de  7  y con   8  hilos , intento numero 4
+real 0m1,278s user 0m7,775s sys 0m0,016s
+
+Tiempo para imagen 1080.jpg  con un kernel de  7  y con   8  hilos , intento numero 5
+real 0m1,275s user 0m7,765s sys 0m0,033s
+
+Tiempo para imagen 1080.jpg  con un kernel de  7  y con   8  hilos , intento numero 6
+real 0m1,272s user 0m7,771s sys 0m0,008s
+
+Tiempo para imagen 1080.jpg  con un kernel de  7  y con   8  hilos , intento numero 7
+real 0m1,273s user 0m7,744s sys 0m0,020s
+
+Tiempo para imagen 1080.jpg  con un kernel de  7  y con   8  hilos , intento numero 8
+real 0m1,280s user 0m7,756s sys 0m0,020s
+
+Tiempo para imagen 1080.jpg  con un kernel de  7  y con   8  hilos , intento numero 9
+real 0m1,281s user 0m7,769s sys 0m0,016s
+
+Tiempo para imagen 1080.jpg  con un kernel de  7  y con   16  hilos , intento numero 0
+real 0m1,309s user 0m7,632s sys 0m0,036s
+
+Tiempo para imagen 1080.jpg  con un kernel de  7  y con   16  hilos , intento numero 1
+real 0m1,292s user 0m7,654s sys 0m0,028s
+
+Tiempo para imagen 1080.jpg  con un kernel de  7  y con   16  hilos , intento numero 2
+real 0m1,307s user 0m7,671s sys 0m0,024s
+
+Tiempo para imagen 1080.jpg  con un kernel de  7  y con   16  hilos , intento numero 3
+real 0m1,302s user 0m7,678s sys 0m0,024s
+
+Tiempo para imagen 1080.jpg  con un kernel de  7  y con   16  hilos , intento numero 4
+real 0m1,313s user 0m7,651s sys 0m0,020s
+
+Tiempo para imagen 1080.jpg  con un kernel de  7  y con   16  hilos , intento numero 5
+real 0m1,310s user 0m7,648s sys 0m0,016s
+
+Tiempo para imagen 1080.jpg  con un kernel de  7  y con   16  hilos , intento numero 6
+real 0m1,295s user 0m7,652s sys 0m0,012s
+
+Tiempo para imagen 1080.jpg  con un kernel de  7  y con   16  hilos , intento numero 7
+real 0m1,326s user 0m7,684s sys 0m0,020s
+
+Tiempo para imagen 1080.jpg  con un kernel de  7  y con   16  hilos , intento numero 8
+real 0m1,298s user 0m7,702s sys 0m0,024s
+
+Tiempo para imagen 1080.jpg  con un kernel de  7  y con   16  hilos , intento numero 9
+real 0m1,313s user 0m7,637s sys 0m0,032s
+
+Tiempo para imagen 1080.jpg  con un kernel de  9  y con   1  hilos , intento numero 0
+real 0m3,952s user 0m3,932s sys 0m0,020s
+
+Tiempo para imagen 1080.jpg  con un kernel de  9  y con   1  hilos , intento numero 1
+real 0m4,021s user 0m4,005s sys 0m0,016s
+
+Tiempo para imagen 1080.jpg  con un kernel de  9  y con   1  hilos , intento numero 2
+real 0m3,683s user 0m3,667s sys 0m0,016s
+
+Tiempo para imagen 1080.jpg  con un kernel de  9  y con   1  hilos , intento numero 3
+real 0m3,659s user 0m3,631s sys 0m0,028s
+
+Tiempo para imagen 1080.jpg  con un kernel de  9  y con   1  hilos , intento numero 4
+real 0m3,663s user 0m3,639s sys 0m0,024s
+
+Tiempo para imagen 1080.jpg  con un kernel de  9  y con   1  hilos , intento numero 5
+real 0m3,657s user 0m3,641s sys 0m0,016s
+
+Tiempo para imagen 1080.jpg  con un kernel de  9  y con   1  hilos , intento numero 6
+real 0m3,653s user 0m3,637s sys 0m0,016s
+
+Tiempo para imagen 1080.jpg  con un kernel de  9  y con   1  hilos , intento numero 7
+real 0m3,650s user 0m3,622s sys 0m0,028s
+
+Tiempo para imagen 1080.jpg  con un kernel de  9  y con   1  hilos , intento numero 8
+real 0m3,658s user 0m3,646s sys 0m0,012s
+
+Tiempo para imagen 1080.jpg  con un kernel de  9  y con   1  hilos , intento numero 9
+real 0m3,669s user 0m3,641s sys 0m0,028s
+
+Tiempo para imagen 1080.jpg  con un kernel de  9  y con   2  hilos , intento numero 0
+real 0m2,358s user 0m4,371s sys 0m0,024s
+
+Tiempo para imagen 1080.jpg  con un kernel de  9  y con   2  hilos , intento numero 1
+real 0m2,342s user 0m4,355s sys 0m0,012s
+
+Tiempo para imagen 1080.jpg  con un kernel de  9  y con   2  hilos , intento numero 2
+real 0m2,376s user 0m4,415s sys 0m0,016s
+
+Tiempo para imagen 1080.jpg  con un kernel de  9  y con   2  hilos , intento numero 3
+real 0m2,353s user 0m4,372s sys 0m0,012s
+
+Tiempo para imagen 1080.jpg  con un kernel de  9  y con   2  hilos , intento numero 4
+real 0m2,349s user 0m4,358s sys 0m0,024s
+
+Tiempo para imagen 1080.jpg  con un kernel de  9  y con   2  hilos , intento numero 5
+real 0m2,351s user 0m4,355s sys 0m0,024s
+
+Tiempo para imagen 1080.jpg  con un kernel de  9  y con   2  hilos , intento numero 6
+real 0m2,354s user 0m4,370s sys 0m0,024s
+
+Tiempo para imagen 1080.jpg  con un kernel de  9  y con   2  hilos , intento numero 7
+real 0m2,350s user 0m4,360s sys 0m0,020s
+
+Tiempo para imagen 1080.jpg  con un kernel de  9  y con   2  hilos , intento numero 8
+real 0m2,353s user 0m4,379s sys 0m0,008s
+
+Tiempo para imagen 1080.jpg  con un kernel de  9  y con   2  hilos , intento numero 9
+real 0m2,350s user 0m4,361s sys 0m0,016s
+
+Tiempo para imagen 1080.jpg  con un kernel de  9  y con   4  hilos , intento numero 0
+real 0m1,751s user 0m5,640s sys 0m0,016s
+
+Tiempo para imagen 1080.jpg  con un kernel de  9  y con   4  hilos , intento numero 1
+real 0m1,734s user 0m5,810s sys 0m0,024s
+
+Tiempo para imagen 1080.jpg  con un kernel de  9  y con   4  hilos , intento numero 2
+real 0m1,632s user 0m5,499s sys 0m0,016s
+
+Tiempo para imagen 1080.jpg  con un kernel de  9  y con   4  hilos , intento numero 3
+real 0m1,642s user 0m5,500s sys 0m0,028s
+
+Tiempo para imagen 1080.jpg  con un kernel de  9  y con   4  hilos , intento numero 4
+real 0m1,626s user 0m5,497s sys 0m0,016s
+
+Tiempo para imagen 1080.jpg  con un kernel de  9  y con   4  hilos , intento numero 5
+real 0m1,633s user 0m5,508s sys 0m0,012s
+
+Tiempo para imagen 1080.jpg  con un kernel de  9  y con   4  hilos , intento numero 6
+real 0m1,640s user 0m5,514s sys 0m0,016s
+
+Tiempo para imagen 1080.jpg  con un kernel de  9  y con   4  hilos , intento numero 7
+real 0m1,642s user 0m5,511s sys 0m0,012s
+
+Tiempo para imagen 1080.jpg  con un kernel de  9  y con   4  hilos , intento numero 8
+real 0m1,634s user 0m5,510s sys 0m0,012s
+
+Tiempo para imagen 1080.jpg  con un kernel de  9  y con   4  hilos , intento numero 9
+real 0m1,626s user 0m5,491s sys 0m0,020s
+
+Tiempo para imagen 1080.jpg  con un kernel de  9  y con   8  hilos , intento numero 0
+real 0m1,539s user 0m9,881s sys 0m0,012s
+
+Tiempo para imagen 1080.jpg  con un kernel de  9  y con   8  hilos , intento numero 1
+real 0m1,541s user 0m9,836s sys 0m0,020s
+
+Tiempo para imagen 1080.jpg  con un kernel de  9  y con   8  hilos , intento numero 2
+real 0m1,542s user 0m9,871s sys 0m0,016s
+
+Tiempo para imagen 1080.jpg  con un kernel de  9  y con   8  hilos , intento numero 3
+real 0m1,534s user 0m9,873s sys 0m0,020s
+
+Tiempo para imagen 1080.jpg  con un kernel de  9  y con   8  hilos , intento numero 4
+real 0m1,536s user 0m9,824s sys 0m0,024s
+
+Tiempo para imagen 1080.jpg  con un kernel de  9  y con   8  hilos , intento numero 5
+real 0m1,538s user 0m9,868s sys 0m0,016s
+
+Tiempo para imagen 1080.jpg  con un kernel de  9  y con   8  hilos , intento numero 6
+real 0m1,541s user 0m9,886s sys 0m0,012s
+
+Tiempo para imagen 1080.jpg  con un kernel de  9  y con   8  hilos , intento numero 7
+real 0m1,540s user 0m9,868s sys 0m0,028s
+
+Tiempo para imagen 1080.jpg  con un kernel de  9  y con   8  hilos , intento numero 8
+real 0m1,537s user 0m9,837s sys 0m0,016s
+
+Tiempo para imagen 1080.jpg  con un kernel de  9  y con   8  hilos , intento numero 9
+real 0m1,540s user 0m9,866s sys 0m0,008s
+
+Tiempo para imagen 1080.jpg  con un kernel de  9  y con   16  hilos , intento numero 0
+real 0m1,553s user 0m9,694s sys 0m0,036s
+
+Tiempo para imagen 1080.jpg  con un kernel de  9  y con   16  hilos , intento numero 1
+real 0m1,579s user 0m9,687s sys 0m0,028s
+
+Tiempo para imagen 1080.jpg  con un kernel de  9  y con   16  hilos , intento numero 2
+real 0m1,571s user 0m9,689s sys 0m0,024s
+
+Tiempo para imagen 1080.jpg  con un kernel de  9  y con   16  hilos , intento numero 3
+real 0m1,560s user 0m9,663s sys 0m0,024s
+
+Tiempo para imagen 1080.jpg  con un kernel de  9  y con   16  hilos , intento numero 4
+real 0m1,576s user 0m9,664s sys 0m0,008s
+
+Tiempo para imagen 1080.jpg  con un kernel de  9  y con   16  hilos , intento numero 5
+real 0m1,569s user 0m9,728s sys 0m0,028s
+
+Tiempo para imagen 1080.jpg  con un kernel de  9  y con   16  hilos , intento numero 6
+real 0m1,571s user 0m9,708s sys 0m0,024s
+
+Tiempo para imagen 1080.jpg  con un kernel de  9  y con   16  hilos , intento numero 7
+real 0m1,566s user 0m9,702s sys 0m0,024s
+
+Tiempo para imagen 1080.jpg  con un kernel de  9  y con   16  hilos , intento numero 8
+real 0m1,558s user 0m9,695s sys 0m0,028s
+
+Tiempo para imagen 1080.jpg  con un kernel de  9  y con   16  hilos , intento numero 9
+real 0m1,565s user 0m9,673s sys 0m0,024s
+
+Tiempo para imagen 1080.jpg  con un kernel de  11  y con   1  hilos , intento numero 0
+real 0m4,715s user 0m4,704s sys 0m0,012s
+
+Tiempo para imagen 1080.jpg  con un kernel de  11  y con   1  hilos , intento numero 1
+real 0m4,728s user 0m4,712s sys 0m0,016s
+
+Tiempo para imagen 1080.jpg  con un kernel de  11  y con   1  hilos , intento numero 2
+real 0m4,910s user 0m4,894s sys 0m0,016s
+
+Tiempo para imagen 1080.jpg  con un kernel de  11  y con   1  hilos , intento numero 3
+real 0m4,754s user 0m4,734s sys 0m0,020s
+
+Tiempo para imagen 1080.jpg  con un kernel de  11  y con   1  hilos , intento numero 4
+real 0m4,721s user 0m4,697s sys 0m0,024s
+
+Tiempo para imagen 1080.jpg  con un kernel de  11  y con   1  hilos , intento numero 5
+real 0m4,751s user 0m4,727s sys 0m0,024s
+
+Tiempo para imagen 1080.jpg  con un kernel de  11  y con   1  hilos , intento numero 6
+real 0m4,711s user 0m4,683s sys 0m0,028s
+
+Tiempo para imagen 1080.jpg  con un kernel de  11  y con   1  hilos , intento numero 7
+real 0m4,761s user 0m4,741s sys 0m0,020s
+
+Tiempo para imagen 1080.jpg  con un kernel de  11  y con   1  hilos , intento numero 8
+real 0m4,740s user 0m4,728s sys 0m0,012s
+
+Tiempo para imagen 1080.jpg  con un kernel de  11  y con   1  hilos , intento numero 9
+real 0m4,707s user 0m4,703s sys 0m0,004s
+
+Tiempo para imagen 1080.jpg  con un kernel de  11  y con   2  hilos , intento numero 0
+real 0m2,996s user 0m5,645s sys 0m0,028s
+
+Tiempo para imagen 1080.jpg  con un kernel de  11  y con   2  hilos , intento numero 1
+real 0m2,996s user 0m5,655s sys 0m0,020s
+
+Tiempo para imagen 1080.jpg  con un kernel de  11  y con   2  hilos , intento numero 2
+real 0m2,992s user 0m5,648s sys 0m0,012s
+
+Tiempo para imagen 1080.jpg  con un kernel de  11  y con   2  hilos , intento numero 3
+real 0m2,984s user 0m5,632s sys 0m0,016s
+
+Tiempo para imagen 1080.jpg  con un kernel de  11  y con   2  hilos , intento numero 4
+real 0m2,995s user 0m5,668s sys 0m0,008s
+
+Tiempo para imagen 1080.jpg  con un kernel de  11  y con   2  hilos , intento numero 5
+real 0m2,990s user 0m5,643s sys 0m0,016s
+
+Tiempo para imagen 1080.jpg  con un kernel de  11  y con   2  hilos , intento numero 6
+real 0m3,002s user 0m5,674s sys 0m0,012s
+
+Tiempo para imagen 1080.jpg  con un kernel de  11  y con   2  hilos , intento numero 7
+real 0m3,001s user 0m5,656s sys 0m0,028s
+
+Tiempo para imagen 1080.jpg  con un kernel de  11  y con   2  hilos , intento numero 8
+real 0m3,267s user 0m6,176s sys 0m0,012s
+
+Tiempo para imagen 1080.jpg  con un kernel de  11  y con   2  hilos , intento numero 9
+real 0m3,008s user 0m5,684s sys 0m0,012s
+
+Tiempo para imagen 1080.jpg  con un kernel de  11  y con   4  hilos , intento numero 0
+real 0m2,064s user 0m7,222s sys 0m0,016s
+
+Tiempo para imagen 1080.jpg  con un kernel de  11  y con   4  hilos , intento numero 1
+real 0m2,051s user 0m7,156s sys 0m0,024s
+
+Tiempo para imagen 1080.jpg  con un kernel de  11  y con   4  hilos , intento numero 2
+real 0m2,043s user 0m7,155s sys 0m0,012s
+
+Tiempo para imagen 1080.jpg  con un kernel de  11  y con   4  hilos , intento numero 3
+real 0m2,043s user 0m7,149s sys 0m0,020s
+
+Tiempo para imagen 1080.jpg  con un kernel de  11  y con   4  hilos , intento numero 4
+real 0m2,048s user 0m7,154s sys 0m0,020s
+
+Tiempo para imagen 1080.jpg  con un kernel de  11  y con   4  hilos , intento numero 5
+real 0m2,043s user 0m7,154s sys 0m0,012s
+
+Tiempo para imagen 1080.jpg  con un kernel de  11  y con   4  hilos , intento numero 6
+real 0m2,055s user 0m7,168s sys 0m0,012s
+
+Tiempo para imagen 1080.jpg  con un kernel de  11  y con   4  hilos , intento numero 7
+real 0m2,054s user 0m7,179s sys 0m0,012s
+
+Tiempo para imagen 1080.jpg  con un kernel de  11  y con   4  hilos , intento numero 8
+real 0m2,057s user 0m7,155s sys 0m0,036s
+
+Tiempo para imagen 1080.jpg  con un kernel de  11  y con   4  hilos , intento numero 9
+real 0m2,047s user 0m7,146s sys 0m0,028s
+
+Tiempo para imagen 1080.jpg  con un kernel de  11  y con   8  hilos , intento numero 0
+real 0m1,867s user 0m12,462s sys 0m0,024s
+
+Tiempo para imagen 1080.jpg  con un kernel de  11  y con   8  hilos , intento numero 1
+real 0m1,869s user 0m12,443s sys 0m0,024s
+
+Tiempo para imagen 1080.jpg  con un kernel de  11  y con   8  hilos , intento numero 2
+real 0m1,865s user 0m12,480s sys 0m0,024s
+
+Tiempo para imagen 1080.jpg  con un kernel de  11  y con   8  hilos , intento numero 3
+real 0m1,877s user 0m12,503s sys 0m0,016s
+
+Tiempo para imagen 1080.jpg  con un kernel de  11  y con   8  hilos , intento numero 4
+real 0m2,161s user 0m14,606s sys 0m0,020s
+
+Tiempo para imagen 1080.jpg  con un kernel de  11  y con   8  hilos , intento numero 5
+real 0m1,872s user 0m12,426s sys 0m0,036s
+
+Tiempo para imagen 1080.jpg  con un kernel de  11  y con   8  hilos , intento numero 6
+real 0m1,875s user 0m12,485s sys 0m0,028s
+
+Tiempo para imagen 1080.jpg  con un kernel de  11  y con   8  hilos , intento numero 7
+real 0m1,867s user 0m12,506s sys 0m0,012s
+
+Tiempo para imagen 1080.jpg  con un kernel de  11  y con   8  hilos , intento numero 8
+real 0m1,877s user 0m12,510s sys 0m0,020s
+
+Tiempo para imagen 1080.jpg  con un kernel de  11  y con   8  hilos , intento numero 9
+real 0m1,863s user 0m12,437s sys 0m0,016s
+
+Tiempo para imagen 1080.jpg  con un kernel de  11  y con   16  hilos , intento numero 0
+real 0m1,892s user 0m12,261s sys 0m0,008s
+
+Tiempo para imagen 1080.jpg  con un kernel de  11  y con   16  hilos , intento numero 1
+real 0m1,900s user 0m12,275s sys 0m0,028s
+
+Tiempo para imagen 1080.jpg  con un kernel de  11  y con   16  hilos , intento numero 2
+real 0m1,902s user 0m12,263s sys 0m0,020s
+
+Tiempo para imagen 1080.jpg  con un kernel de  11  y con   16  hilos , intento numero 3
+real 0m1,909s user 0m12,219s sys 0m0,020s
+
+Tiempo para imagen 1080.jpg  con un kernel de  11  y con   16  hilos , intento numero 4
+real 0m1,905s user 0m12,225s sys 0m0,040s
+
+Tiempo para imagen 1080.jpg  con un kernel de  11  y con   16  hilos , intento numero 5
+real 0m1,893s user 0m12,252s sys 0m0,008s
+
+Tiempo para imagen 1080.jpg  con un kernel de  11  y con   16  hilos , intento numero 6
+real 0m1,899s user 0m12,224s sys 0m0,028s
+
+Tiempo para imagen 1080.jpg  con un kernel de  11  y con   16  hilos , intento numero 7
+real 0m1,911s user 0m12,228s sys 0m0,012s
+
+Tiempo para imagen 1080.jpg  con un kernel de  11  y con   16  hilos , intento numero 8
+real 0m2,135s user 0m13,871s sys 0m0,020s
+
+Tiempo para imagen 1080.jpg  con un kernel de  11  y con   16  hilos , intento numero 9
+real 0m1,925s user 0m12,304s sys 0m0,032s
+
+Tiempo para imagen 1080.jpg  con un kernel de  13  y con   1  hilos , intento numero 0
+real 0m5,891s user 0m5,867s sys 0m0,024s
+
+Tiempo para imagen 1080.jpg  con un kernel de  13  y con   1  hilos , intento numero 1
+real 0m5,452s user 0m5,435s sys 0m0,016s
+
+Tiempo para imagen 1080.jpg  con un kernel de  13  y con   1  hilos , intento numero 2
+real 0m5,440s user 0m5,423s sys 0m0,016s
+
+Tiempo para imagen 1080.jpg  con un kernel de  13  y con   1  hilos , intento numero 3
+real 0m5,435s user 0m5,414s sys 0m0,020s
+
+Tiempo para imagen 1080.jpg  con un kernel de  13  y con   1  hilos , intento numero 4
+real 0m5,439s user 0m5,431s sys 0m0,008s
+
+Tiempo para imagen 1080.jpg  con un kernel de  13  y con   1  hilos , intento numero 5
+real 0m5,440s user 0m5,427s sys 0m0,012s
+
+Tiempo para imagen 1080.jpg  con un kernel de  13  y con   1  hilos , intento numero 6
+real 0m5,482s user 0m5,469s sys 0m0,012s
+
+Tiempo para imagen 1080.jpg  con un kernel de  13  y con   1  hilos , intento numero 7
+real 0m5,467s user 0m5,442s sys 0m0,024s
+
+Tiempo para imagen 1080.jpg  con un kernel de  13  y con   1  hilos , intento numero 8
+real 0m5,505s user 0m5,496s sys 0m0,008s
+
+Tiempo para imagen 1080.jpg  con un kernel de  13  y con   1  hilos , intento numero 9
+real 0m5,573s user 0m5,557s sys 0m0,016s
+
+Tiempo para imagen 1080.jpg  con un kernel de  13  y con   2  hilos , intento numero 0
+real 0m3,707s user 0m7,085s sys 0m0,012s
+
+Tiempo para imagen 1080.jpg  con un kernel de  13  y con   2  hilos , intento numero 1
+real 0m3,416s user 0m6,508s sys 0m0,012s
+
+Tiempo para imagen 1080.jpg  con un kernel de  13  y con   2  hilos , intento numero 2
+real 0m3,440s user 0m6,556s sys 0m0,008s
+
+Tiempo para imagen 1080.jpg  con un kernel de  13  y con   2  hilos , intento numero 3
+real 0m3,414s user 0m6,477s sys 0m0,032s
+
+Tiempo para imagen 1080.jpg  con un kernel de  13  y con   2  hilos , intento numero 4
+real 0m3,508s user 0m6,674s sys 0m0,020s
+
+Tiempo para imagen 1080.jpg  con un kernel de  13  y con   2  hilos , intento numero 5
+real 0m3,467s user 0m6,597s sys 0m0,016s
+
+Tiempo para imagen 1080.jpg  con un kernel de  13  y con   2  hilos , intento numero 6
+real 0m3,416s user 0m6,505s sys 0m0,008s
+
+Tiempo para imagen 1080.jpg  con un kernel de  13  y con   2  hilos , intento numero 7
+real 0m3,420s user 0m6,518s sys 0m0,008s
+
+Tiempo para imagen 1080.jpg  con un kernel de  13  y con   2  hilos , intento numero 8
+real 0m3,432s user 0m6,529s sys 0m0,016s
+
+Tiempo para imagen 1080.jpg  con un kernel de  13  y con   2  hilos , intento numero 9
+real 0m3,438s user 0m6,538s sys 0m0,024s
+
+Tiempo para imagen 1080.jpg  con un kernel de  13  y con   4  hilos , intento numero 0
+real 0m2,321s user 0m8,260s sys 0m0,020s
+
+Tiempo para imagen 1080.jpg  con un kernel de  13  y con   4  hilos , intento numero 1
+real 0m2,321s user 0m8,271s sys 0m0,016s
+
+Tiempo para imagen 1080.jpg  con un kernel de  13  y con   4  hilos , intento numero 2
+real 0m2,336s user 0m8,284s sys 0m0,016s
+
+Tiempo para imagen 1080.jpg  con un kernel de  13  y con   4  hilos , intento numero 3
+real 0m2,322s user 0m8,273s sys 0m0,012s
+
+Tiempo para imagen 1080.jpg  con un kernel de  13  y con   4  hilos , intento numero 4
+real 0m2,319s user 0m8,260s sys 0m0,016s
+
+Tiempo para imagen 1080.jpg  con un kernel de  13  y con   4  hilos , intento numero 5
+real 0m2,342s user 0m8,295s sys 0m0,016s
+
+Tiempo para imagen 1080.jpg  con un kernel de  13  y con   4  hilos , intento numero 6
+real 0m2,330s user 0m8,278s sys 0m0,012s
+
+Tiempo para imagen 1080.jpg  con un kernel de  13  y con   4  hilos , intento numero 7
+real 0m2,318s user 0m8,260s sys 0m0,024s
+
+Tiempo para imagen 1080.jpg  con un kernel de  13  y con   4  hilos , intento numero 8
+real 0m2,327s user 0m8,262s sys 0m0,024s
+
+Tiempo para imagen 1080.jpg  con un kernel de  13  y con   4  hilos , intento numero 9
+real 0m2,324s user 0m8,259s sys 0m0,024s
+
+Tiempo para imagen 1080.jpg  con un kernel de  13  y con   8  hilos , intento numero 0
+real 0m2,126s user 0m14,606s sys 0m0,016s
+
+Tiempo para imagen 1080.jpg  con un kernel de  13  y con   8  hilos , intento numero 1
+real 0m2,230s user 0m14,692s sys 0m0,021s
+
+Tiempo para imagen 1080.jpg  con un kernel de  13  y con   8  hilos , intento numero 2
+real 0m2,251s user 0m15,279s sys 0m0,012s
+
+Tiempo para imagen 1080.jpg  con un kernel de  13  y con   8  hilos , intento numero 3
+real 0m2,132s user 0m14,564s sys 0m0,028s
+
+Tiempo para imagen 1080.jpg  con un kernel de  13  y con   8  hilos , intento numero 4
+real 0m2,132s user 0m14,613s sys 0m0,012s
+
+Tiempo para imagen 1080.jpg  con un kernel de  13  y con   8  hilos , intento numero 5
+real 0m2,141s user 0m14,590s sys 0m0,028s
+
+Tiempo para imagen 1080.jpg  con un kernel de  13  y con   8  hilos , intento numero 6
+real 0m2,407s user 0m16,538s sys 0m0,020s
+
+Tiempo para imagen 1080.jpg  con un kernel de  13  y con   8  hilos , intento numero 7
+real 0m2,136s user 0m14,577s sys 0m0,012s
+
+Tiempo para imagen 1080.jpg  con un kernel de  13  y con   8  hilos , intento numero 8
+real 0m2,135s user 0m14,603s sys 0m0,012s
+
+Tiempo para imagen 1080.jpg  con un kernel de  13  y con   8  hilos , intento numero 9
+real 0m2,133s user 0m14,576s sys 0m0,012s
+
+Tiempo para imagen 1080.jpg  con un kernel de  13  y con   16  hilos , intento numero 0
+real 0m2,174s user 0m14,286s sys 0m0,044s
+
+Tiempo para imagen 1080.jpg  con un kernel de  13  y con   16  hilos , intento numero 1
+real 0m2,178s user 0m14,280s sys 0m0,036s
+
+Tiempo para imagen 1080.jpg  con un kernel de  13  y con   16  hilos , intento numero 2
+real 0m2,174s user 0m14,325s sys 0m0,028s
+
+Tiempo para imagen 1080.jpg  con un kernel de  13  y con   16  hilos , intento numero 3
+real 0m2,181s user 0m14,337s sys 0m0,036s
+
+Tiempo para imagen 1080.jpg  con un kernel de  13  y con   16  hilos , intento numero 4
+real 0m2,169s user 0m14,344s sys 0m0,024s
+
+Tiempo para imagen 1080.jpg  con un kernel de  13  y con   16  hilos , intento numero 5
+real 0m2,173s user 0m14,331s sys 0m0,028s
+
+Tiempo para imagen 1080.jpg  con un kernel de  13  y con   16  hilos , intento numero 6
+real 0m2,158s user 0m14,394s sys 0m0,016s
+
+Tiempo para imagen 1080.jpg  con un kernel de  13  y con   16  hilos , intento numero 7
+real 0m2,828s user 0m18,923s sys 0m0,036s
+
+Tiempo para imagen 1080.jpg  con un kernel de  13  y con   16  hilos , intento numero 8
+real 0m2,189s user 0m14,312s sys 0m0,036s
+
+Tiempo para imagen 1080.jpg  con un kernel de  13  y con   16  hilos , intento numero 9
+real 0m2,177s user 0m14,357s sys 0m0,028s
+
+Tiempo para imagen 1080.jpg  con un kernel de  15  y con   1  hilos , intento numero 0
+real 0m6,193s user 0m6,173s sys 0m0,020s
+
+Tiempo para imagen 1080.jpg  con un kernel de  15  y con   1  hilos , intento numero 1
+real 0m6,153s user 0m6,133s sys 0m0,020s
+
+Tiempo para imagen 1080.jpg  con un kernel de  15  y con   1  hilos , intento numero 2
+real 0m6,156s user 0m6,132s sys 0m0,024s
+
+Tiempo para imagen 1080.jpg  con un kernel de  15  y con   1  hilos , intento numero 3
+real 0m6,760s user 0m6,748s sys 0m0,012s
+
+Tiempo para imagen 1080.jpg  con un kernel de  15  y con   1  hilos , intento numero 4
+real 0m6,188s user 0m6,172s sys 0m0,016s
+
+Tiempo para imagen 1080.jpg  con un kernel de  15  y con   1  hilos , intento numero 5
+real 0m6,151s user 0m6,139s sys 0m0,012s
+
+Tiempo para imagen 1080.jpg  con un kernel de  15  y con   1  hilos , intento numero 6
+real 0m6,161s user 0m6,133s sys 0m0,028s
+
+Tiempo para imagen 1080.jpg  con un kernel de  15  y con   1  hilos , intento numero 7
+real 0m6,152s user 0m6,136s sys 0m0,016s
+
+Tiempo para imagen 1080.jpg  con un kernel de  15  y con   1  hilos , intento numero 8
+real 0m6,177s user 0m6,168s sys 0m0,008s
+
+Tiempo para imagen 1080.jpg  con un kernel de  15  y con   1  hilos , intento numero 9
+real 0m6,171s user 0m6,155s sys 0m0,016s
+
+Tiempo para imagen 1080.jpg  con un kernel de  15  y con   2  hilos , intento numero 0
+real 0m3,895s user 0m7,457s sys 0m0,016s
+
+Tiempo para imagen 1080.jpg  con un kernel de  15  y con   2  hilos , intento numero 1
+real 0m3,866s user 0m7,396s sys 0m0,020s
+
+Tiempo para imagen 1080.jpg  con un kernel de  15  y con   2  hilos , intento numero 2
+real 0m3,863s user 0m7,395s sys 0m0,016s
+
+Tiempo para imagen 1080.jpg  con un kernel de  15  y con   2  hilos , intento numero 3
+real 0m3,884s user 0m7,431s sys 0m0,024s
+
+Tiempo para imagen 1080.jpg  con un kernel de  15  y con   2  hilos , intento numero 4
+real 0m4,122s user 0m7,899s sys 0m0,024s
+
+Tiempo para imagen 1080.jpg  con un kernel de  15  y con   2  hilos , intento numero 5
+real 0m3,903s user 0m7,478s sys 0m0,008s
+
+Tiempo para imagen 1080.jpg  con un kernel de  15  y con   2  hilos , intento numero 6
+real 0m3,878s user 0m7,416s sys 0m0,024s
+
+Tiempo para imagen 1080.jpg  con un kernel de  15  y con   2  hilos , intento numero 7
+real 0m3,866s user 0m7,396s sys 0m0,020s
+
+Tiempo para imagen 1080.jpg  con un kernel de  15  y con   2  hilos , intento numero 8
+real 0m3,877s user 0m7,435s sys 0m0,004s
+
+Tiempo para imagen 1080.jpg  con un kernel de  15  y con   2  hilos , intento numero 9
+real 0m3,882s user 0m7,438s sys 0m0,012s
+
+Tiempo para imagen 1080.jpg  con un kernel de  15  y con   4  hilos , intento numero 0
+real 0m2,606s user 0m9,364s sys 0m0,040s
+
+Tiempo para imagen 1080.jpg  con un kernel de  15  y con   4  hilos , intento numero 1
+real 0m2,615s user 0m9,389s sys 0m0,024s
+
+Tiempo para imagen 1080.jpg  con un kernel de  15  y con   4  hilos , intento numero 2
+real 0m2,606s user 0m9,386s sys 0m0,016s
+
+Tiempo para imagen 1080.jpg  con un kernel de  15  y con   4  hilos , intento numero 3
+real 0m2,606s user 0m9,380s sys 0m0,024s
+
+Tiempo para imagen 1080.jpg  con un kernel de  15  y con   4  hilos , intento numero 4
+real 0m2,597s user 0m9,378s sys 0m0,020s
+
+Tiempo para imagen 1080.jpg  con un kernel de  15  y con   4  hilos , intento numero 5
+real 0m2,600s user 0m9,387s sys 0m0,012s
+
+Tiempo para imagen 1080.jpg  con un kernel de  15  y con   4  hilos , intento numero 6
+real 0m2,604s user 0m9,374s sys 0m0,024s
+
+Tiempo para imagen 1080.jpg  con un kernel de  15  y con   4  hilos , intento numero 7
+real 0m2,595s user 0m9,370s sys 0m0,016s
+
+Tiempo para imagen 1080.jpg  con un kernel de  15  y con   4  hilos , intento numero 8
+real 0m2,601s user 0m9,393s sys 0m0,008s
+
+Tiempo para imagen 1080.jpg  con un kernel de  15  y con   4  hilos , intento numero 9
+real 0m2,605s user 0m9,379s sys 0m0,020s
+
+Tiempo para imagen 1080.jpg  con un kernel de  15  y con   8  hilos , intento numero 0
+real 0m2,403s user 0m16,761s sys 0m0,024s
+
+Tiempo para imagen 1080.jpg  con un kernel de  15  y con   8  hilos , intento numero 1
+real 0m2,406s user 0m16,747s sys 0m0,012s
+
+Tiempo para imagen 1080.jpg  con un kernel de  15  y con   8  hilos , intento numero 2
+real 0m2,418s user 0m16,792s sys 0m0,012s
+
+Tiempo para imagen 1080.jpg  con un kernel de  15  y con   8  hilos , intento numero 3
+real 0m2,398s user 0m16,743s sys 0m0,032s
+
+Tiempo para imagen 1080.jpg  con un kernel de  15  y con   8  hilos , intento numero 4
+real 0m2,399s user 0m16,753s sys 0m0,032s
+
+Tiempo para imagen 1080.jpg  con un kernel de  15  y con   8  hilos , intento numero 5
+real 0m2,704s user 0m18,878s sys 0m0,040s
+
+Tiempo para imagen 1080.jpg  con un kernel de  15  y con   8  hilos , intento numero 6
+real 0m2,408s user 0m16,738s sys 0m0,024s
+
+Tiempo para imagen 1080.jpg  con un kernel de  15  y con   8  hilos , intento numero 7
+real 0m2,413s user 0m16,800s sys 0m0,016s
+
+Tiempo para imagen 1080.jpg  con un kernel de  15  y con   8  hilos , intento numero 8
+real 0m2,395s user 0m16,770s sys 0m0,016s
+
+Tiempo para imagen 1080.jpg  con un kernel de  15  y con   8  hilos , intento numero 9
+real 0m2,393s user 0m16,769s sys 0m0,020s
+
+Tiempo para imagen 1080.jpg  con un kernel de  15  y con   16  hilos , intento numero 0
+real 0m2,460s user 0m16,455s sys 0m0,008s
+
+Tiempo para imagen 1080.jpg  con un kernel de  15  y con   16  hilos , intento numero 1
+real 0m2,444s user 0m16,444s sys 0m0,020s
+
+Tiempo para imagen 1080.jpg  con un kernel de  15  y con   16  hilos , intento numero 2
+real 0m2,433s user 0m16,469s sys 0m0,024s
+
+Tiempo para imagen 1080.jpg  con un kernel de  15  y con   16  hilos , intento numero 3
+real 0m2,450s user 0m16,502s sys 0m0,024s
+
+Tiempo para imagen 1080.jpg  con un kernel de  15  y con   16  hilos , intento numero 4
+real 0m2,435s user 0m16,429s sys 0m0,024s
+
+Tiempo para imagen 1080.jpg  con un kernel de  15  y con   16  hilos , intento numero 5
+real 0m2,441s user 0m16,464s sys 0m0,048s
+
+Tiempo para imagen 1080.jpg  con un kernel de  15  y con   16  hilos , intento numero 6
+real 0m2,468s user 0m16,621s sys 0m0,020s
+
+Tiempo para imagen 1080.jpg  con un kernel de  15  y con   16  hilos , intento numero 7
+real 0m2,449s user 0m16,468s sys 0m0,036s
+
+Tiempo para imagen 1080.jpg  con un kernel de  15  y con   16  hilos , intento numero 8
+real 0m2,444s user 0m16,413s sys 0m0,016s
+
+Tiempo para imagen 1080.jpg  con un kernel de  15  y con   16  hilos , intento numero 9
+real 0m2,483s user 0m16,430s sys 0m0,020s
+
+Tiempo para imagen 4k.jpg  con un kernel de  3  y con   1  hilos , intento numero 0
+real 0m6,624s user 0m6,496s sys 0m0,076s
+
+Tiempo para imagen 4k.jpg  con un kernel de  3  y con   1  hilos , intento numero 1
+real 0m6,702s user 0m6,643s sys 0m0,056s
+
+Tiempo para imagen 4k.jpg  con un kernel de  3  y con   1  hilos , intento numero 2
+real 0m6,529s user 0m6,489s sys 0m0,040s
+
+Tiempo para imagen 4k.jpg  con un kernel de  3  y con   1  hilos , intento numero 3
+real 0m6,797s user 0m6,717s sys 0m0,080s
+
+Tiempo para imagen 4k.jpg  con un kernel de  3  y con   1  hilos , intento numero 4
+real 0m6,633s user 0m6,577s sys 0m0,056s
+
+Tiempo para imagen 4k.jpg  con un kernel de  3  y con   1  hilos , intento numero 5
+real 0m6,531s user 0m6,471s sys 0m0,060s
+
+Tiempo para imagen 4k.jpg  con un kernel de  3  y con   1  hilos , intento numero 6
+real 0m6,552s user 0m6,491s sys 0m0,060s
+
+Tiempo para imagen 4k.jpg  con un kernel de  3  y con   1  hilos , intento numero 7
+real 0m6,549s user 0m6,484s sys 0m0,064s
+
+Tiempo para imagen 4k.jpg  con un kernel de  3  y con   1  hilos , intento numero 8
+real 0m6,532s user 0m6,476s sys 0m0,056s
+
+Tiempo para imagen 4k.jpg  con un kernel de  3  y con   1  hilos , intento numero 9
+real 0m6,558s user 0m6,473s sys 0m0,084s
+
+Tiempo para imagen 4k.jpg  con un kernel de  3  y con   2  hilos , intento numero 0
+real 0m4,522s user 0m7,616s sys 0m0,080s
+
+Tiempo para imagen 4k.jpg  con un kernel de  3  y con   2  hilos , intento numero 1
+real 0m4,552s user 0m7,658s sys 0m0,084s
+
+Tiempo para imagen 4k.jpg  con un kernel de  3  y con   2  hilos , intento numero 2
+real 0m4,701s user 0m7,810s sys 0m0,072s
+
+Tiempo para imagen 4k.jpg  con un kernel de  3  y con   2  hilos , intento numero 3
+real 0m4,709s user 0m7,834s sys 0m0,060s
+
+Tiempo para imagen 4k.jpg  con un kernel de  3  y con   2  hilos , intento numero 4
+real 0m4,517s user 0m7,631s sys 0m0,064s
+
+Tiempo para imagen 4k.jpg  con un kernel de  3  y con   2  hilos , intento numero 5
+real 0m4,593s user 0m7,749s sys 0m0,072s
+
+Tiempo para imagen 4k.jpg  con un kernel de  3  y con   2  hilos , intento numero 6
+real 0m4,608s user 0m7,786s sys 0m0,068s
+
+Tiempo para imagen 4k.jpg  con un kernel de  3  y con   2  hilos , intento numero 7
+real 0m4,511s user 0m7,595s sys 0m0,084s
+
+Tiempo para imagen 4k.jpg  con un kernel de  3  y con   2  hilos , intento numero 8
+real 0m4,550s user 0m7,659s sys 0m0,072s
+
+Tiempo para imagen 4k.jpg  con un kernel de  3  y con   2  hilos , intento numero 9
+real 0m4,464s user 0m7,522s sys 0m0,068s
+
+Tiempo para imagen 4k.jpg  con un kernel de  3  y con   4  hilos , intento numero 0
+real 0m3,458s user 0m9,542s sys 0m0,056s
+
+Tiempo para imagen 4k.jpg  con un kernel de  3  y con   4  hilos , intento numero 1
+real 0m3,424s user 0m9,493s sys 0m0,044s
+
+Tiempo para imagen 4k.jpg  con un kernel de  3  y con   4  hilos , intento numero 2
+real 0m3,458s user 0m9,476s sys 0m0,092s
+
+Tiempo para imagen 4k.jpg  con un kernel de  3  y con   4  hilos , intento numero 3
+real 0m3,487s user 0m9,585s sys 0m0,068s
+
+Tiempo para imagen 4k.jpg  con un kernel de  3  y con   4  hilos , intento numero 4
+real 0m3,449s user 0m9,557s sys 0m0,044s
+
+Tiempo para imagen 4k.jpg  con un kernel de  3  y con   4  hilos , intento numero 5
+real 0m3,461s user 0m9,511s sys 0m0,076s
+
+Tiempo para imagen 4k.jpg  con un kernel de  3  y con   4  hilos , intento numero 6
+real 0m3,433s user 0m9,470s sys 0m0,076s
+
+Tiempo para imagen 4k.jpg  con un kernel de  3  y con   4  hilos , intento numero 7
+real 0m3,426s user 0m9,449s sys 0m0,068s
+
+Tiempo para imagen 4k.jpg  con un kernel de  3  y con   4  hilos , intento numero 8
+real 0m3,494s user 0m9,642s sys 0m0,072s
+
+Tiempo para imagen 4k.jpg  con un kernel de  3  y con   4  hilos , intento numero 9
+real 0m3,687s user 0m10,449s sys 0m0,064s
+
+Tiempo para imagen 4k.jpg  con un kernel de  3  y con   8  hilos , intento numero 0
+real 0m3,236s user 0m15,928s sys 0m0,072s
+
+Tiempo para imagen 4k.jpg  con un kernel de  3  y con   8  hilos , intento numero 1
+real 0m3,187s user 0m15,773s sys 0m0,068s
+
+Tiempo para imagen 4k.jpg  con un kernel de  3  y con   8  hilos , intento numero 2
+real 0m3,187s user 0m15,741s sys 0m0,084s
+
+Tiempo para imagen 4k.jpg  con un kernel de  3  y con   8  hilos , intento numero 3
+real 0m3,271s user 0m15,882s sys 0m0,080s
+
+Tiempo para imagen 4k.jpg  con un kernel de  3  y con   8  hilos , intento numero 4
+real 0m3,206s user 0m15,661s sys 0m0,092s
+
+Tiempo para imagen 4k.jpg  con un kernel de  3  y con   8  hilos , intento numero 5
+real 0m3,183s user 0m15,735s sys 0m0,068s
+
+Tiempo para imagen 4k.jpg  con un kernel de  3  y con   8  hilos , intento numero 6
+real 0m3,195s user 0m15,755s sys 0m0,068s
+
+Tiempo para imagen 4k.jpg  con un kernel de  3  y con   8  hilos , intento numero 7
+real 0m3,195s user 0m15,726s sys 0m0,104s
+
+Tiempo para imagen 4k.jpg  con un kernel de  3  y con   8  hilos , intento numero 8
+real 0m3,189s user 0m15,738s sys 0m0,092s
+
+Tiempo para imagen 4k.jpg  con un kernel de  3  y con   8  hilos , intento numero 9
+real 0m3,211s user 0m15,755s sys 0m0,092s
+
+Tiempo para imagen 4k.jpg  con un kernel de  3  y con   16  hilos , intento numero 0
+real 0m3,222s user 0m15,576s sys 0m0,068s
+
+Tiempo para imagen 4k.jpg  con un kernel de  3  y con   16  hilos , intento numero 1
+real 0m3,317s user 0m15,703s sys 0m0,080s
+
+Tiempo para imagen 4k.jpg  con un kernel de  3  y con   16  hilos , intento numero 2
+real 0m3,255s user 0m15,588s sys 0m0,076s
+
+Tiempo para imagen 4k.jpg  con un kernel de  3  y con   16  hilos , intento numero 3
+real 0m3,218s user 0m15,616s sys 0m0,072s
+
+Tiempo para imagen 4k.jpg  con un kernel de  3  y con   16  hilos , intento numero 4
+real 0m3,263s user 0m15,823s sys 0m0,076s
+
+Tiempo para imagen 4k.jpg  con un kernel de  3  y con   16  hilos , intento numero 5
+real 0m3,231s user 0m15,596s sys 0m0,076s
+
+Tiempo para imagen 4k.jpg  con un kernel de  3  y con   16  hilos , intento numero 6
+real 0m3,252s user 0m15,635s sys 0m0,064s
+
+Tiempo para imagen 4k.jpg  con un kernel de  3  y con   16  hilos , intento numero 7
+real 0m3,479s user 0m16,855s sys 0m0,080s
+
+Tiempo para imagen 4k.jpg  con un kernel de  3  y con   16  hilos , intento numero 8
+real 0m3,235s user 0m15,646s sys 0m0,080s
+
+Tiempo para imagen 4k.jpg  con un kernel de  3  y con   16  hilos , intento numero 9
+real 0m3,247s user 0m15,639s sys 0m0,076s
+
+Tiempo para imagen 4k.jpg  con un kernel de  5  y con   1  hilos , intento numero 0
+real 0m9,590s user 0m9,525s sys 0m0,064s
+
+Tiempo para imagen 4k.jpg  con un kernel de  5  y con   1  hilos , intento numero 1
+real 0m9,672s user 0m9,606s sys 0m0,068s
+
+Tiempo para imagen 4k.jpg  con un kernel de  5  y con   1  hilos , intento numero 2
+real 0m9,695s user 0m9,630s sys 0m0,068s
+
+Tiempo para imagen 4k.jpg  con un kernel de  5  y con   1  hilos , intento numero 3
+real 0m9,677s user 0m9,619s sys 0m0,060s
+
+Tiempo para imagen 4k.jpg  con un kernel de  5  y con   1  hilos , intento numero 4
+real 0m9,714s user 0m9,652s sys 0m0,064s
+
+Tiempo para imagen 4k.jpg  con un kernel de  5  y con   1  hilos , intento numero 5
+real 0m9,914s user 0m9,860s sys 0m0,056s
+
+Tiempo para imagen 4k.jpg  con un kernel de  5  y con   1  hilos , intento numero 6
+real 0m9,560s user 0m9,498s sys 0m0,064s
+
+Tiempo para imagen 4k.jpg  con un kernel de  5  y con   1  hilos , intento numero 7
+real 0m9,663s user 0m9,609s sys 0m0,056s
+
+Tiempo para imagen 4k.jpg  con un kernel de  5  y con   1  hilos , intento numero 8
+real 0m10,013s user 0m9,947s sys 0m0,068s
+
+Tiempo para imagen 4k.jpg  con un kernel de  5  y con   1  hilos , intento numero 9
+real 0m9,687s user 0m9,609s sys 0m0,080s
+
+Tiempo para imagen 4k.jpg  con un kernel de  5  y con   2  hilos , intento numero 0
+real 0m6,454s user 0m11,447s sys 0m0,084s
+
+Tiempo para imagen 4k.jpg  con un kernel de  5  y con   2  hilos , intento numero 1
+real 0m6,415s user 0m11,380s sys 0m0,088s
+
+Tiempo para imagen 4k.jpg  con un kernel de  5  y con   2  hilos , intento numero 2
+real 0m6,719s user 0m11,989s sys 0m0,064s
+
+Tiempo para imagen 4k.jpg  con un kernel de  5  y con   2  hilos , intento numero 3
+real 0m6,369s user 0m11,293s sys 0m0,088s
+
+Tiempo para imagen 4k.jpg  con un kernel de  5  y con   2  hilos , intento numero 4
+real 0m6,413s user 0m11,355s sys 0m0,092s
+
+Tiempo para imagen 4k.jpg  con un kernel de  5  y con   2  hilos , intento numero 5
+real 0m6,449s user 0m11,453s sys 0m0,084s
+
+Tiempo para imagen 4k.jpg  con un kernel de  5  y con   2  hilos , intento numero 6
+real 0m6,592s user 0m11,728s sys 0m0,084s
+
+Tiempo para imagen 4k.jpg  con un kernel de  5  y con   2  hilos , intento numero 7
+real 0m6,383s user 0m11,340s sys 0m0,068s
+
+Tiempo para imagen 4k.jpg  con un kernel de  5  y con   2  hilos , intento numero 8
+real 0m6,358s user 0m11,291s sys 0m0,064s
+
+Tiempo para imagen 4k.jpg  con un kernel de  5  y con   2  hilos , intento numero 9
+real 0m6,513s user 0m11,582s sys 0m0,052s
+
+Tiempo para imagen 4k.jpg  con un kernel de  5  y con   4  hilos , intento numero 0
+real 0m4,693s user 0m14,388s sys 0m0,048s
+
+Tiempo para imagen 4k.jpg  con un kernel de  5  y con   4  hilos , intento numero 1
+real 0m4,680s user 0m14,344s sys 0m0,068s
+
+Tiempo para imagen 4k.jpg  con un kernel de  5  y con   4  hilos , intento numero 2
+real 0m4,927s user 0m15,320s sys 0m0,076s
+
+Tiempo para imagen 4k.jpg  con un kernel de  5  y con   4  hilos , intento numero 3
+real 0m4,691s user 0m14,386s sys 0m0,084s
+
+Tiempo para imagen 4k.jpg  con un kernel de  5  y con   4  hilos , intento numero 4
+real 0m4,672s user 0m14,333s sys 0m0,076s
+
+Tiempo para imagen 4k.jpg  con un kernel de  5  y con   4  hilos , intento numero 5
+real 0m4,682s user 0m14,352s sys 0m0,072s
+
+Tiempo para imagen 4k.jpg  con un kernel de  5  y con   4  hilos , intento numero 6
+real 0m4,677s user 0m14,351s sys 0m0,080s
+
+Tiempo para imagen 4k.jpg  con un kernel de  5  y con   4  hilos , intento numero 7
+real 0m4,652s user 0m14,323s sys 0m0,080s
+
+Tiempo para imagen 4k.jpg  con un kernel de  5  y con   4  hilos , intento numero 8
+real 0m4,712s user 0m14,368s sys 0m0,076s
+
+Tiempo para imagen 4k.jpg  con un kernel de  5  y con   4  hilos , intento numero 9
+real 0m4,644s user 0m14,304s sys 0m0,068s
+
+Tiempo para imagen 4k.jpg  con un kernel de  5  y con   8  hilos , intento numero 0
+real 0m4,366s user 0m24,974s sys 0m0,088s
+
+Tiempo para imagen 4k.jpg  con un kernel de  5  y con   8  hilos , intento numero 1
+real 0m4,356s user 0m24,938s sys 0m0,068s
+
+Tiempo para imagen 4k.jpg  con un kernel de  5  y con   8  hilos , intento numero 2
+real 0m4,362s user 0m24,958s sys 0m0,064s
+
+Tiempo para imagen 4k.jpg  con un kernel de  5  y con   8  hilos , intento numero 3
+real 0m4,380s user 0m24,962s sys 0m0,076s
+
+Tiempo para imagen 4k.jpg  con un kernel de  5  y con   8  hilos , intento numero 4
+real 0m4,375s user 0m25,022s sys 0m0,068s
+
+Tiempo para imagen 4k.jpg  con un kernel de  5  y con   8  hilos , intento numero 5
+real 0m4,629s user 0m26,690s sys 0m0,072s
+
+Tiempo para imagen 4k.jpg  con un kernel de  5  y con   8  hilos , intento numero 6
+real 0m4,366s user 0m24,938s sys 0m0,060s
+
+Tiempo para imagen 4k.jpg  con un kernel de  5  y con   8  hilos , intento numero 7
+real 0m4,395s user 0m25,096s sys 0m0,060s
+
+Tiempo para imagen 4k.jpg  con un kernel de  5  y con   8  hilos , intento numero 8
+real 0m4,381s user 0m24,987s sys 0m0,068s
+
+Tiempo para imagen 4k.jpg  con un kernel de  5  y con   8  hilos , intento numero 9
+real 0m4,385s user 0m24,909s sys 0m0,088s
+
+Tiempo para imagen 4k.jpg  con un kernel de  5  y con   16  hilos , intento numero 0
+real 0m4,439s user 0m24,693s sys 0m0,076s
+
+Tiempo para imagen 4k.jpg  con un kernel de  5  y con   16  hilos , intento numero 1
+real 0m4,449s user 0m24,803s sys 0m0,080s
+
+Tiempo para imagen 4k.jpg  con un kernel de  5  y con   16  hilos , intento numero 2
+real 0m4,502s user 0m24,852s sys 0m0,072s
+
+Tiempo para imagen 4k.jpg  con un kernel de  5  y con   16  hilos , intento numero 3
+real 0m4,464s user 0m24,835s sys 0m0,084s
+
+Tiempo para imagen 4k.jpg  con un kernel de  5  y con   16  hilos , intento numero 4
+real 0m4,418s user 0m24,784s sys 0m0,072s
+
+Tiempo para imagen 4k.jpg  con un kernel de  5  y con   16  hilos , intento numero 5
+real 0m4,466s user 0m24,767s sys 0m0,104s
+
+Tiempo para imagen 4k.jpg  con un kernel de  5  y con   16  hilos , intento numero 6
+real 0m4,442s user 0m24,794s sys 0m0,068s
+
+Tiempo para imagen 4k.jpg  con un kernel de  5  y con   16  hilos , intento numero 7
+real 0m4,422s user 0m24,675s sys 0m0,104s
+
+Tiempo para imagen 4k.jpg  con un kernel de  5  y con   16  hilos , intento numero 8
+real 0m4,756s user 0m25,580s sys 0m0,060s
+
+Tiempo para imagen 4k.jpg  con un kernel de  5  y con   16  hilos , intento numero 9
+real 0m4,429s user 0m24,752s sys 0m0,076s
+
+Tiempo para imagen 4k.jpg  con un kernel de  7  y con   1  hilos , intento numero 0
+real 0m12,862s user 0m12,815s sys 0m0,048s
+
+Tiempo para imagen 4k.jpg  con un kernel de  7  y con   1  hilos , intento numero 1
+real 0m13,039s user 0m12,975s sys 0m0,064s
+
+Tiempo para imagen 4k.jpg  con un kernel de  7  y con   1  hilos , intento numero 2
+real 0m12,862s user 0m12,807s sys 0m0,056s
+
+Tiempo para imagen 4k.jpg  con un kernel de  7  y con   1  hilos , intento numero 3
+real 0m12,771s user 0m12,692s sys 0m0,080s
+
+Tiempo para imagen 4k.jpg  con un kernel de  7  y con   1  hilos , intento numero 4
+real 0m13,105s user 0m13,041s sys 0m0,064s
+
+Tiempo para imagen 4k.jpg  con un kernel de  7  y con   1  hilos , intento numero 5
+real 0m12,771s user 0m12,696s sys 0m0,076s
+
+Tiempo para imagen 4k.jpg  con un kernel de  7  y con   1  hilos , intento numero 6
+real 0m13,175s user 0m13,104s sys 0m0,072s
+
+Tiempo para imagen 4k.jpg  con un kernel de  7  y con   1  hilos , intento numero 7
+real 0m12,778s user 0m12,718s sys 0m0,060s
+
+Tiempo para imagen 4k.jpg  con un kernel de  7  y con   1  hilos , intento numero 8
+real 0m12,970s user 0m12,895s sys 0m0,076s
+
+Tiempo para imagen 4k.jpg  con un kernel de  7  y con   1  hilos , intento numero 9
+real 0m12,763s user 0m12,687s sys 0m0,076s
+
+Tiempo para imagen 4k.jpg  con un kernel de  7  y con   2  hilos , intento numero 0
+real 0m8,365s user 0m15,287s sys 0m0,052s
+
+Tiempo para imagen 4k.jpg  con un kernel de  7  y con   2  hilos , intento numero 1
+real 0m8,299s user 0m15,179s sys 0m0,060s
+
+Tiempo para imagen 4k.jpg  con un kernel de  7  y con   2  hilos , intento numero 2
+real 0m8,240s user 0m15,030s sys 0m0,064s
+
+Tiempo para imagen 4k.jpg  con un kernel de  7  y con   2  hilos , intento numero 3
+real 0m8,139s user 0m14,867s sys 0m0,072s
+
+Tiempo para imagen 4k.jpg  con un kernel de  7  y con   2  hilos , intento numero 4
+real 0m8,317s user 0m15,203s sys 0m0,072s
+
+Tiempo para imagen 4k.jpg  con un kernel de  7  y con   2  hilos , intento numero 5
+real 0m8,460s user 0m15,540s sys 0m0,060s
+
+Tiempo para imagen 4k.jpg  con un kernel de  7  y con   2  hilos , intento numero 6
+real 0m8,277s user 0m15,087s sys 0m0,080s
+
+Tiempo para imagen 4k.jpg  con un kernel de  7  y con   2  hilos , intento numero 7
+real 0m8,321s user 0m15,192s sys 0m0,076s
+
+Tiempo para imagen 4k.jpg  con un kernel de  7  y con   2  hilos , intento numero 8
+real 0m8,328s user 0m15,224s sys 0m0,064s
+
+Tiempo para imagen 4k.jpg  con un kernel de  7  y con   2  hilos , intento numero 9
+real 0m8,184s user 0m14,955s sys 0m0,072s
+
+Tiempo para imagen 4k.jpg  con un kernel de  7  y con   4  hilos , intento numero 0
+real 0m5,905s user 0m19,252s sys 0m0,064s
+
+Tiempo para imagen 4k.jpg  con un kernel de  7  y con   4  hilos , intento numero 1
+real 0m5,893s user 0m19,246s sys 0m0,036s
+
+Tiempo para imagen 4k.jpg  con un kernel de  7  y con   4  hilos , intento numero 2
+real 0m5,901s user 0m19,228s sys 0m0,052s
+
+Tiempo para imagen 4k.jpg  con un kernel de  7  y con   4  hilos , intento numero 3
+real 0m6,158s user 0m20,104s sys 0m0,068s
+
+Tiempo para imagen 4k.jpg  con un kernel de  7  y con   4  hilos , intento numero 4
+real 0m5,911s user 0m19,236s sys 0m0,072s
+
+Tiempo para imagen 4k.jpg  con un kernel de  7  y con   4  hilos , intento numero 5
+real 0m6,029s user 0m19,549s sys 0m0,080s
+
+Tiempo para imagen 4k.jpg  con un kernel de  7  y con   4  hilos , intento numero 6
+real 0m5,928s user 0m19,291s sys 0m0,072s
+
+Tiempo para imagen 4k.jpg  con un kernel de  7  y con   4  hilos , intento numero 7
+real 0m5,911s user 0m19,262s sys 0m0,040s
+
+Tiempo para imagen 4k.jpg  con un kernel de  7  y con   4  hilos , intento numero 8
+real 0m6,189s user 0m20,346s sys 0m0,072s
+
+Tiempo para imagen 4k.jpg  con un kernel de  7  y con   4  hilos , intento numero 9
+real 0m5,987s user 0m19,549s sys 0m0,084s
+
+Tiempo para imagen 4k.jpg  con un kernel de  7  y con   8  hilos , intento numero 0
+real 0m5,555s user 0m34,308s sys 0m0,068s
+
+Tiempo para imagen 4k.jpg  con un kernel de  7  y con   8  hilos , intento numero 1
+real 0m5,560s user 0m34,292s sys 0m0,080s
+
+Tiempo para imagen 4k.jpg  con un kernel de  7  y con   8  hilos , intento numero 2
+real 0m5,562s user 0m34,249s sys 0m0,104s
+
+Tiempo para imagen 4k.jpg  con un kernel de  7  y con   8  hilos , intento numero 3
+real 0m5,870s user 0m36,119s sys 0m0,064s
+
+Tiempo para imagen 4k.jpg  con un kernel de  7  y con   8  hilos , intento numero 4
+real 0m5,782s user 0m34,766s sys 0m0,080s
+
+Tiempo para imagen 4k.jpg  con un kernel de  7  y con   8  hilos , intento numero 5
+real 0m5,534s user 0m34,262s sys 0m0,068s
+
+Tiempo para imagen 4k.jpg  con un kernel de  7  y con   8  hilos , intento numero 6
+real 0m5,572s user 0m34,433s sys 0m0,080s
+
+Tiempo para imagen 4k.jpg  con un kernel de  7  y con   8  hilos , intento numero 7
+real 0m5,527s user 0m34,219s sys 0m0,076s
+
+Tiempo para imagen 4k.jpg  con un kernel de  7  y con   8  hilos , intento numero 8
+real 0m5,547s user 0m34,238s sys 0m0,072s
+
+Tiempo para imagen 4k.jpg  con un kernel de  7  y con   8  hilos , intento numero 9
+real 0m5,645s user 0m34,653s sys 0m0,092s
+
+Tiempo para imagen 4k.jpg  con un kernel de  7  y con   16  hilos , intento numero 0
+real 0m5,609s user 0m33,855s sys 0m0,080s
+
+Tiempo para imagen 4k.jpg  con un kernel de  7  y con   16  hilos , intento numero 1
+real 0m5,616s user 0m33,959s sys 0m0,080s
+
+Tiempo para imagen 4k.jpg  con un kernel de  7  y con   16  hilos , intento numero 2
+real 0m5,646s user 0m33,963s sys 0m0,068s
+
+Tiempo para imagen 4k.jpg  con un kernel de  7  y con   16  hilos , intento numero 3
+real 0m5,662s user 0m33,906s sys 0m0,096s
+
+Tiempo para imagen 4k.jpg  con un kernel de  7  y con   16  hilos , intento numero 4
+real 0m5,877s user 0m35,771s sys 0m0,060s
+
+Tiempo para imagen 4k.jpg  con un kernel de  7  y con   16  hilos , intento numero 5
+real 0m5,666s user 0m33,979s sys 0m0,080s
+
+Tiempo para imagen 4k.jpg  con un kernel de  7  y con   16  hilos , intento numero 6
+real 0m5,556s user 0m33,722s sys 0m0,064s
+
+Tiempo para imagen 4k.jpg  con un kernel de  7  y con   16  hilos , intento numero 7
+real 0m5,622s user 0m33,904s sys 0m0,072s
+
+Tiempo para imagen 4k.jpg  con un kernel de  7  y con   16  hilos , intento numero 8
+real 0m5,644s user 0m34,053s sys 0m0,064s
+
+Tiempo para imagen 4k.jpg  con un kernel de  7  y con   16  hilos , intento numero 9
+real 0m5,620s user 0m33,760s sys 0m0,088s
+
+Tiempo para imagen 4k.jpg  con un kernel de  9  y con   1  hilos , intento numero 0
+real 0m15,833s user 0m15,761s sys 0m0,072s
+
+Tiempo para imagen 4k.jpg  con un kernel de  9  y con   1  hilos , intento numero 1
+real 0m16,084s user 0m16,028s sys 0m0,056s
+
+Tiempo para imagen 4k.jpg  con un kernel de  9  y con   1  hilos , intento numero 2
+real 0m15,811s user 0m15,751s sys 0m0,060s
+
+Tiempo para imagen 4k.jpg  con un kernel de  9  y con   1  hilos , intento numero 3
+real 0m15,821s user 0m15,749s sys 0m0,072s
+
+Tiempo para imagen 4k.jpg  con un kernel de  9  y con   1  hilos , intento numero 4
+real 0m15,908s user 0m15,820s sys 0m0,088s
+
+Tiempo para imagen 4k.jpg  con un kernel de  9  y con   1  hilos , intento numero 5
+real 0m16,115s user 0m16,059s sys 0m0,056s
+
+Tiempo para imagen 4k.jpg  con un kernel de  9  y con   1  hilos , intento numero 6
+real 0m15,896s user 0m15,812s sys 0m0,084s
+
+Tiempo para imagen 4k.jpg  con un kernel de  9  y con   1  hilos , intento numero 7
+real 0m15,842s user 0m15,774s sys 0m0,068s
+
+Tiempo para imagen 4k.jpg  con un kernel de  9  y con   1  hilos , intento numero 8
+real 0m16,375s user 0m16,291s sys 0m0,084s
+
+Tiempo para imagen 4k.jpg  con un kernel de  9  y con   1  hilos , intento numero 9
+real 0m16,050s user 0m15,994s sys 0m0,056s
+
+Tiempo para imagen 4k.jpg  con un kernel de  9  y con   2  hilos , intento numero 0
+real 0m10,221s user 0m18,988s sys 0m0,068s
+
+Tiempo para imagen 4k.jpg  con un kernel de  9  y con   2  hilos , intento numero 1
+real 0m10,327s user 0m18,934s sys 0m0,100s
+
+Tiempo para imagen 4k.jpg  con un kernel de  9  y con   2  hilos , intento numero 2
+real 0m10,249s user 0m19,054s sys 0m0,052s
+
+Tiempo para imagen 4k.jpg  con un kernel de  9  y con   2  hilos , intento numero 3
+real 0m9,919s user 0m18,418s sys 0m0,080s
+
+Tiempo para imagen 4k.jpg  con un kernel de  9  y con   2  hilos , intento numero 4
+real 0m10,497s user 0m19,338s sys 0m0,088s
+
+Tiempo para imagen 4k.jpg  con un kernel de  9  y con   2  hilos , intento numero 5
+real 0m9,935s user 0m18,441s sys 0m0,080s
+
+Tiempo para imagen 4k.jpg  con un kernel de  9  y con   2  hilos , intento numero 6
+real 0m10,266s user 0m19,078s sys 0m0,060s
+
+Tiempo para imagen 4k.jpg  con un kernel de  9  y con   2  hilos , intento numero 7
+real 0m10,194s user 0m19,020s sys 0m0,052s
+
+Tiempo para imagen 4k.jpg  con un kernel de  9  y con   2  hilos , intento numero 8
+real 0m10,226s user 0m18,997s sys 0m0,056s
+
+Tiempo para imagen 4k.jpg  con un kernel de  9  y con   2  hilos , intento numero 9
+real 0m9,822s user 0m18,224s sys 0m0,084s
+
+Tiempo para imagen 4k.jpg  con un kernel de  9  y con   4  hilos , intento numero 0
+real 0m7,188s user 0m24,260s sys 0m0,036s
+
+Tiempo para imagen 4k.jpg  con un kernel de  9  y con   4  hilos , intento numero 1
+real 0m7,324s user 0m24,853s sys 0m0,096s
+
+Tiempo para imagen 4k.jpg  con un kernel de  9  y con   4  hilos , intento numero 2
+real 0m7,114s user 0m24,063s sys 0m0,088s
+
+Tiempo para imagen 4k.jpg  con un kernel de  9  y con   4  hilos , intento numero 3
+real 0m7,108s user 0m24,071s sys 0m0,068s
+
+Tiempo para imagen 4k.jpg  con un kernel de  9  y con   4  hilos , intento numero 4
+real 0m7,139s user 0m24,088s sys 0m0,072s
+
+Tiempo para imagen 4k.jpg  con un kernel de  9  y con   4  hilos , intento numero 5
+real 0m7,058s user 0m23,972s sys 0m0,048s
+
+Tiempo para imagen 4k.jpg  con un kernel de  9  y con   4  hilos , intento numero 6
+real 0m7,127s user 0m24,075s sys 0m0,072s
+
+Tiempo para imagen 4k.jpg  con un kernel de  9  y con   4  hilos , intento numero 7
+real 0m7,103s user 0m24,059s sys 0m0,060s
+
+Tiempo para imagen 4k.jpg  con un kernel de  9  y con   4  hilos , intento numero 8
+real 0m7,117s user 0m24,066s sys 0m0,080s
+
+Tiempo para imagen 4k.jpg  con un kernel de  9  y con   4  hilos , intento numero 9
+real 0m7,344s user 0m25,001s sys 0m0,064s
+
+Tiempo para imagen 4k.jpg  con un kernel de  9  y con   8  hilos , intento numero 0
+real 0m6,781s user 0m43,856s sys 0m0,032s
+
+Tiempo para imagen 4k.jpg  con un kernel de  9  y con   8  hilos , intento numero 1
+real 0m6,832s user 0m43,672s sys 0m0,084s
+
+Tiempo para imagen 4k.jpg  con un kernel de  9  y con   8  hilos , intento numero 2
+real 0m6,771s user 0m43,748s sys 0m0,084s
+
+Tiempo para imagen 4k.jpg  con un kernel de  9  y con   8  hilos , intento numero 3
+real 0m6,653s user 0m43,172s sys 0m0,080s
+
+Tiempo para imagen 4k.jpg  con un kernel de  9  y con   8  hilos , intento numero 4
+real 0m6,716s user 0m43,634s sys 0m0,080s
+
+Tiempo para imagen 4k.jpg  con un kernel de  9  y con   8  hilos , intento numero 5
+real 0m7,077s user 0m45,857s sys 0m0,076s
+
+Tiempo para imagen 4k.jpg  con un kernel de  9  y con   8  hilos , intento numero 6
+real 0m6,746s user 0m43,659s sys 0m0,068s
+
+Tiempo para imagen 4k.jpg  con un kernel de  9  y con   8  hilos , intento numero 7
+real 0m6,703s user 0m43,679s sys 0m0,056s
+
+Tiempo para imagen 4k.jpg  con un kernel de  9  y con   8  hilos , intento numero 8
+real 0m6,965s user 0m45,467s sys 0m0,076s
+
+Tiempo para imagen 4k.jpg  con un kernel de  9  y con   8  hilos , intento numero 9
+real 0m6,706s user 0m43,570s sys 0m0,072s
+
+Tiempo para imagen 4k.jpg  con un kernel de  9  y con   16  hilos , intento numero 0
+real 0m6,838s user 0m43,159s sys 0m0,064s
+
+Tiempo para imagen 4k.jpg  con un kernel de  9  y con   16  hilos , intento numero 1
+real 0m6,800s user 0m43,007s sys 0m0,072s
+
+Tiempo para imagen 4k.jpg  con un kernel de  9  y con   16  hilos , intento numero 2
+real 0m6,943s user 0m43,517s sys 0m0,088s
+
+Tiempo para imagen 4k.jpg  con un kernel de  9  y con   16  hilos , intento numero 3
+real 0m6,850s user 0m43,321s sys 0m0,092s
+
+Tiempo para imagen 4k.jpg  con un kernel de  9  y con   16  hilos , intento numero 4
+real 0m6,802s user 0m43,189s sys 0m0,052s
+
+Tiempo para imagen 4k.jpg  con un kernel de  9  y con   16  hilos , intento numero 5
+real 0m6,781s user 0m43,158s sys 0m0,076s
+
+Tiempo para imagen 4k.jpg  con un kernel de  9  y con   16  hilos , intento numero 6
+real 0m6,821s user 0m43,159s sys 0m0,072s
+
+Tiempo para imagen 4k.jpg  con un kernel de  9  y con   16  hilos , intento numero 7
+real 0m7,017s user 0m44,817s sys 0m0,096s
+
+Tiempo para imagen 4k.jpg  con un kernel de  9  y con   16  hilos , intento numero 8
+real 0m6,792s user 0m43,297s sys 0m0,060s
+
+Tiempo para imagen 4k.jpg  con un kernel de  9  y con   16  hilos , intento numero 9
+real 0m6,856s user 0m43,551s sys 0m0,080s
+
+Tiempo para imagen 4k.jpg  con un kernel de  11  y con   1  hilos , intento numero 0
+real 0m20,587s user 0m20,528s sys 0m0,060s
+
+Tiempo para imagen 4k.jpg  con un kernel de  11  y con   1  hilos , intento numero 1
+real 0m21,160s user 0m21,096s sys 0m0,064s
+
+Tiempo para imagen 4k.jpg  con un kernel de  11  y con   1  hilos , intento numero 2
+real 0m20,449s user 0m20,398s sys 0m0,052s
+
+Tiempo para imagen 4k.jpg  con un kernel de  11  y con   1  hilos , intento numero 3
+real 0m20,465s user 0m20,397s sys 0m0,064s
+
+Tiempo para imagen 4k.jpg  con un kernel de  11  y con   1  hilos , intento numero 4
+real 0m21,599s user 0m21,539s sys 0m0,060s
+
+Tiempo para imagen 4k.jpg  con un kernel de  11  y con   1  hilos , intento numero 5
+real 0m20,805s user 0m20,722s sys 0m0,084s
+
+Tiempo para imagen 4k.jpg  con un kernel de  11  y con   1  hilos , intento numero 6
+real 0m20,892s user 0m20,833s sys 0m0,060s
+
+Tiempo para imagen 4k.jpg  con un kernel de  11  y con   1  hilos , intento numero 7
+real 0m20,710s user 0m20,639s sys 0m0,072s
+
+Tiempo para imagen 4k.jpg  con un kernel de  11  y con   1  hilos , intento numero 8
+real 0m20,533s user 0m20,470s sys 0m0,064s
+
+Tiempo para imagen 4k.jpg  con un kernel de  11  y con   1  hilos , intento numero 9
+real 0m20,554s user 0m20,495s sys 0m0,060s
+
+Tiempo para imagen 4k.jpg  con un kernel de  11  y con   2  hilos , intento numero 0
+real 0m13,751s user 0m25,921s sys 0m0,084s
+
+Tiempo para imagen 4k.jpg  con un kernel de  11  y con   2  hilos , intento numero 1
+real 0m13,066s user 0m24,666s sys 0m0,064s
+
+Tiempo para imagen 4k.jpg  con un kernel de  11  y con   2  hilos , intento numero 2
+real 0m13,003s user 0m24,636s sys 0m0,052s
+
+Tiempo para imagen 4k.jpg  con un kernel de  11  y con   2  hilos , intento numero 3
+real 0m13,339s user 0m25,207s sys 0m0,072s
+
+Tiempo para imagen 4k.jpg  con un kernel de  11  y con   2  hilos , intento numero 4
+real 0m13,262s user 0m25,058s sys 0m0,060s
+
+Tiempo para imagen 4k.jpg  con un kernel de  11  y con   2  hilos , intento numero 5
+real 0m13,431s user 0m25,408s sys 0m0,064s
+
+Tiempo para imagen 4k.jpg  con un kernel de  11  y con   2  hilos , intento numero 6
+real 0m13,320s user 0m25,131s sys 0m0,092s
+
+Tiempo para imagen 4k.jpg  con un kernel de  11  y con   2  hilos , intento numero 7
+real 0m13,256s user 0m25,058s sys 0m0,056s
+
+Tiempo para imagen 4k.jpg  con un kernel de  11  y con   2  hilos , intento numero 8
+real 0m13,130s user 0m24,786s sys 0m0,084s
+
+Tiempo para imagen 4k.jpg  con un kernel de  11  y con   2  hilos , intento numero 9
+real 0m13,104s user 0m24,716s sys 0m0,048s
+
+Tiempo para imagen 4k.jpg  con un kernel de  11  y con   4  hilos , intento numero 0
+real 0m9,135s user 0m31,570s sys 0m0,096s
+
+Tiempo para imagen 4k.jpg  con un kernel de  11  y con   4  hilos , intento numero 1
+real 0m8,699s user 0m30,537s sys 0m0,084s
+
+Tiempo para imagen 4k.jpg  con un kernel de  11  y con   4  hilos , intento numero 2
+real 0m8,956s user 0m31,363s sys 0m0,064s
+
+Tiempo para imagen 4k.jpg  con un kernel de  11  y con   4  hilos , intento numero 3
+real 0m8,737s user 0m30,679s sys 0m0,064s
+
+Tiempo para imagen 4k.jpg  con un kernel de  11  y con   4  hilos , intento numero 4
+real 0m9,041s user 0m31,429s sys 0m0,088s
+
+Tiempo para imagen 4k.jpg  con un kernel de  11  y con   4  hilos , intento numero 5
+real 0m8,754s user 0m30,803s sys 0m0,092s
+
+Tiempo para imagen 4k.jpg  con un kernel de  11  y con   4  hilos , intento numero 6
+real 0m9,206s user 0m32,397s sys 0m0,048s
+
+Tiempo para imagen 4k.jpg  con un kernel de  11  y con   4  hilos , intento numero 7
+real 0m8,769s user 0m30,615s sys 0m0,064s
+
+Tiempo para imagen 4k.jpg  con un kernel de  11  y con   4  hilos , intento numero 8
+real 0m8,980s user 0m31,250s sys 0m0,080s
+
+Tiempo para imagen 4k.jpg  con un kernel de  11  y con   4  hilos , intento numero 9
+real 0m8,908s user 0m31,161s sys 0m0,072s
+
+Tiempo para imagen 4k.jpg  con un kernel de  11  y con   8  hilos , intento numero 0
+real 0m8,160s user 0m55,084s sys 0m0,080s
+
+Tiempo para imagen 4k.jpg  con un kernel de  11  y con   8  hilos , intento numero 1
+real 0m8,085s user 0m54,511s sys 0m0,064s
+
+Tiempo para imagen 4k.jpg  con un kernel de  11  y con   8  hilos , intento numero 2
+real 0m8,203s user 0m55,202s sys 0m0,076s
+
+Tiempo para imagen 4k.jpg  con un kernel de  11  y con   8  hilos , intento numero 3
+real 0m8,403s user 0m56,777s sys 0m0,088s
+
+Tiempo para imagen 4k.jpg  con un kernel de  11  y con   8  hilos , intento numero 4
+real 0m8,288s user 0m55,398s sys 0m0,080s
+
+Tiempo para imagen 4k.jpg  con un kernel de  11  y con   8  hilos , intento numero 5
+real 0m8,230s user 0m55,239s sys 0m0,056s
+
+Tiempo para imagen 4k.jpg  con un kernel de  11  y con   8  hilos , intento numero 6
+real 0m8,176s user 0m55,122s sys 0m0,064s
+
+Tiempo para imagen 4k.jpg  con un kernel de  11  y con   8  hilos , intento numero 7
+real 0m8,366s user 0m56,738s sys 0m0,080s
+
+Tiempo para imagen 4k.jpg  con un kernel de  11  y con   8  hilos , intento numero 8
+real 0m8,222s user 0m55,154s sys 0m0,056s
+
+Tiempo para imagen 4k.jpg  con un kernel de  11  y con   8  hilos , intento numero 9
+real 0m8,027s user 0m54,244s sys 0m0,056s
+
+Tiempo para imagen 4k.jpg  con un kernel de  11  y con   16  hilos , intento numero 0
+real 0m8,309s user 0m54,607s sys 0m0,084s
+
+Tiempo para imagen 4k.jpg  con un kernel de  11  y con   16  hilos , intento numero 1
+real 0m8,410s user 0m54,669s sys 0m0,084s
+
+Tiempo para imagen 4k.jpg  con un kernel de  11  y con   16  hilos , intento numero 2
+real 0m8,573s user 0m56,479s sys 0m0,084s
+
+Tiempo para imagen 4k.jpg  con un kernel de  11  y con   16  hilos , intento numero 3
+real 0m8,077s user 0m53,404s sys 0m0,072s
+
+Tiempo para imagen 4k.jpg  con un kernel de  11  y con   16  hilos , intento numero 4
+real 0m8,300s user 0m54,693s sys 0m0,084s
+
+Tiempo para imagen 4k.jpg  con un kernel de  11  y con   16  hilos , intento numero 5
+real 0m8,155s user 0m53,725s sys 0m0,088s
+
+Tiempo para imagen 4k.jpg  con un kernel de  11  y con   16  hilos , intento numero 6
+real 0m9,065s user 0m59,768s sys 0m0,076s
+
+Tiempo para imagen 4k.jpg  con un kernel de  11  y con   16  hilos , intento numero 7
+real 0m8,496s user 0m56,444s sys 0m0,064s
+
+Tiempo para imagen 4k.jpg  con un kernel de  11  y con   16  hilos , intento numero 8
+real 0m8,567s user 0m56,188s sys 0m0,080s
+
+Tiempo para imagen 4k.jpg  con un kernel de  11  y con   16  hilos , intento numero 9
+real 0m8,187s user 0m54,210s sys 0m0,076s
+
+Tiempo para imagen 4k.jpg  con un kernel de  13  y con   1  hilos , intento numero 0
+real 0m23,981s user 0m23,933s sys 0m0,048s
+
+Tiempo para imagen 4k.jpg  con un kernel de  13  y con   1  hilos , intento numero 1
+real 0m25,000s user 0m24,940s sys 0m0,060s
+
+Tiempo para imagen 4k.jpg  con un kernel de  13  y con   1  hilos , intento numero 2
+real 0m23,533s user 0m23,453s sys 0m0,080s
+
+Tiempo para imagen 4k.jpg  con un kernel de  13  y con   1  hilos , intento numero 3
+real 0m23,561s user 0m23,498s sys 0m0,064s
+
+Tiempo para imagen 4k.jpg  con un kernel de  13  y con   1  hilos , intento numero 4
+real 0m23,822s user 0m23,758s sys 0m0,064s
+
+Tiempo para imagen 4k.jpg  con un kernel de  13  y con   1  hilos , intento numero 5
+real 0m23,570s user 0m23,490s sys 0m0,080s
+
+Tiempo para imagen 4k.jpg  con un kernel de  13  y con   1  hilos , intento numero 6
+real 0m23,829s user 0m23,770s sys 0m0,060s
+
+Tiempo para imagen 4k.jpg  con un kernel de  13  y con   1  hilos , intento numero 7
+real 0m23,599s user 0m23,539s sys 0m0,060s
+
+Tiempo para imagen 4k.jpg  con un kernel de  13  y con   1  hilos , intento numero 8
+real 0m23,590s user 0m23,514s sys 0m0,076s
+
+Tiempo para imagen 4k.jpg  con un kernel de  13  y con   1  hilos , intento numero 9
+real 0m24,166s user 0m24,110s sys 0m0,056s
+
+Tiempo para imagen 4k.jpg  con un kernel de  13  y con   2  hilos , intento numero 0
+real 0m14,878s user 0m28,312s sys 0m0,080s
+
+Tiempo para imagen 4k.jpg  con un kernel de  13  y con   2  hilos , intento numero 1
+real 0m14,828s user 0m28,205s sys 0m0,060s
+
+Tiempo para imagen 4k.jpg  con un kernel de  13  y con   2  hilos , intento numero 2
+real 0m14,875s user 0m28,281s sys 0m0,072s
+
+Tiempo para imagen 4k.jpg  con un kernel de  13  y con   2  hilos , intento numero 3
+real 0m14,991s user 0m28,524s sys 0m0,096s
+
+Tiempo para imagen 4k.jpg  con un kernel de  13  y con   2  hilos , intento numero 4
+real 0m14,963s user 0m28,463s sys 0m0,072s
+
+Tiempo para imagen 4k.jpg  con un kernel de  13  y con   2  hilos , intento numero 5
+real 0m14,866s user 0m28,254s sys 0m0,060s
+
+Tiempo para imagen 4k.jpg  con un kernel de  13  y con   2  hilos , intento numero 6
+real 0m14,816s user 0m28,214s sys 0m0,068s
+
+Tiempo para imagen 4k.jpg  con un kernel de  13  y con   2  hilos , intento numero 7
+real 0m14,989s user 0m28,568s sys 0m0,060s
+
+Tiempo para imagen 4k.jpg  con un kernel de  13  y con   2  hilos , intento numero 8
+real 0m14,811s user 0m28,168s sys 0m0,064s
+
+Tiempo para imagen 4k.jpg  con un kernel de  13  y con   2  hilos , intento numero 9
+real 0m14,889s user 0m28,315s sys 0m0,064s
+
+Tiempo para imagen 4k.jpg  con un kernel de  13  y con   4  hilos , intento numero 0
+real 0m10,659s user 0m38,164s sys 0m0,052s
+
+Tiempo para imagen 4k.jpg  con un kernel de  13  y con   4  hilos , intento numero 1
+real 0m10,480s user 0m37,586s sys 0m0,072s
+
+Tiempo para imagen 4k.jpg  con un kernel de  13  y con   4  hilos , intento numero 2
+real 0m10,179s user 0m36,281s sys 0m0,056s
+
+Tiempo para imagen 4k.jpg  con un kernel de  13  y con   4  hilos , intento numero 3
+real 0m9,901s user 0m35,295s sys 0m0,064s
+
+Tiempo para imagen 4k.jpg  con un kernel de  13  y con   4  hilos , intento numero 4
+real 0m10,184s user 0m36,229s sys 0m0,072s
+
+Tiempo para imagen 4k.jpg  con un kernel de  13  y con   4  hilos , intento numero 5
+real 0m10,071s user 0m35,812s sys 0m0,088s
+
+Tiempo para imagen 4k.jpg  con un kernel de  13  y con   4  hilos , intento numero 6
+real 0m10,190s user 0m36,252s sys 0m0,072s
+
+Tiempo para imagen 4k.jpg  con un kernel de  13  y con   4  hilos , intento numero 7
+real 0m10,311s user 0m36,822s sys 0m0,060s
+
+Tiempo para imagen 4k.jpg  con un kernel de  13  y con   4  hilos , intento numero 8
+real 0m10,262s user 0m36,528s sys 0m0,064s
+
+Tiempo para imagen 4k.jpg  con un kernel de  13  y con   4  hilos , intento numero 9
+real 0m9,794s user 0m34,849s sys 0m0,072s
+
+Tiempo para imagen 4k.jpg  con un kernel de  13  y con   8  hilos , intento numero 0
+real 0m9,330s user 1m4,513s sys 0m0,088s
+
+Tiempo para imagen 4k.jpg  con un kernel de  13  y con   8  hilos , intento numero 1
+real 0m9,200s user 1m3,320s sys 0m0,056s
+
+Tiempo para imagen 4k.jpg  con un kernel de  13  y con   8  hilos , intento numero 2
+real 0m9,395s user 1m4,584s sys 0m0,084s
+
+Tiempo para imagen 4k.jpg  con un kernel de  13  y con   8  hilos , intento numero 3
+real 0m9,632s user 1m6,380s sys 0m0,080s
+
+Tiempo para imagen 4k.jpg  con un kernel de  13  y con   8  hilos , intento numero 4
+real 0m9,367s user 1m4,584s sys 0m0,080s
+
+Tiempo para imagen 4k.jpg  con un kernel de  13  y con   8  hilos , intento numero 5
+real 0m9,364s user 1m4,167s sys 0m0,068s
+
+Tiempo para imagen 4k.jpg  con un kernel de  13  y con   8  hilos , intento numero 6
+real 0m9,572s user 1m5,393s sys 0m0,068s
+
+Tiempo para imagen 4k.jpg  con un kernel de  13  y con   8  hilos , intento numero 7
+real 0m9,281s user 1m4,015s sys 0m0,088s
+
+Tiempo para imagen 4k.jpg  con un kernel de  13  y con   8  hilos , intento numero 8
+real 0m9,379s user 1m4,613s sys 0m0,064s
+
+Tiempo para imagen 4k.jpg  con un kernel de  13  y con   8  hilos , intento numero 9
+real 0m9,166s user 1m3,288s sys 0m0,088s
+
+Tiempo para imagen 4k.jpg  con un kernel de  13  y con   16  hilos , intento numero 0
+real 0m9,701s user 1m5,521s sys 0m0,068s
+
+Tiempo para imagen 4k.jpg  con un kernel de  13  y con   16  hilos , intento numero 1
+real 0m9,729s user 1m5,894s sys 0m0,120s
+
+Tiempo para imagen 4k.jpg  con un kernel de  13  y con   16  hilos , intento numero 2
+real 0m9,463s user 1m4,012s sys 0m0,060s
+
+Tiempo para imagen 4k.jpg  con un kernel de  13  y con   16  hilos , intento numero 3
+real 0m9,434s user 1m4,071s sys 0m0,084s
+
+Tiempo para imagen 4k.jpg  con un kernel de  13  y con   16  hilos , intento numero 4
+real 0m9,472s user 1m4,133s sys 0m0,072s
+
+Tiempo para imagen 4k.jpg  con un kernel de  13  y con   16  hilos , intento numero 5
+real 0m9,258s user 1m2,560s sys 0m0,076s
+
+Tiempo para imagen 4k.jpg  con un kernel de  13  y con   16  hilos , intento numero 6
+real 0m9,790s user 1m6,013s sys 0m0,052s
+
+Tiempo para imagen 4k.jpg  con un kernel de  13  y con   16  hilos , intento numero 7
+real 0m9,234s user 1m2,591s sys 0m0,084s
+
+Tiempo para imagen 4k.jpg  con un kernel de  13  y con   16  hilos , intento numero 8
+real 0m9,453s user 1m4,029s sys 0m0,072s
+
+Tiempo para imagen 4k.jpg  con un kernel de  13  y con   16  hilos , intento numero 9
+real 0m9,390s user 1m2,977s sys 0m0,080s
+
+Tiempo para imagen 4k.jpg  con un kernel de  15  y con   1  hilos , intento numero 0
+real 0m26,936s user 0m26,847s sys 0m0,088s
+
+Tiempo para imagen 4k.jpg  con un kernel de  15  y con   1  hilos , intento numero 1
+real 0m26,672s user 0m26,611s sys 0m0,060s
+
+Tiempo para imagen 4k.jpg  con un kernel de  15  y con   1  hilos , intento numero 2
+real 0m26,829s user 0m26,773s sys 0m0,056s
+
+Tiempo para imagen 4k.jpg  con un kernel de  15  y con   1  hilos , intento numero 3
+real 0m27,045s user 0m26,960s sys 0m0,084s
+
+Tiempo para imagen 4k.jpg  con un kernel de  15  y con   1  hilos , intento numero 4
+real 0m26,761s user 0m26,716s sys 0m0,044s
+
+Tiempo para imagen 4k.jpg  con un kernel de  15  y con   1  hilos , intento numero 5
+real 0m26,987s user 0m26,942s sys 0m0,044s
+
+Tiempo para imagen 4k.jpg  con un kernel de  15  y con   1  hilos , intento numero 6
+real 0m26,834s user 0m26,758s sys 0m0,076s
+
+Tiempo para imagen 4k.jpg  con un kernel de  15  y con   1  hilos , intento numero 7
+real 0m26,979s user 0m26,919s sys 0m0,060s
+
+Tiempo para imagen 4k.jpg  con un kernel de  15  y con   1  hilos , intento numero 8
+real 0m27,091s user 0m27,003s sys 0m0,088s
+
+Tiempo para imagen 4k.jpg  con un kernel de  15  y con   1  hilos , intento numero 9
+real 0m27,331s user 0m27,247s sys 0m0,080s
+
+Tiempo para imagen 4k.jpg  con un kernel de  15  y con   2  hilos , intento numero 0
+real 0m17,035s user 0m32,627s sys 0m0,056s
+
+Tiempo para imagen 4k.jpg  con un kernel de  15  y con   2  hilos , intento numero 1
+real 0m17,039s user 0m32,609s sys 0m0,068s
+
+Tiempo para imagen 4k.jpg  con un kernel de  15  y con   2  hilos , intento numero 2
+real 0m17,038s user 0m32,621s sys 0m0,068s
+
+Tiempo para imagen 4k.jpg  con un kernel de  15  y con   2  hilos , intento numero 3
+real 0m17,305s user 0m33,086s sys 0m0,104s
+
+Tiempo para imagen 4k.jpg  con un kernel de  15  y con   2  hilos , intento numero 4
+real 0m17,077s user 0m32,675s sys 0m0,084s
+
+Tiempo para imagen 4k.jpg  con un kernel de  15  y con   2  hilos , intento numero 5
+real 0m17,059s user 0m32,658s sys 0m0,064s
+
+Tiempo para imagen 4k.jpg  con un kernel de  15  y con   2  hilos , intento numero 6
+real 0m17,366s user 0m33,213s sys 0m0,044s
+
+Tiempo para imagen 4k.jpg  con un kernel de  15  y con   2  hilos , intento numero 7
+real 0m16,863s user 0m32,049s sys 0m0,076s
+
+Tiempo para imagen 4k.jpg  con un kernel de  15  y con   2  hilos , intento numero 8
+real 0m17,128s user 0m32,776s sys 0m0,076s
+
+Tiempo para imagen 4k.jpg  con un kernel de  15  y con   2  hilos , intento numero 9
+real 0m16,828s user 0m32,242s sys 0m0,056s
+
+Tiempo para imagen 4k.jpg  con un kernel de  15  y con   4  hilos , intento numero 0
+real 0m12,269s user 0m44,376s sys 0m0,084s
+
+Tiempo para imagen 4k.jpg  con un kernel de  15  y con   4  hilos , intento numero 1
+real 0m11,348s user 0m40,887s sys 0m0,076s
+
+Tiempo para imagen 4k.jpg  con un kernel de  15  y con   4  hilos , intento numero 2
+real 0m11,412s user 0m41,128s sys 0m0,084s
+
+Tiempo para imagen 4k.jpg  con un kernel de  15  y con   4  hilos , intento numero 3
+real 0m11,449s user 0m41,239s sys 0m0,064s
+
+Tiempo para imagen 4k.jpg  con un kernel de  15  y con   4  hilos , intento numero 4
+real 0m11,414s user 0m41,070s sys 0m0,068s
+
+Tiempo para imagen 4k.jpg  con un kernel de  15  y con   4  hilos , intento numero 5
+real 0m11,636s user 0m41,970s sys 0m0,084s
+
+Tiempo para imagen 4k.jpg  con un kernel de  15  y con   4  hilos , intento numero 6
+real 0m11,465s user 0m41,304s sys 0m0,076s
+
+Tiempo para imagen 4k.jpg  con un kernel de  15  y con   4  hilos , intento numero 7
+real 0m11,403s user 0m41,146s sys 0m0,064s
+
+Tiempo para imagen 4k.jpg  con un kernel de  15  y con   4  hilos , intento numero 8
+real 0m11,437s user 0m41,295s sys 0m0,080s
+
+Tiempo para imagen 4k.jpg  con un kernel de  15  y con   4  hilos , intento numero 9
+real 0m11,899s user 0m43,021s sys 0m0,060s
+
+Tiempo para imagen 4k.jpg  con un kernel de  15  y con   8  hilos , intento numero 0
+real 0m10,819s user 1m14,440s sys 0m0,084s
+
+Tiempo para imagen 4k.jpg  con un kernel de  15  y con   8  hilos , intento numero 1
+real 0m10,432s user 1m12,545s sys 0m0,076s
+
+Tiempo para imagen 4k.jpg  con un kernel de  15  y con   8  hilos , intento numero 2
+real 0m10,946s user 1m15,117s sys 0m0,048s
+
+Tiempo para imagen 4k.jpg  con un kernel de  15  y con   8  hilos , intento numero 3
+real 0m10,569s user 1m14,120s sys 0m0,060s
+
+Tiempo para imagen 4k.jpg  con un kernel de  15  y con   8  hilos , intento numero 4
+real 0m10,298s user 1m12,521s sys 0m0,096s
+
+Tiempo para imagen 4k.jpg  con un kernel de  15  y con   8  hilos , intento numero 5
+real 0m10,733s user 1m14,339s sys 0m0,088s
+
+Tiempo para imagen 4k.jpg  con un kernel de  15  y con   8  hilos , intento numero 6
+real 0m10,610s user 1m14,713s sys 0m0,044s
+
+Tiempo para imagen 4k.jpg  con un kernel de  15  y con   8  hilos , intento numero 7
+real 0m10,574s user 1m14,111s sys 0m0,076s
+
+Tiempo para imagen 4k.jpg  con un kernel de  15  y con   8  hilos , intento numero 8
+real 0m10,276s user 1m12,155s sys 0m0,080s
+
+Tiempo para imagen 4k.jpg  con un kernel de  15  y con   8  hilos , intento numero 9
+real 0m10,559s user 1m14,125s sys 0m0,084s
+
+Tiempo para imagen 4k.jpg  con un kernel de  15  y con   16  hilos , intento numero 0
+real 0m10,333s user 1m11,290s sys 0m0,072s
+
+Tiempo para imagen 4k.jpg  con un kernel de  15  y con   16  hilos , intento numero 1
+real 0m10,735s user 1m14,035s sys 0m0,076s
+
+Tiempo para imagen 4k.jpg  con un kernel de  15  y con   16  hilos , intento numero 2
+real 0m10,770s user 1m14,137s sys 0m0,076s
+
+Tiempo para imagen 4k.jpg  con un kernel de  15  y con   16  hilos , intento numero 3
+real 0m10,679s user 1m13,556s sys 0m0,068s
+
+Tiempo para imagen 4k.jpg  con un kernel de  15  y con   16  hilos , intento numero 4
+real 0m10,382s user 1m11,552s sys 0m0,096s
+
+Tiempo para imagen 4k.jpg  con un kernel de  15  y con   16  hilos , intento numero 5
+real 0m10,770s user 1m14,045s sys 0m0,056s
+
+Tiempo para imagen 4k.jpg  con un kernel de  15  y con   16  hilos , intento numero 6
+real 0m10,555s user 1m12,419s sys 0m0,076s
+
+Tiempo para imagen 4k.jpg  con un kernel de  15  y con   16  hilos , intento numero 7
+real 0m11,240s user 1m16,304s sys 0m0,108s
+
+Tiempo para imagen 4k.jpg  con un kernel de  15  y con   16  hilos , intento numero 8
+real 0m10,982s user 1m16,003s sys 0m0,108s
+
+Tiempo para imagen 4k.jpg  con un kernel de  15  y con   16  hilos , intento numero 9
+real 0m11,074s user 1m14,595s sys 0m0,104s
+
