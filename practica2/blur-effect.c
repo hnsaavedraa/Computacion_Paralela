@@ -3,6 +3,7 @@
 #include <math.h>
 #include <string.h>
 #include <pthread.h>
+#include "omp.h"
 
 #define STB_IMAGE_IMPLEMENTATION
 #include "stb_image/stb_image.h"
@@ -92,13 +93,16 @@ void boxBlurH(int *scl, int *tcl, int w, int h, int r, int init_i, int fin_i)
 }
 
 //Metodo ejecutado por los hilos
-void parallelProcess(void *data)
+void parallelProcess(struct parameters dataAux)
 {
-
-	struct parameters *dataAux;
-	dataAux = (struct parameters *)data;
-	boxBlurH(dataAux->tcl, dataAux->scl, dataAux->w, dataAux->h, dataAux->r, dataAux->init_i, dataAux->fin_i);
-	boxBlurT(dataAux->scl, dataAux->tcl, dataAux->w, dataAux->h, dataAux->r, dataAux->init_i, dataAux->fin_i);
+	
+	//struct parameters *dataAux;
+	//dataAux = (struct parameters *)data;
+	//printf("%i\n",dataAux.init_i);
+	//boxBlurH(dataAux->tcl, dataAux->scl, dataAux->w, dataAux->h, dataAux->r, dataAux->init_i, dataAux->fin_i);
+	//boxBlurT(dataAux->scl, dataAux->tcl, dataAux->w, dataAux->h, dataAux->r, dataAux->init_i, dataAux->fin_i);
+	boxBlurH(dataAux.tcl, dataAux.scl, dataAux.w, dataAux.h, dataAux.r, dataAux.init_i, dataAux.fin_i);
+	boxBlurT(dataAux.scl, dataAux.tcl, dataAux.w, dataAux.h, dataAux.r, dataAux.init_i, dataAux.fin_i);
 }
 
 //Metodo donde se crean los hilos y se asigna el trabajo de cada uno
@@ -111,13 +115,11 @@ void boxBlur(int *scl, int *tcl, int w, int h, int r, int numThreads)
 		*(tcl + i) = aux;
 	}
 
-	int interval_h = floor((h) / numThreads);
+
 	int threadId[numThreads], i, *retval;
 	pthread_t thread[numThreads];
-	int init_i;
-	int fin_i;
 	struct parameters data_array[numThreads];
-
+/*
 	for (i = 0; i < numThreads; i++)
 	{
 		struct parameters data;
@@ -145,13 +147,56 @@ void boxBlur(int *scl, int *tcl, int w, int h, int r, int numThreads)
 
 		data.id = i;
 		data_array[i] = data;
-		pthread_create(&thread[i], NULL, (void *)parallelProcess, &data_array[i]);
+		//pthread_create(&thread[i], NULL, (void *)parallelProcess, &data_array[i]);
+	}
+	
+	printf("%i\n", numThreads);
+	for (i = 0; i < numThreads; i++){
+		printf("%i\n",data_array[i].init_i);
+	}*/
+	printf("num %i ",numThreads);
+	#pragma omp parrallel num_threads(8)
+	{	
+		/*int ID = omp_get_thread_num() -1;
+		struct parameters data;
+		int interval_h = floor((h) / numThreads);
+		int init_i;
+		int fin_i;
+		data.scl = scl;
+		data.tcl = tcl;
+		data.w = w;
+		data.h = h;
+		data.r = r;
+		//threadId[ID] = i;
+		if (ID == numThreads - 1)
+		{
+			fin_i = h;
+			init_i = ID * interval_h;
+			data.init_i = init_i;
+			data.fin_i = fin_i;
+		}
+		else
+		{
+			init_i = ID * interval_h;
+			fin_i = (ID + 1) * interval_h;
+			data.init_i = init_i;
+			data.fin_i = fin_i;
+		}
+
+		data.id = ID;
+		//printf("i, h: %i init :i", h);
+		//data_array[i] = data;
+		//printf("%i\n",data.init_i);
+		parallelProcess(data);
+		*/
+		printf("hilo: %i\n", omp_get_thread_num());
 	}
 
-	for (i = 0; i < numThreads; i++)
+	/*for (i = 0; i < numThreads; i++)
 	{
 		pthread_join(thread[i], NULL);
 	}
+	*/
 }
 
 //Metodo que aplica las iteracion del algoritmo boxblur para aproximar Gaussian blur
