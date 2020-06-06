@@ -24,11 +24,11 @@ int min(int num1, int num2)
 	return (num1 > num2) ? num2 : num1;
 }
 
-int * intdup(int const * src, int len)
+int *intdup(int const *src, int len)
 {
-   int * p = malloc(len * sizeof(int));
-   memcpy(p, src, len * sizeof(int));
-   return p;
+	int *p = malloc(len * sizeof(int));
+	memcpy(p, src, len * sizeof(int));
+	return p;
 }
 
 void buildTarget(int target[], int *recive[], int lastrecive[], int n, int lastn, int slaves)
@@ -180,10 +180,11 @@ int main(int argc, char **argv)
 			*(g + i) = (uint8_t) * (p + 1);
 			*(b + i) = (uint8_t) * (p + 2);
 		}
-		
+
 		chunckSize = (height / (tasks - 1)) * width;
 		int *toSend = (int *)malloc(sizeof(int) * (chunckSize));
 		int z = tasks - 1;
+		int lastChuckSize = (width * height) - ((tasks - 2) * chunckSize);
 		int *lasttoSend = (int *)malloc(sizeof(int) * (lastChuckSize));
 
 		//Canal R
@@ -194,7 +195,7 @@ int main(int argc, char **argv)
 			MPI_Send(toSend, chunckSize, MPI_INT, x, tag, MPI_COMM_WORLD);
 			MPI_Send(&width, 1, MPI_INT, x, tag, MPI_COMM_WORLD);
 		}
-		
+
 		memcpy(lasttoSend, &r[(z - 1) * chunckSize], lastChuckSize * sizeof(*r));
 		MPI_Send(&lastChuckSize, 1, MPI_INT, z, tag, MPI_COMM_WORLD);
 		MPI_Send(lasttoSend, lastChuckSize, MPI_INT, z, tag, MPI_COMM_WORLD);
@@ -207,7 +208,7 @@ int main(int argc, char **argv)
 			int *r_recv = (int *)malloc(sizeof(int) * (chunckSize));
 			MPI_Recv(r_recv, chunckSize, MPI_INT, g, tag, MPI_COMM_WORLD, &status);
 			printf("position despues master : %i iam %i \n", r_recv[chunckSize - 1], g);
-			result[g - 1] =  intdup(r_recv, chunckSize);
+			result[g - 1] = intdup(r_recv, chunckSize);
 			printf("position en array target : %i iam %i \n", result[g - 1][(chunckSize - 1)], g);
 
 			free(r_recv);
@@ -220,6 +221,7 @@ int main(int argc, char **argv)
 		free(r_recv);
 
 		buildTarget(r_target, result, resultLast, chunckSize, lastChuckSize, tasks - 1);
+		printf("position en array target : %i iam %i \n", r_target[((tasks - 1) * lastChuckSize) - 1], tasks - 1);
 
 		//Canal G
 		for (int x = 1; x < (tasks - 1); x++)
@@ -237,20 +239,20 @@ int main(int argc, char **argv)
 
 		for (int h = 1; h < tasks - 1; h++)
 		{
-			int *r_recv = (int *)malloc(sizeof(int) * (chunckSize));
-			MPI_Recv(r_recv, chunckSize, MPI_INT, h, tag, MPI_COMM_WORLD, &status);
-			printf("position despues master : %i iam %i \n", r_recv[chunckSize - 1], h);
-			result[h - 1] = intdup(r_recv, chunckSize);
+			int *g_recv = (int *)malloc(sizeof(int) * (chunckSize));
+			MPI_Recv(g_recv, chunckSize, MPI_INT, h, tag, MPI_COMM_WORLD, &status);
+			printf("position despues master : %i iam %i \n", g_recv[chunckSize - 1], h);
+			result[h - 1] = intdup(g_recv, chunckSize);
 			printf("position en array target : %i iam %i \n", result[h - 1][(chunckSize - 1)], h);
 
-			free(r_recv);
+			free(g_recv);
 		}
 
-		int *r_recv = (int *)malloc(sizeof(int) * (lastChuckSize));
-		MPI_Recv(r_recv, lastChuckSize, MPI_INT, tasks - 1, tag, MPI_COMM_WORLD, &status);
-		resultLast = r_recv;
-		printf("position despues master : %i iam %i \n", r_recv[lastChuckSize - 1], tasks - 1);
-		free(r_recv);
+		int *g_recv = (int *)malloc(sizeof(int) * (lastChuckSize));
+		MPI_Recv(g_recv, lastChuckSize, MPI_INT, tasks - 1, tag, MPI_COMM_WORLD, &status);
+		resultLast = g_recv;
+		printf("position despues master : %i iam %i \n", g_recv[lastChuckSize - 1], tasks - 1);
+		free(g_recv);
 
 		buildTarget(g_target, result, resultLast, chunckSize, lastChuckSize, tasks - 1);
 
@@ -270,20 +272,20 @@ int main(int argc, char **argv)
 
 		for (int h = 1; h < tasks - 1; h++)
 		{
-			int *r_recv = (int *)malloc(sizeof(int) * (chunckSize));
-			MPI_Recv(r_recv, chunckSize, MPI_INT, h, tag, MPI_COMM_WORLD, &status);
-			printf("position despues master : %i iam %i \n", r_recv[chunckSize - 1], h);
-			result[h - 1] = intdup(r_recv, chunckSize);
+			int *b_recv = (int *)malloc(sizeof(int) * (chunckSize));
+			MPI_Recv(b_recv, chunckSize, MPI_INT, h, tag, MPI_COMM_WORLD, &status);
+			printf("position despues master : %i iam %i \n", b_recv[chunckSize - 1], h);
+			result[h - 1] = intdup(b_recv, chunckSize);
 			printf("position en array target : %i iam %i \n", result[h - 1][(chunckSize - 1)], h);
 
-			free(r_recv);
+			free(b_recv);
 		}
 
-		int *r_recv = (int *)malloc(sizeof(int) * (lastChuckSize));
-		MPI_Recv(r_recv, lastChuckSize, MPI_INT, tasks - 1, tag, MPI_COMM_WORLD, &status);
-		resultLast = r_recv;
-		printf("position despues master : %i iam %i \n", r_recv[lastChuckSize - 1], tasks - 1);
-		free(r_recv);
+		int *b_recv = (int *)malloc(sizeof(int) * (lastChuckSize));
+		MPI_Recv(b_recv, lastChuckSize, MPI_INT, tasks - 1, tag, MPI_COMM_WORLD, &status);
+		resultLast = b_recv;
+		printf("position despues master : %i iam %i \n", b_recv[lastChuckSize - 1], tasks - 1);
+		free(b_recv);
 
 		buildTarget(b_target, result, resultLast, chunckSize, lastChuckSize, tasks - 1);
 
@@ -311,17 +313,43 @@ int main(int argc, char **argv)
 	{
 
 		MPI_Recv(&chunckSize, 1, MPI_INT, 0, tag, MPI_COMM_WORLD, &status);
-		int *scl = (int *)malloc(sizeof(int *) * (chunckSize));
-		MPI_Recv(scl, chunckSize, MPI_INT, 0, tag, MPI_COMM_WORLD, &status);
+		int *r_scl = (int *)malloc(sizeof(int *) * (chunckSize));
+		MPI_Recv(r_scl, chunckSize, MPI_INT, 0, tag, MPI_COMM_WORLD, &status);
 		MPI_Recv(&width, 1, MPI_INT, 0, tag, MPI_COMM_WORLD, &status);
 		//Aplicamos el algoritmo para cada canal
-		int *tcl = (int *)malloc(sizeof(int *) * (chunckSize));
-		gaussBlur_3(scl, tcl, width, chunckSize / width, kernel);
+		int *r_tcl = (int *)malloc(sizeof(int *) * (chunckSize));
+		gaussBlur_3(r_scl, r_tcl, width, chunckSize / width, kernel);
 		//printf("position despues : %i iam %i \n", tcl[chunckSize - 1], iam);
-		MPI_Send(tcl, chunckSize, MPI_INT, 0, tag, MPI_COMM_WORLD);
+		MPI_Send(r_tcl, chunckSize, MPI_INT, 0, tag, MPI_COMM_WORLD);
 
-		free(scl);
-		free(tcl);
+		free(r_scl);
+		free(r_tcl);
+
+		MPI_Recv(&chunckSize, 1, MPI_INT, 0, tag, MPI_COMM_WORLD, &status);
+		int *g_scl = (int *)malloc(sizeof(int *) * (chunckSize));
+		MPI_Recv(g_scl, chunckSize, MPI_INT, 0, tag, MPI_COMM_WORLD, &status);
+		MPI_Recv(&width, 1, MPI_INT, 0, tag, MPI_COMM_WORLD, &status);
+		//Aplicamos el algoritmo para cada canal
+		int *g_tcl = (int *)malloc(sizeof(int *) * (chunckSize));
+		gaussBlur_3(g_scl, g_tcl, width, chunckSize / width, kernel);
+		//printf("position despues : %i iam %i \n", tcl[chunckSize - 1], iam);
+		MPI_Send(g_tcl, chunckSize, MPI_INT, 0, tag, MPI_COMM_WORLD);
+
+		free(g_scl);
+		free(g_tcl);
+
+		MPI_Recv(&chunckSize, 1, MPI_INT, 0, tag, MPI_COMM_WORLD, &status);
+		int *b_scl = (int *)malloc(sizeof(int *) * (chunckSize));
+		MPI_Recv(b_scl, chunckSize, MPI_INT, 0, tag, MPI_COMM_WORLD, &status);
+		MPI_Recv(&width, 1, MPI_INT, 0, tag, MPI_COMM_WORLD, &status);
+		//Aplicamos el algoritmo para cada canal
+		int *b_tcl = (int *)malloc(sizeof(int *) * (chunckSize));
+		gaussBlur_3(b_scl, b_tcl, width, chunckSize / width, kernel);
+		//printf("position despues : %i iam %i \n", tcl[chunckSize - 1], iam);
+		MPI_Send(b_tcl, chunckSize, MPI_INT, 0, tag, MPI_COMM_WORLD);
+
+		free(b_scl);
+		free(b_tcl);
 	}
 
 	MPI_Finalize();
