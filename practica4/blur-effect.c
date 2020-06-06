@@ -166,6 +166,12 @@ int main(int argc, char **argv)
 		int *r = (int *)malloc(sizeof(int) * (img_size / 3));
 		int *g = (int *)malloc(sizeof(int) * (img_size / 3));
 		int *b = (int *)malloc(sizeof(int) * (img_size / 3));
+
+		// Instanciamos los canales de la imagen de salida
+		int *r_target = (int *)malloc(sizeof(int) * (img_size / 3));
+		int *g_target = (int *)malloc(sizeof(int) * (img_size / 3));
+		int *b_target = (int *)malloc(sizeof(int) * (img_size / 3));
+		int j = 0;
 		int i = 0;
 
 		for (unsigned char *p = img; p != img + img_size; p += channels, i++)
@@ -174,75 +180,132 @@ int main(int argc, char **argv)
 			*(g + i) = (uint8_t) * (p + 1);
 			*(b + i) = (uint8_t) * (p + 2);
 		}
-		//scatter que envia imagen
+		
 		chunckSize = (height / (tasks - 1)) * width;
 		int *toSend = (int *)malloc(sizeof(int) * (chunckSize));
+		int z = tasks - 1;
+		int *lasttoSend = (int *)malloc(sizeof(int) * (lastChuckSize));
+
+		//Canal R
 		for (int x = 1; x < (tasks - 1); x++)
 		{
 			memcpy(toSend, &r[(x - 1) * chunckSize], chunckSize * sizeof(*r));
-
 			MPI_Send(&chunckSize, 1, MPI_INT, x, tag, MPI_COMM_WORLD);
 			MPI_Send(toSend, chunckSize, MPI_INT, x, tag, MPI_COMM_WORLD);
 			MPI_Send(&width, 1, MPI_INT, x, tag, MPI_COMM_WORLD);
 		}
-		int z = tasks - 1;
-
-		int lastChuckSize = (width * height) - ((tasks - 2) * chunckSize);
-		//(height - ((height / (tasks - 1))*z)-1)*width  ;
-		int *lasttoSend = (int *)malloc(sizeof(int) * (lastChuckSize));
+		
 		memcpy(lasttoSend, &r[(z - 1) * chunckSize], lastChuckSize * sizeof(*r));
 		MPI_Send(&lastChuckSize, 1, MPI_INT, z, tag, MPI_COMM_WORLD);
 		MPI_Send(lasttoSend, lastChuckSize, MPI_INT, z, tag, MPI_COMM_WORLD);
 		MPI_Send(&width, 1, MPI_INT, z, tag, MPI_COMM_WORLD);
 
-		// Instanciamos los canales de la imagen de salida
-		int *r_target = (int *)malloc(sizeof(int) * (img_size / 3));
-		// int *g_target = (int *)malloc(sizeof(int) * (img_size / 3));
-		// int *b_target = (int *)malloc(sizeof(int) * (img_size / 3));
-		int j = 0;
 		int *result[tasks - 2];
 		int *resultLast;
-
 		for (int g = 1; g < tasks - 1; g++)
 		{
 			int *r_recv = (int *)malloc(sizeof(int) * (chunckSize));
 			MPI_Recv(r_recv, chunckSize, MPI_INT, g, tag, MPI_COMM_WORLD, &status);
 			printf("position despues master : %i iam %i \n", r_recv[chunckSize - 1], g);
 			result[g - 1] =  intdup(r_recv, chunckSize);
-			
-	
-			//buildTarget(r_target, r_recv, chunckSize, (g - 1) * chunckSize);
-			//printf("position despues master target : %i iam %i \n", r_target[g * (chunckSize - 1)], g);
 			printf("position en array target : %i iam %i \n", result[g - 1][(chunckSize - 1)], g);
 
 			free(r_recv);
 		}
+
 		int *r_recv = (int *)malloc(sizeof(int) * (lastChuckSize));
 		MPI_Recv(r_recv, lastChuckSize, MPI_INT, tasks - 1, tag, MPI_COMM_WORLD, &status);
-		//buildTarget(r_target, r_recv, lastChuckSize, (chunckSize) * (tasks - 2));
 		resultLast = r_recv;
 		printf("position despues master : %i iam %i \n", r_recv[lastChuckSize - 1], tasks - 1);
-		
 		free(r_recv);
-
-	
-		
 
 		buildTarget(r_target, result, resultLast, chunckSize, lastChuckSize, tasks - 1);
 
-		printf("position despues master target final : %i iam %i \n", r_target[4*(chunckSize)-1 ], 4);
-		printf("position despues master target final : %i iam %i \n", r_target[(width * height) - 1], tasks - 1);
+		//Canal G
+		for (int x = 1; x < (tasks - 1); x++)
+		{
+			memcpy(toSend, &g[(x - 1) * chunckSize], chunckSize * sizeof(*g));
+			MPI_Send(&chunckSize, 1, MPI_INT, x, tag, MPI_COMM_WORLD);
+			MPI_Send(toSend, chunckSize, MPI_INT, x, tag, MPI_COMM_WORLD);
+			MPI_Send(&width, 1, MPI_INT, x, tag, MPI_COMM_WORLD);
+		}
+
+		memcpy(lasttoSend, &g[(z - 1) * chunckSize], lastChuckSize * sizeof(*g));
+		MPI_Send(&lastChuckSize, 1, MPI_INT, z, tag, MPI_COMM_WORLD);
+		MPI_Send(lasttoSend, lastChuckSize, MPI_INT, z, tag, MPI_COMM_WORLD);
+		MPI_Send(&width, 1, MPI_INT, z, tag, MPI_COMM_WORLD);
+
+		for (int h = 1; h < tasks - 1; h++)
+		{
+			int *r_recv = (int *)malloc(sizeof(int) * (chunckSize));
+			MPI_Recv(r_recv, chunckSize, MPI_INT, h, tag, MPI_COMM_WORLD, &status);
+			printf("position despues master : %i iam %i \n", r_recv[chunckSize - 1], h);
+			result[h - 1] = intdup(r_recv, chunckSize);
+			printf("position en array target : %i iam %i \n", result[h - 1][(chunckSize - 1)], h);
+
+			free(r_recv);
+		}
+
+		int *r_recv = (int *)malloc(sizeof(int) * (lastChuckSize));
+		MPI_Recv(r_recv, lastChuckSize, MPI_INT, tasks - 1, tag, MPI_COMM_WORLD, &status);
+		resultLast = r_recv;
+		printf("position despues master : %i iam %i \n", r_recv[lastChuckSize - 1], tasks - 1);
+		free(r_recv);
+
+		buildTarget(g_target, result, resultLast, chunckSize, lastChuckSize, tasks - 1);
+
+		//Canal B
+		for (int x = 1; x < (tasks - 1); x++)
+		{
+			memcpy(toSend, &b[(x - 1) * chunckSize], chunckSize * sizeof(*b));
+			MPI_Send(&chunckSize, 1, MPI_INT, x, tag, MPI_COMM_WORLD);
+			MPI_Send(toSend, chunckSize, MPI_INT, x, tag, MPI_COMM_WORLD);
+			MPI_Send(&width, 1, MPI_INT, x, tag, MPI_COMM_WORLD);
+		}
+
+		memcpy(lasttoSend, &b[(z - 1) * chunckSize], lastChuckSize * sizeof(*b));
+		MPI_Send(&lastChuckSize, 1, MPI_INT, z, tag, MPI_COMM_WORLD);
+		MPI_Send(lasttoSend, lastChuckSize, MPI_INT, z, tag, MPI_COMM_WORLD);
+		MPI_Send(&width, 1, MPI_INT, z, tag, MPI_COMM_WORLD);
+
+		for (int h = 1; h < tasks - 1; h++)
+		{
+			int *r_recv = (int *)malloc(sizeof(int) * (chunckSize));
+			MPI_Recv(r_recv, chunckSize, MPI_INT, h, tag, MPI_COMM_WORLD, &status);
+			printf("position despues master : %i iam %i \n", r_recv[chunckSize - 1], h);
+			result[h - 1] = intdup(r_recv, chunckSize);
+			printf("position en array target : %i iam %i \n", result[h - 1][(chunckSize - 1)], h);
+
+			free(r_recv);
+		}
+
+		int *r_recv = (int *)malloc(sizeof(int) * (lastChuckSize));
+		MPI_Recv(r_recv, lastChuckSize, MPI_INT, tasks - 1, tag, MPI_COMM_WORLD, &status);
+		resultLast = r_recv;
+		printf("position despues master : %i iam %i \n", r_recv[lastChuckSize - 1], tasks - 1);
+		free(r_recv);
+
+		buildTarget(b_target, result, resultLast, chunckSize, lastChuckSize, tasks - 1);
 
 		// // Se reconstruye la imagen a partir de los canales procesados
 		for (int i = 0; i < img_size / 3; i++)
 		{
 			img[j] = *(r_target + i);
-			img[j + 1] = 0;
-			img[j + 2] = 0;
+			img[j + 1] = *(g_target + i);
+			img[j + 2] = *(b_target + i);
 			j += 3;
 		}
 
 		stbi_write_jpg(new_img_name, width, height, channels, img, 100);
+
+		free(toSend);
+		free(lasttoSend);
+		free(r_target);
+		free(g_target);
+		free(b_target);
+		free(r);
+		free(g);
+		free(b);
 	}
 	else
 	{
