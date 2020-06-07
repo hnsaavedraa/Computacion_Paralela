@@ -78,6 +78,8 @@ void boxesForGauss(int sigma, int n, double *sizes)
 //Metodo que implementa el algoritmo boxblur verticalmente
 void boxBlurT(int *scl, int *tcl, int w, int h, int r, int init, int fin)
 {
+printf("box blur T w: %i  h: %i  init: %i  fin: %i \n ",w,h,init,fin);
+
 
 	for (int i = init; i < fin; i++)
 		for (int j = 0; j < w; j++)
@@ -97,6 +99,7 @@ void boxBlurT(int *scl, int *tcl, int w, int h, int r, int init, int fin)
 void boxBlurH(int *scl, int *tcl, int w, int h, int r, int init, int fin)
 {
 
+printf("box blur H w: %i  h: %i  init: %i  fin: %i \n ",w,h,init,fin);
 	for (int i = init; i < fin; i++)
 		for (int j = 0; j < w; j++)
 		{
@@ -205,7 +208,7 @@ int main(int argc, char **argv)
 			MPI_Send(r, (width * height), MPI_INT, x, tag, MPI_COMM_WORLD);
 		}
 
-		printf("valor maestro %i \n", r[500000]);
+		
 
 		int *result[tasks - 2];
 		int *resultLast;
@@ -216,8 +219,8 @@ int main(int argc, char **argv)
 
 				int *r_recv = (int *)malloc(sizeof(int) * (lastChuckSize));
 				MPI_Recv(r_recv, lastChuckSize, MPI_INT, g, tag, MPI_COMM_WORLD, &status);
-				resultLast = r_recv;
-				printf("position despues master : %i iam %i \n", r_recv[lastChuckSize - 1], g);
+				resultLast = intdup(r_recv, lastChuckSize);
+				//printf("position despues master : %i iam %i \n", r_recv[lastChuckSize - 1], g);
 				free(r_recv);
 			}
 			else
@@ -226,7 +229,7 @@ int main(int argc, char **argv)
 
 				MPI_Recv(r_recv, chunckSize, MPI_INT, g, tag, MPI_COMM_WORLD, &status);
 				result[g - 1] = intdup(r_recv, chunckSize);
-				printf("position despues master : %i iam %i \n", r_recv[chunckSize - 1], g);
+				//printf("position despues master : %i iam %i \n", r_recv[chunckSize - 1], g);
 				free(r_recv);
 			}
 
@@ -234,7 +237,7 @@ int main(int argc, char **argv)
 		}
 
 		buildTarget(r_target, result, resultLast, chunckSize, lastChuckSize, tasks - 1);
-		printf("position en array target : %i iam %i \n", r_target[(3*chunckSize) - 1], 3);
+		//printf("position en array target : %i iam %i \n", r_target[(3*chunckSize) - 1], 3);
 
 		// //Canal G
 		// for (int x = 1; x < (tasks - 1); x++)
@@ -340,7 +343,7 @@ int main(int argc, char **argv)
 		int *r_send = (int *)malloc(sizeof(int *) * (chunckSize));
 		memcpy(r_send, &r_tcl[(iam - 1) * chunckSize], chunckSize * sizeof(*r_tcl));
 
-		printf("position despues master : %i iam %i \n", r_send[chunckSize - 1], iam);
+		//printf("position despues master : %i iam %i \n", r_send[chunckSize - 1], iam);
 		MPI_Send(r_send, chunckSize, MPI_INT, 0, tag, MPI_COMM_WORLD);
 
 		free(r_scl);
