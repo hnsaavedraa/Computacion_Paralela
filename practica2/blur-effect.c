@@ -202,8 +202,8 @@ int main(int argc, char **argv)
 	for (int i = 0; i < img_size / 3; i++)
 	{
 		img[j] = *(r_target + i);
-		img[j + 1] = *(g_target + i);
-		img[j + 2] = *(b_target + i);
+		img[j + 1] = 0;
+		img[j + 2] = 0;
 		j += 3;
 	}
 

@@ -10,18 +10,18 @@ for i in 0 1 2
 do
 	for kernel in 3 5 7 9 11 13 15
 	do
-		for NumHilos in 1 2 4 8 16
+		for NumHilos in 8 12 16 20 24
 		do
 			for intentos in {0..9}
 			do
-
-				mytime="$(time ( time ./image ${img_init[i]} ${img_fin[i]} $kernel $NumHilos ) 2>&1 1>/dev/null )"
+				
+				mytime="$(time ( mpirun \-np $NumHilos image ${img_init[i]} ${img_fin[i]} $kernel ) 2>&1 1>/dev/null )"
 				jl=""
 			
-				echo "Tiempo para imagen" ${img_init[i]}  " con un kernel de " $kernel " y con  "  $NumHilos " hilos , intento numero" $intentos>> times.txt
+				echo "Tiempo para imagen" ${img_init[i]}  " con un kernel de " $kernel " y con  "  $NumHilos " procesos , intento numero" $intentos>> times.txt
 				echo $mytime >> times.txt
 				echo $jl >> times.txt
-				echo "Tiempo para imagen" ${img_init[i]}  " con un kernel de " $kernel " y con  "  $NumHilos " hilos, intento numero" $intentos
+				echo "Tiempo para imagen" ${img_init[i]}  " con un kernel de " $kernel " y con  "  $NumHilos " procesos, intento numero" $intentos
 				echo $mytime
 
 			done
