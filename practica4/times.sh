@@ -15,7 +15,7 @@ do
 			for intentos in {0..9}
 			do
 				
-				mytime="$(time ( mpirun \-np $NumHilos image ${img_init[i]} ${img_fin[i]} $kernel ) 2>&1 1>/dev/null )"
+				mytime="$(time ( mpirun \-np $NumHilos --hostfile mpi-hosts image ${img_init[i]} ${img_fin[i]} $kernel ) 2>&1 1>/dev/null )"
 				jl=""
 			
 				echo "Tiempo para imagen" ${img_init[i]}  " con un kernel de " $kernel " y con  "  $NumHilos " procesos , intento numero" $intentos>> times.txt
