@@ -146,6 +146,8 @@ int main(int argc, char **argv)
 	strcpy(new_img_name, argv[2]);
 
 	int tag = 0, tasks, iam;
+	char processor_name[MPI_MAX_PROCESSOR_NAME];
+	int namelen;
 
 	MPI_Status status;
 	MPI_Init(&argc, &argv);
@@ -326,6 +328,8 @@ int main(int argc, char **argv)
 		gaussBlur_3(r_scl, r_tcl, width, chunckSize / width, kernel);
 		//printf("position despues : %i iam %i \n", tcl[chunckSize - 1], iam);
 		MPI_Send(r_tcl, chunckSize, MPI_INT, 0, tag, MPI_COMM_WORLD);
+		MPI_Get_processor_name(processor_name, &namelen);
+        printf("processor %s \n", processor_name); fflush(stdout);
 
 		free(r_scl);
 		free(r_tcl);
